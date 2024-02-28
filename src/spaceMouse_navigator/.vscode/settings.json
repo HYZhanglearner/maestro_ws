@@ -1,0 +1,21 @@
+{
+    "ros.distro": "humble",
+    "python.autoComplete.extraPaths": [
+        "/home/optimo/workspaces/spacemouse_ws/src/spaceMouse_navigator/install/spaceMouse_navigator/lib/python3.10/site-packages",
+        "/home/optimo/workspaces/plato_ws/build/plato_can",
+        "/home/optimo/workspaces/plato_ws/install/plato_can/lib/python3.10/site-packages",
+        "/home/optimo/workspaces/plato_ws/build/my_package",
+        "/home/optimo/workspaces/plato_ws/install/my_package/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/optimo/workspaces/spacemouse_ws/src/spaceMouse_navigator/install/spaceMouse_navigator/lib/python3.10/site-packages",
+        "/home/optimo/workspaces/plato_ws/build/plato_can",
+        "/home/optimo/workspaces/plato_ws/install/plato_can/lib/python3.10/site-packages",
+        "/home/optimo/workspaces/plato_ws/build/my_package",
+        "/home/optimo/workspaces/plato_ws/install/my_package/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

@@ -1,0 +1,4 @@
+source;share/hand_pattern_recog/local_setup.bash
+source;share/hand_pattern_recog/local_setup.dsv
+source;share/hand_pattern_recog/local_setup.sh
+source;share/hand_pattern_recog/local_setup.zsh

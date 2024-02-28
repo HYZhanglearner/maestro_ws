@@ -1,0 +1,8 @@
+source;share/udp_receiver/hook/cmake_prefix_path.ps1
+source;share/udp_receiver/hook/cmake_prefix_path.dsv
+source;share/udp_receiver/hook/cmake_prefix_path.sh
+source;share/udp_receiver/local_setup.bash
+source;share/udp_receiver/local_setup.dsv
+source;share/udp_receiver/local_setup.ps1
+source;share/udp_receiver/local_setup.sh
+source;share/udp_receiver/local_setup.zsh

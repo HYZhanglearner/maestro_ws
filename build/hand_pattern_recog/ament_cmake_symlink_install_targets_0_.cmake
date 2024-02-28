@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/optimo/workspaces/maestro_ws/build/hand_pattern_recog/hand_pattern_recog" "TARGETS" "hand_pattern_recog" "DESTINATION" "lib/hand_pattern_recog")

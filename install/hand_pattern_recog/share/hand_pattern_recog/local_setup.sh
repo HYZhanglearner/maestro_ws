@@ -1,0 +1,1 @@
+/home/optimo/workspaces/maestro_ws/build/hand_pattern_recog/ament_cmake_environment_hooks/local_setup.sh

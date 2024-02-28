@@ -1,0 +1,54 @@
+-- Found moveit_common: 2.5.5 (/opt/ros/humble/share/moveit_common/cmake)
+-- Found tf2_geometry_msgs: 0.25.5 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- BACKWARD_HAS_UNWIND=1
+-- BACKWARD_HAS_BACKTRACE=0
+-- BACKWARD_HAS_BACKTRACE_SYMBOL=0
+-- BACKWARD_HAS_DW=1
+-- BACKWARD_HAS_BFD=0
+-- Found Backward: /opt/ros/humble/share/backward_ros/cmake  
+[0mplato_teleop: You did not request a specific build type: Choosing 'Release' for maximum performance[0m
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")  
+-- Found control_msgs: 4.4.0 (/opt/ros/humble/share/control_msgs/cmake)
+-- Found interactive_markers: 2.3.2 (/opt/ros/humble/share/interactive_markers/cmake)
+-- Found moveit_core: 2.5.5 (/opt/ros/humble/share/moveit_core/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+-- Found parameter_traits: 0.3.7 (/opt/ros/humble/share/parameter_traits/cmake)
+-- Found rclcpp_lifecycle: 16.0.8 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+-- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+-- Found moveit_ros_planning: 2.5.5 (/opt/ros/humble/share/moveit_ros_planning/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+-- Found moveit_ros_planning_interface: 2.5.5 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+-- Found moveit_servo: 2.5.5 (/opt/ros/humble/share/moveit_servo/cmake)
+[31mCMake Error at CMakeLists.txt:37 (find_package):
+  By not providing "Findrviz_visual_tools.cmake" in CMAKE_MODULE_PATH this
+  project has asked CMake to find a package configuration file provided by
+  "rviz_visual_tools", but CMake did not find one.
+
+  Could not find a package configuration file provided by "rviz_visual_tools"
+  with any of the following names:
+
+    rviz_visual_toolsConfig.cmake
+    rviz_visual_tools-config.cmake
+
+  Add the installation prefix of "rviz_visual_tools" to CMAKE_PREFIX_PATH or
+  set "rviz_visual_tools_DIR" to a directory containing one of the above
+  files.  If "rviz_visual_tools" provides a separate development package or
+  SDK, be sure it has been installed.
+
+[0m
+-- Configuring incomplete, errors occurred!
+See also "/home/optimo/workspaces/maestro_ws/build/plato_teleop/CMakeFiles/CMakeOutput.log".

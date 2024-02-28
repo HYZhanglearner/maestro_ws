@@ -1,0 +1,32 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+Removing /home/optimo/workspaces/maestro_ws/install/data_collection/lib/python3.10/site-packages/data-collection.egg-link (link to .)
+running egg_info
+writing ../../build/data_collection/data_collection.egg-info/PKG-INFO
+writing dependency_links to ../../build/data_collection/data_collection.egg-info/dependency_links.txt
+writing entry points to ../../build/data_collection/data_collection.egg-info/entry_points.txt
+writing requirements to ../../build/data_collection/data_collection.egg-info/requires.txt
+writing top-level names to ../../build/data_collection/data_collection.egg-info/top_level.txt
+reading manifest file '../../build/data_collection/data_collection.egg-info/SOURCES.txt'
+writing manifest file '../../build/data_collection/data_collection.egg-info/SOURCES.txt'
+running build
+running build_py
+copying data_collection/dataCollection.py -> /home/optimo/workspaces/maestro_ws/build/data_collection/build/lib/data_collection
+running install
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_lib
+creating /home/optimo/workspaces/maestro_ws/install/data_collection/lib/python3.10/site-packages/data_collection
+copying /home/optimo/workspaces/maestro_ws/build/data_collection/build/lib/data_collection/__init__.py -> /home/optimo/workspaces/maestro_ws/install/data_collection/lib/python3.10/site-packages/data_collection
+copying /home/optimo/workspaces/maestro_ws/build/data_collection/build/lib/data_collection/dataCollection.py -> /home/optimo/workspaces/maestro_ws/install/data_collection/lib/python3.10/site-packages/data_collection
+byte-compiling /home/optimo/workspaces/maestro_ws/install/data_collection/lib/python3.10/site-packages/data_collection/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/optimo/workspaces/maestro_ws/install/data_collection/lib/python3.10/site-packages/data_collection/dataCollection.py to dataCollection.cpython-310.pyc
+running install_data
+running install_egg_info
+Copying ../../build/data_collection/data_collection.egg-info to /home/optimo/workspaces/maestro_ws/install/data_collection/lib/python3.10/site-packages/data_collection-0.0.0-py3.10.egg-info
+running install_scripts
+Installing data_collection script to /home/optimo/workspaces/maestro_ws/install/data_collection/lib/data_collection
+writing list of installed files to '/home/optimo/workspaces/maestro_ws/build/data_collection/install.log'

@@ -1,0 +1,215 @@
+[0.520s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.520s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=20, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fe075ae4490>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fe075ae7520>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fe075ae7520>>)
+[0.552s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.552s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.552s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.552s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.552s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.552s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.552s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/optimo/workspaces/maestro_ws'
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(src/hand_pattern_recog) by extensions ['ignore', 'ignore_ament_install']
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(src/hand_pattern_recog) by extension 'ignore'
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(src/hand_pattern_recog) by extension 'ignore_ament_install'
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(src/hand_pattern_recog) by extensions ['colcon_pkg']
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(src/hand_pattern_recog) by extension 'colcon_pkg'
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(src/hand_pattern_recog) by extensions ['colcon_meta']
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(src/hand_pattern_recog) by extension 'colcon_meta'
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(src/hand_pattern_recog) by extensions ['ros']
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(src/hand_pattern_recog) by extension 'ros'
+[0.568s] DEBUG:colcon.colcon_core.package_identification:Package 'src/hand_pattern_recog' with type 'ros.ament_cmake' and name 'hand_pattern_recog'
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(src/udp_receiver) by extensions ['ignore', 'ignore_ament_install']
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(src/udp_receiver) by extension 'ignore'
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(src/udp_receiver) by extension 'ignore_ament_install'
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(src/udp_receiver) by extensions ['colcon_pkg']
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(src/udp_receiver) by extension 'colcon_pkg'
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(src/udp_receiver) by extensions ['colcon_meta']
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(src/udp_receiver) by extension 'colcon_meta'
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(src/udp_receiver) by extensions ['ros']
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(src/udp_receiver) by extension 'ros'
+[0.569s] DEBUG:colcon.colcon_core.package_identification:Package 'src/udp_receiver' with type 'ros.ament_cmake' and name 'udp_receiver'
+[0.569s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.569s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.569s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.569s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.569s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.616s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.616s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.631s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/optimo/workspaces/maestro_ws/install/udp_receiver' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.631s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/optimo/workspaces/maestro_ws/install/hand_pattern_recog' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.631s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/optimo/workspaces/maestro_ws/install/udp_receiver' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.631s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/optimo/workspaces/maestro_ws/install/hand_pattern_recog' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.640s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/optimo/workspaces/maestro_ws/install
+[0.648s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 13 installed packages in /home/optimo/workspaces/plato_ws/install
+[0.656s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/optimo/roboligent_sdk/optimo_controller/ros_wrapper/install
+[0.664s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 365 installed packages in /opt/ros/humble
+[0.665s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.718s] Level 5:colcon.colcon_core.verb:set package 'hand_pattern_recog' build argument 'cmake_args' from command line to 'None'
+[0.718s] Level 5:colcon.colcon_core.verb:set package 'hand_pattern_recog' build argument 'cmake_target' from command line to 'None'
+[0.718s] Level 5:colcon.colcon_core.verb:set package 'hand_pattern_recog' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.718s] Level 5:colcon.colcon_core.verb:set package 'hand_pattern_recog' build argument 'cmake_clean_cache' from command line to 'False'
+[0.718s] Level 5:colcon.colcon_core.verb:set package 'hand_pattern_recog' build argument 'cmake_clean_first' from command line to 'False'
+[0.718s] Level 5:colcon.colcon_core.verb:set package 'hand_pattern_recog' build argument 'cmake_force_configure' from command line to 'False'
+[0.718s] Level 5:colcon.colcon_core.verb:set package 'hand_pattern_recog' build argument 'ament_cmake_args' from command line to 'None'
+[0.718s] Level 5:colcon.colcon_core.verb:set package 'hand_pattern_recog' build argument 'catkin_cmake_args' from command line to 'None'
+[0.718s] Level 5:colcon.colcon_core.verb:set package 'hand_pattern_recog' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.718s] DEBUG:colcon.colcon_core.verb:Building package 'hand_pattern_recog' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/optimo/workspaces/maestro_ws/build/hand_pattern_recog', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/optimo/workspaces/maestro_ws/install/hand_pattern_recog', 'merge_install': False, 'path': '/home/optimo/workspaces/maestro_ws/src/hand_pattern_recog', 'symlink_install': False, 'test_result_base': None}
+[0.725s] Level 5:colcon.colcon_core.verb:set package 'udp_receiver' build argument 'cmake_args' from command line to 'None'
+[0.725s] Level 5:colcon.colcon_core.verb:set package 'udp_receiver' build argument 'cmake_target' from command line to 'None'
+[0.725s] Level 5:colcon.colcon_core.verb:set package 'udp_receiver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.725s] Level 5:colcon.colcon_core.verb:set package 'udp_receiver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.725s] Level 5:colcon.colcon_core.verb:set package 'udp_receiver' build argument 'cmake_clean_first' from command line to 'False'
+[0.725s] Level 5:colcon.colcon_core.verb:set package 'udp_receiver' build argument 'cmake_force_configure' from command line to 'False'
+[0.725s] Level 5:colcon.colcon_core.verb:set package 'udp_receiver' build argument 'ament_cmake_args' from command line to 'None'
+[0.725s] Level 5:colcon.colcon_core.verb:set package 'udp_receiver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.725s] Level 5:colcon.colcon_core.verb:set package 'udp_receiver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.725s] DEBUG:colcon.colcon_core.verb:Building package 'udp_receiver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/optimo/workspaces/maestro_ws/build/udp_receiver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/optimo/workspaces/maestro_ws/install/udp_receiver', 'merge_install': False, 'path': '/home/optimo/workspaces/maestro_ws/src/udp_receiver', 'symlink_install': False, 'test_result_base': None}
+[0.733s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.741s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.741s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/optimo/workspaces/maestro_ws/src/hand_pattern_recog' with build type 'ament_cmake'
+[0.741s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/optimo/workspaces/maestro_ws/src/hand_pattern_recog'
+[0.749s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.749s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.749s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.789s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/optimo/workspaces/maestro_ws/src/udp_receiver' with build type 'ament_cmake'
+[0.789s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/optimo/workspaces/maestro_ws/src/udp_receiver'
+[0.796s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.797s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.839s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/optimo/workspaces/maestro_ws/build/hand_pattern_recog': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/optimo/workspaces/plato_ws/install/plato_can:/home/optimo/workspaces/plato_ws/install/my_package:/opt/ros/humble /usr/bin/cmake /home/optimo/workspaces/maestro_ws/src/hand_pattern_recog -DCMAKE_INSTALL_PREFIX=/home/optimo/workspaces/maestro_ws/install/hand_pattern_recog
+[0.841s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/optimo/workspaces/maestro_ws/build/udp_receiver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/optimo/workspaces/plato_ws/install/plato_can:/home/optimo/workspaces/plato_ws/install/my_package:/opt/ros/humble /usr/bin/cmake /home/optimo/workspaces/maestro_ws/src/udp_receiver -DCMAKE_INSTALL_PREFIX=/home/optimo/workspaces/maestro_ws/install/udp_receiver
+[1.828s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/optimo/workspaces/maestro_ws/build/hand_pattern_recog' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/optimo/workspaces/plato_ws/install/plato_can:/home/optimo/workspaces/plato_ws/install/my_package:/opt/ros/humble /usr/bin/cmake /home/optimo/workspaces/maestro_ws/src/hand_pattern_recog -DCMAKE_INSTALL_PREFIX=/home/optimo/workspaces/maestro_ws/install/hand_pattern_recog
+[1.829s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/optimo/workspaces/maestro_ws/build/hand_pattern_recog': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/optimo/workspaces/plato_ws/install/plato_can:/home/optimo/workspaces/plato_ws/install/my_package:/opt/ros/humble /usr/bin/cmake --build /home/optimo/workspaces/maestro_ws/build/hand_pattern_recog -- -j20 -l20
+[1.884s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/optimo/workspaces/maestro_ws/build/udp_receiver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/optimo/workspaces/plato_ws/install/plato_can:/home/optimo/workspaces/plato_ws/install/my_package:/opt/ros/humble /usr/bin/cmake /home/optimo/workspaces/maestro_ws/src/udp_receiver -DCMAKE_INSTALL_PREFIX=/home/optimo/workspaces/maestro_ws/install/udp_receiver
+[1.885s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/optimo/workspaces/maestro_ws/build/udp_receiver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/optimo/workspaces/plato_ws/install/plato_can:/home/optimo/workspaces/plato_ws/install/my_package:/opt/ros/humble /usr/bin/cmake --build /home/optimo/workspaces/maestro_ws/build/udp_receiver -- -j20 -l20
+[8.439s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/optimo/workspaces/maestro_ws/build/hand_pattern_recog' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/optimo/workspaces/plato_ws/install/plato_can:/home/optimo/workspaces/plato_ws/install/my_package:/opt/ros/humble /usr/bin/cmake --build /home/optimo/workspaces/maestro_ws/build/hand_pattern_recog -- -j20 -l20
+[8.459s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/optimo/workspaces/maestro_ws/build/hand_pattern_recog': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/optimo/workspaces/plato_ws/install/plato_can:/home/optimo/workspaces/plato_ws/install/my_package:/opt/ros/humble /usr/bin/cmake --install /home/optimo/workspaces/maestro_ws/build/hand_pattern_recog
+[8.468s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hand_pattern_recog)
+[8.468s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/optimo/workspaces/maestro_ws/build/hand_pattern_recog' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/optimo/workspaces/plato_ws/install/plato_can:/home/optimo/workspaces/plato_ws/install/my_package:/opt/ros/humble /usr/bin/cmake --install /home/optimo/workspaces/maestro_ws/build/hand_pattern_recog
+[8.477s] Level 1:colcon.colcon_core.environment:checking '/home/optimo/workspaces/maestro_ws/install/hand_pattern_recog' for CMake module files
+[8.477s] Level 1:colcon.colcon_core.environment:checking '/home/optimo/workspaces/maestro_ws/install/hand_pattern_recog' for CMake config files
+[8.478s] Level 1:colcon.colcon_core.shell:create_environment_hook('hand_pattern_recog', 'cmake_prefix_path')
+[8.485s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/optimo/workspaces/maestro_ws/install/hand_pattern_recog/share/hand_pattern_recog/hook/cmake_prefix_path.ps1'
+[8.485s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/optimo/workspaces/maestro_ws/install/hand_pattern_recog/share/hand_pattern_recog/hook/cmake_prefix_path.dsv'
+[8.486s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/optimo/workspaces/maestro_ws/install/hand_pattern_recog/share/hand_pattern_recog/hook/cmake_prefix_path.sh'
+[8.486s] Level 1:colcon.colcon_core.environment:checking '/home/optimo/workspaces/maestro_ws/install/hand_pattern_recog/lib'
+[8.486s] Level 1:colcon.colcon_core.environment:checking '/home/optimo/workspaces/maestro_ws/install/hand_pattern_recog/bin'
+[8.486s] Level 1:colcon.colcon_core.environment:checking '/home/optimo/workspaces/maestro_ws/install/hand_pattern_recog/lib/pkgconfig/hand_pattern_recog.pc'
+[8.486s] Level 1:colcon.colcon_core.environment:checking '/home/optimo/workspaces/maestro_ws/install/hand_pattern_recog/lib/python3.10/site-packages'
+[8.487s] Level 1:colcon.colcon_core.environment:checking '/home/optimo/workspaces/maestro_ws/install/hand_pattern_recog/bin'
+[8.495s] INFO:colcon.colcon_core.shell:Creating package script '/home/optimo/workspaces/maestro_ws/install/hand_pattern_recog/share/hand_pattern_recog/package.ps1'
+[8.495s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/optimo/workspaces/maestro_ws/install/hand_pattern_recog/share/hand_pattern_recog/package.dsv'
+[8.495s] INFO:colcon.colcon_core.shell:Creating package script '/home/optimo/workspaces/maestro_ws/install/hand_pattern_recog/share/hand_pattern_recog/package.sh'
+[8.496s] INFO:colcon.colcon_core.shell:Creating package script '/home/optimo/workspaces/maestro_ws/install/hand_pattern_recog/share/hand_pattern_recog/package.bash'
+[8.496s] INFO:colcon.colcon_core.shell:Creating package script '/home/optimo/workspaces/maestro_ws/install/hand_pattern_recog/share/hand_pattern_recog/package.zsh'
+[8.496s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/optimo/workspaces/maestro_ws/install/hand_pattern_recog/share/colcon-core/packages/hand_pattern_recog)
+[8.519s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hand_pattern_recog)
+[8.526s] Level 1:colcon.colcon_core.environment:checking '/home/optimo/workspaces/maestro_ws/install/hand_pattern_recog' for CMake module files
+[8.526s] Level 1:colcon.colcon_core.environment:checking '/home/optimo/workspaces/maestro_ws/install/hand_pattern_recog' for CMake config files
+[8.526s] Level 1:colcon.colcon_core.shell:create_environment_hook('hand_pattern_recog', 'cmake_prefix_path')
+[8.534s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/optimo/workspaces/maestro_ws/install/hand_pattern_recog/share/hand_pattern_recog/hook/cmake_prefix_path.ps1'
+[8.534s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/optimo/workspaces/maestro_ws/install/hand_pattern_recog/share/hand_pattern_recog/hook/cmake_prefix_path.dsv'
+[8.534s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/optimo/workspaces/maestro_ws/install/hand_pattern_recog/share/hand_pattern_recog/hook/cmake_prefix_path.sh'
+[8.534s] Level 1:colcon.colcon_core.environment:checking '/home/optimo/workspaces/maestro_ws/install/hand_pattern_recog/lib'
+[8.534s] Level 1:colcon.colcon_core.environment:checking '/home/optimo/workspaces/maestro_ws/install/hand_pattern_recog/bin'
+[8.534s] Level 1:colcon.colcon_core.environment:checking '/home/optimo/workspaces/maestro_ws/install/hand_pattern_recog/lib/pkgconfig/hand_pattern_recog.pc'
+[8.534s] Level 1:colcon.colcon_core.environment:checking '/home/optimo/workspaces/maestro_ws/install/hand_pattern_recog/lib/python3.10/site-packages'
+[8.535s] Level 1:colcon.colcon_core.environment:checking '/home/optimo/workspaces/maestro_ws/install/hand_pattern_recog/bin'
+[8.542s] INFO:colcon.colcon_core.shell:Creating package script '/home/optimo/workspaces/maestro_ws/install/hand_pattern_recog/share/hand_pattern_recog/package.ps1'
+[8.542s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/optimo/workspaces/maestro_ws/install/hand_pattern_recog/share/hand_pattern_recog/package.dsv'
+[8.542s] INFO:colcon.colcon_core.shell:Creating package script '/home/optimo/workspaces/maestro_ws/install/hand_pattern_recog/share/hand_pattern_recog/package.sh'
+[8.543s] INFO:colcon.colcon_core.shell:Creating package script '/home/optimo/workspaces/maestro_ws/install/hand_pattern_recog/share/hand_pattern_recog/package.bash'
+[8.543s] INFO:colcon.colcon_core.shell:Creating package script '/home/optimo/workspaces/maestro_ws/install/hand_pattern_recog/share/hand_pattern_recog/package.zsh'
+[8.543s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/optimo/workspaces/maestro_ws/install/hand_pattern_recog/share/colcon-core/packages/hand_pattern_recog)
+[123.056s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/optimo/workspaces/maestro_ws/build/udp_receiver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/optimo/workspaces/plato_ws/install/plato_can:/home/optimo/workspaces/plato_ws/install/my_package:/opt/ros/humble /usr/bin/cmake --build /home/optimo/workspaces/maestro_ws/build/udp_receiver -- -j20 -l20
+[123.076s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/optimo/workspaces/maestro_ws/build/udp_receiver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/optimo/workspaces/plato_ws/install/plato_can:/home/optimo/workspaces/plato_ws/install/my_package:/opt/ros/humble /usr/bin/cmake --install /home/optimo/workspaces/maestro_ws/build/udp_receiver
+[123.087s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(udp_receiver)
+[123.087s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/optimo/workspaces/maestro_ws/build/udp_receiver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/optimo/workspaces/plato_ws/install/plato_can:/home/optimo/workspaces/plato_ws/install/my_package:/opt/ros/humble /usr/bin/cmake --install /home/optimo/workspaces/maestro_ws/build/udp_receiver
+[123.095s] Level 1:colcon.colcon_core.environment:checking '/home/optimo/workspaces/maestro_ws/install/udp_receiver' for CMake module files
+[123.095s] Level 1:colcon.colcon_core.environment:checking '/home/optimo/workspaces/maestro_ws/install/udp_receiver' for CMake config files
+[123.095s] Level 1:colcon.colcon_core.shell:create_environment_hook('udp_receiver', 'cmake_prefix_path')
+[123.103s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/optimo/workspaces/maestro_ws/install/udp_receiver/share/udp_receiver/hook/cmake_prefix_path.ps1'
+[123.103s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/optimo/workspaces/maestro_ws/install/udp_receiver/share/udp_receiver/hook/cmake_prefix_path.dsv'
+[123.103s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/optimo/workspaces/maestro_ws/install/udp_receiver/share/udp_receiver/hook/cmake_prefix_path.sh'
+[123.104s] Level 1:colcon.colcon_core.environment:checking '/home/optimo/workspaces/maestro_ws/install/udp_receiver/lib'
+[123.104s] Level 1:colcon.colcon_core.environment:checking '/home/optimo/workspaces/maestro_ws/install/udp_receiver/bin'
+[123.104s] Level 1:colcon.colcon_core.environment:checking '/home/optimo/workspaces/maestro_ws/install/udp_receiver/lib/pkgconfig/udp_receiver.pc'
+[123.104s] Level 1:colcon.colcon_core.environment:checking '/home/optimo/workspaces/maestro_ws/install/udp_receiver/lib/python3.10/site-packages'
+[123.104s] Level 1:colcon.colcon_core.environment:checking '/home/optimo/workspaces/maestro_ws/install/udp_receiver/bin'
+[123.115s] INFO:colcon.colcon_core.shell:Creating package script '/home/optimo/workspaces/maestro_ws/install/udp_receiver/share/udp_receiver/package.ps1'
+[123.115s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/optimo/workspaces/maestro_ws/install/udp_receiver/share/udp_receiver/package.dsv'
+[123.116s] INFO:colcon.colcon_core.shell:Creating package script '/home/optimo/workspaces/maestro_ws/install/udp_receiver/share/udp_receiver/package.sh'
+[123.116s] INFO:colcon.colcon_core.shell:Creating package script '/home/optimo/workspaces/maestro_ws/install/udp_receiver/share/udp_receiver/package.bash'
+[123.116s] INFO:colcon.colcon_core.shell:Creating package script '/home/optimo/workspaces/maestro_ws/install/udp_receiver/share/udp_receiver/package.zsh'
+[123.116s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/optimo/workspaces/maestro_ws/install/udp_receiver/share/colcon-core/packages/udp_receiver)
+[123.143s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(udp_receiver)
+[123.151s] Level 1:colcon.colcon_core.environment:checking '/home/optimo/workspaces/maestro_ws/install/udp_receiver' for CMake module files
+[123.151s] Level 1:colcon.colcon_core.environment:checking '/home/optimo/workspaces/maestro_ws/install/udp_receiver' for CMake config files
+[123.151s] Level 1:colcon.colcon_core.shell:create_environment_hook('udp_receiver', 'cmake_prefix_path')
+[123.158s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/optimo/workspaces/maestro_ws/install/udp_receiver/share/udp_receiver/hook/cmake_prefix_path.ps1'
+[123.159s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/optimo/workspaces/maestro_ws/install/udp_receiver/share/udp_receiver/hook/cmake_prefix_path.dsv'
+[123.159s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/optimo/workspaces/maestro_ws/install/udp_receiver/share/udp_receiver/hook/cmake_prefix_path.sh'
+[123.159s] Level 1:colcon.colcon_core.environment:checking '/home/optimo/workspaces/maestro_ws/install/udp_receiver/lib'
+[123.159s] Level 1:colcon.colcon_core.environment:checking '/home/optimo/workspaces/maestro_ws/install/udp_receiver/bin'
+[123.159s] Level 1:colcon.colcon_core.environment:checking '/home/optimo/workspaces/maestro_ws/install/udp_receiver/lib/pkgconfig/udp_receiver.pc'
+[123.159s] Level 1:colcon.colcon_core.environment:checking '/home/optimo/workspaces/maestro_ws/install/udp_receiver/lib/python3.10/site-packages'
+[123.159s] Level 1:colcon.colcon_core.environment:checking '/home/optimo/workspaces/maestro_ws/install/udp_receiver/bin'
+[123.167s] INFO:colcon.colcon_core.shell:Creating package script '/home/optimo/workspaces/maestro_ws/install/udp_receiver/share/udp_receiver/package.ps1'
+[123.167s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/optimo/workspaces/maestro_ws/install/udp_receiver/share/udp_receiver/package.dsv'
+[123.168s] INFO:colcon.colcon_core.shell:Creating package script '/home/optimo/workspaces/maestro_ws/install/udp_receiver/share/udp_receiver/package.sh'
+[123.168s] INFO:colcon.colcon_core.shell:Creating package script '/home/optimo/workspaces/maestro_ws/install/udp_receiver/share/udp_receiver/package.bash'
+[123.168s] INFO:colcon.colcon_core.shell:Creating package script '/home/optimo/workspaces/maestro_ws/install/udp_receiver/share/udp_receiver/package.zsh'
+[123.168s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/optimo/workspaces/maestro_ws/install/udp_receiver/share/colcon-core/packages/udp_receiver)
+[123.169s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[123.169s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[123.169s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[123.169s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[123.183s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[123.183s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[123.183s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[123.188s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[123.196s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/optimo/workspaces/maestro_ws/install/local_setup.ps1'
+[123.196s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/optimo/workspaces/maestro_ws/install/_local_setup_util_ps1.py'
+[123.197s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/optimo/workspaces/maestro_ws/install/setup.ps1'
+[123.205s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/optimo/workspaces/maestro_ws/install/local_setup.sh'
+[123.205s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/optimo/workspaces/maestro_ws/install/_local_setup_util_sh.py'
+[123.206s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/optimo/workspaces/maestro_ws/install/setup.sh'
+[123.214s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/optimo/workspaces/maestro_ws/install/local_setup.bash'
+[123.214s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/optimo/workspaces/maestro_ws/install/setup.bash'
+[123.222s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/optimo/workspaces/maestro_ws/install/local_setup.zsh'
+[123.223s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/optimo/workspaces/maestro_ws/install/setup.zsh'

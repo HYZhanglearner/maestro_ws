@@ -1,0 +1,91 @@
+[0.315s] Invoking command in '/home/optimo/workspaces/maestro_ws/build/plato_teleop': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/optimo/workspaces/plato_ws/install/plato_pycontroller:/home/optimo/workspaces/spacemouse_ws/install/spaceMouse_navigator:/home/optimo/workspaces/spacemouse_ws/install/data_collection:/opt/ros/humble /usr/bin/cmake /home/optimo/workspaces/maestro_ws/src/plato_teleop -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/optimo/workspaces/maestro_ws/install/plato_teleop
+[0.520s] -- Found moveit_common: 2.5.5 (/opt/ros/humble/share/moveit_common/cmake)
+[0.520s] -- Found tf2_geometry_msgs: 0.25.5 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[0.520s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.520s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.520s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.520s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.521s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.521s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.534s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.534s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.596s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.597s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.675s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.971s] -- BACKWARD_HAS_UNWIND=1
+[0.971s] -- BACKWARD_HAS_BACKTRACE=0
+[0.971s] -- BACKWARD_HAS_BACKTRACE_SYMBOL=0
+[0.971s] -- BACKWARD_HAS_DW=1
+[0.971s] -- BACKWARD_HAS_BFD=0
+[0.972s] -- Found Backward: /opt/ros/humble/share/backward_ros/cmake  
+[0.972s] [0mplato_teleop: You did not request a specific build type: Choosing 'Release' for maximum performance[0m
+[0.974s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")  
+[0.975s] -- Found control_msgs: 4.4.0 (/opt/ros/humble/share/control_msgs/cmake)
+[1.317s] -- Found interactive_markers: 2.3.2 (/opt/ros/humble/share/interactive_markers/cmake)
+[1.451s] -- Found moveit_core: 2.5.5 (/opt/ros/humble/share/moveit_core/cmake)
+[1.465s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[1.472s] -- Found parameter_traits: 0.3.7 (/opt/ros/humble/share/parameter_traits/cmake)
+[1.486s] -- Found rclcpp_lifecycle: 16.0.8 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.531s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[1.567s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[2.083s] -- Found moveit_ros_planning: 2.5.5 (/opt/ros/humble/share/moveit_ros_planning/cmake)
+[2.086s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[2.343s] -- Found moveit_ros_planning_interface: 2.5.5 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+[2.346s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[2.460s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[2.605s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[2.857s] -- Found moveit_servo: 2.5.5 (/opt/ros/humble/share/moveit_servo/cmake)
+[3.231s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.236s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.236s] -- Configured cppcheck include dirs: /home/optimo/workspaces/maestro_ws/src/plato_teleop/include
+[3.236s] -- Configured cppcheck exclude dirs and/or files: 
+[3.236s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.236s] -- Added test 'lint_cmake' to check CMake code style
+[3.237s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.237s] -- Added test 'uncrustify' to check C / C++ code style
+[3.237s] -- Configured uncrustify additional arguments: 
+[3.237s] -- Added test 'xmllint' to check XML markup files
+[3.238s] -- Configuring done
+[3.265s] -- Generating done
+[3.267s] -- Build files have been written to: /home/optimo/workspaces/maestro_ws/build/plato_teleop
+[3.276s] Invoked command in '/home/optimo/workspaces/maestro_ws/build/plato_teleop' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/optimo/workspaces/plato_ws/install/plato_pycontroller:/home/optimo/workspaces/spacemouse_ws/install/spaceMouse_navigator:/home/optimo/workspaces/spacemouse_ws/install/data_collection:/opt/ros/humble /usr/bin/cmake /home/optimo/workspaces/maestro_ws/src/plato_teleop -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/optimo/workspaces/maestro_ws/install/plato_teleop
+[3.277s] Invoking command in '/home/optimo/workspaces/maestro_ws/build/plato_teleop': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/optimo/workspaces/plato_ws/install/plato_pycontroller:/home/optimo/workspaces/spacemouse_ws/install/spaceMouse_navigator:/home/optimo/workspaces/spacemouse_ws/install/data_collection:/opt/ros/humble /usr/bin/cmake --build /home/optimo/workspaces/maestro_ws/build/plato_teleop -- -j20 -l20
+[3.301s] [35m[1mConsolidate compiler generated dependencies of target controller_spaceMouse[0m
+[3.307s] [ 25%] [32mBuilding CXX object CMakeFiles/controller_PlatoHand.dir/src/controller_PlatoHand.cpp.o[0m
+[3.315s] [ 50%] [32m[1mLinking CXX executable controller_spaceMouse[0m
+[3.578s] [ 75%] Built target controller_spaceMouse
+[3.786s] In file included from [01m[K/home/optimo/workspaces/maestro_ws/src/plato_teleop/src/controller_PlatoHand.cpp:27[m[K:
+[3.786s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[3.786s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[3.786s]       |  [01;35m[K^~~~~~~[m[K
+[6.249s] [01m[K/home/optimo/workspaces/maestro_ws/src/plato_teleop/src/controller_PlatoHand.cpp:[m[K In function ‘[01m[Kvoid publishJointTrajectory(std::vector<double>, rclcpp::Node::SharedPtr, const rclcpp::Logger&)[m[K’:
+[6.249s] [01m[K/home/optimo/workspaces/maestro_ws/src/plato_teleop/src/controller_PlatoHand.cpp:148:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kduration_time[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[6.249s]   148 |     int [01;35m[Kduration_time[m[K = 1;
+[6.249s]       |         [01;35m[K^~~~~~~~~~~~~[m[K
+[16.759s] [100%] [32m[1mLinking CXX executable controller_PlatoHand[0m
+[16.997s] [100%] Built target controller_PlatoHand
+[17.003s] Invoked command in '/home/optimo/workspaces/maestro_ws/build/plato_teleop' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/optimo/workspaces/plato_ws/install/plato_pycontroller:/home/optimo/workspaces/spacemouse_ws/install/spaceMouse_navigator:/home/optimo/workspaces/spacemouse_ws/install/data_collection:/opt/ros/humble /usr/bin/cmake --build /home/optimo/workspaces/maestro_ws/build/plato_teleop -- -j20 -l20
+[17.018s] Invoking command in '/home/optimo/workspaces/maestro_ws/build/plato_teleop': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/optimo/workspaces/plato_ws/install/plato_pycontroller:/home/optimo/workspaces/spacemouse_ws/install/spaceMouse_navigator:/home/optimo/workspaces/spacemouse_ws/install/data_collection:/opt/ros/humble /usr/bin/cmake --install /home/optimo/workspaces/maestro_ws/build/plato_teleop
+[17.022s] -- Install configuration: "Release"
+[17.023s] -- Execute custom install script
+[17.023s] -- Symlinking: /home/optimo/workspaces/maestro_ws/install/plato_teleop/lib/plato_teleop/controller_PlatoHand
+[17.028s] -- Symlinking: /home/optimo/workspaces/maestro_ws/install/plato_teleop/lib/plato_teleop/controller_spaceMouse
+[17.032s] -- Symlinking: /home/optimo/workspaces/maestro_ws/install/plato_teleop/share/plato_teleop//launch/controller_PlatoHand.py
+[17.036s] -- Symlinking: /home/optimo/workspaces/maestro_ws/install/plato_teleop/share/ament_index/resource_index/package_run_dependencies/plato_teleop
+[17.041s] -- Symlinking: /home/optimo/workspaces/maestro_ws/install/plato_teleop/share/ament_index/resource_index/parent_prefix_path/plato_teleop
+[17.045s] -- Symlinking: /home/optimo/workspaces/maestro_ws/install/plato_teleop/share/plato_teleop/environment/ament_prefix_path.sh
+[17.049s] -- Symlinking: /home/optimo/workspaces/maestro_ws/install/plato_teleop/share/plato_teleop/environment/ament_prefix_path.dsv
+[17.054s] -- Symlinking: /home/optimo/workspaces/maestro_ws/install/plato_teleop/share/plato_teleop/environment/path.sh
+[17.059s] -- Symlinking: /home/optimo/workspaces/maestro_ws/install/plato_teleop/share/plato_teleop/environment/path.dsv
+[17.063s] -- Symlinking: /home/optimo/workspaces/maestro_ws/install/plato_teleop/share/plato_teleop/local_setup.bash
+[17.067s] -- Symlinking: /home/optimo/workspaces/maestro_ws/install/plato_teleop/share/plato_teleop/local_setup.sh
+[17.072s] -- Symlinking: /home/optimo/workspaces/maestro_ws/install/plato_teleop/share/plato_teleop/local_setup.zsh
+[17.076s] -- Symlinking: /home/optimo/workspaces/maestro_ws/install/plato_teleop/share/plato_teleop/local_setup.dsv
+[17.081s] -- Symlinking: /home/optimo/workspaces/maestro_ws/install/plato_teleop/share/plato_teleop/package.dsv
+[17.085s] -- Symlinking: /home/optimo/workspaces/maestro_ws/install/plato_teleop/share/ament_index/resource_index/packages/plato_teleop
+[17.089s] -- Symlinking: /home/optimo/workspaces/maestro_ws/install/plato_teleop/share/plato_teleop/cmake/ament_cmake_export_dependencies-extras.cmake
+[17.093s] -- Symlinking: /home/optimo/workspaces/maestro_ws/install/plato_teleop/share/plato_teleop/cmake/ament_cmake_export_include_directories-extras.cmake
+[17.098s] -- Symlinking: /home/optimo/workspaces/maestro_ws/install/plato_teleop/share/plato_teleop/cmake/plato_teleopConfig.cmake
+[17.102s] -- Symlinking: /home/optimo/workspaces/maestro_ws/install/plato_teleop/share/plato_teleop/cmake/plato_teleopConfig-version.cmake
+[17.106s] -- Symlinking: /home/optimo/workspaces/maestro_ws/install/plato_teleop/share/plato_teleop/package.xml
+[17.111s] Invoked command in '/home/optimo/workspaces/maestro_ws/build/plato_teleop' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/optimo/workspaces/plato_ws/install/plato_pycontroller:/home/optimo/workspaces/spacemouse_ws/install/spaceMouse_navigator:/home/optimo/workspaces/spacemouse_ws/install/data_collection:/opt/ros/humble /usr/bin/cmake --install /home/optimo/workspaces/maestro_ws/build/plato_teleop

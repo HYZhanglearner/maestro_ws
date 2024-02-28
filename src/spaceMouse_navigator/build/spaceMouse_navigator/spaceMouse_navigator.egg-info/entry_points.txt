@@ -1,0 +1,3 @@
+[console_scripts]
+spaceMouse_motionTest = spaceMouse_navigator.spaceMouse_motionTest:mainspaceMouse_publisher = spaceMouse_navigator.spaceMouse_publisher:main
+

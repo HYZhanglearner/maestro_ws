@@ -1,0 +1,11 @@
+/home/optimo/workspaces/maestro_ws/build/plato_teleop/CMakeFiles/uninstall.dir
+/home/optimo/workspaces/maestro_ws/build/plato_teleop/CMakeFiles/plato_teleop_uninstall.dir
+/home/optimo/workspaces/maestro_ws/build/plato_teleop/CMakeFiles/controller_PlatoHand.dir
+/home/optimo/workspaces/maestro_ws/build/plato_teleop/CMakeFiles/controller_spaceMouse.dir
+/home/optimo/workspaces/maestro_ws/build/plato_teleop/CMakeFiles/test.dir
+/home/optimo/workspaces/maestro_ws/build/plato_teleop/CMakeFiles/edit_cache.dir
+/home/optimo/workspaces/maestro_ws/build/plato_teleop/CMakeFiles/rebuild_cache.dir
+/home/optimo/workspaces/maestro_ws/build/plato_teleop/CMakeFiles/list_install_components.dir
+/home/optimo/workspaces/maestro_ws/build/plato_teleop/CMakeFiles/install.dir
+/home/optimo/workspaces/maestro_ws/build/plato_teleop/CMakeFiles/install/local.dir
+/home/optimo/workspaces/maestro_ws/build/plato_teleop/CMakeFiles/install/strip.dir

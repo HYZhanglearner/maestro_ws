@@ -1,0 +1,21 @@
+[0.918s] Invoking command in '/home/optimo/workspaces/maestro_ws/build/data_collection': PYTHONPATH=/home/optimo/workspaces/maestro_ws/build/data_collection/prefix_override:/home/optimo/workspaces/maestro_ws/install/data_collection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/optimo/workspaces/maestro_ws/build/data_collection/build --no-deps install_data
+[1.069s] running develop
+[1.070s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.070s]   warnings.warn(
+[1.071s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.071s]   warnings.warn(
+[1.167s] running egg_info
+[1.168s] writing data_collection.egg-info/PKG-INFO
+[1.168s] writing dependency_links to data_collection.egg-info/dependency_links.txt
+[1.168s] writing entry points to data_collection.egg-info/entry_points.txt
+[1.168s] writing requirements to data_collection.egg-info/requires.txt
+[1.168s] writing top-level names to data_collection.egg-info/top_level.txt
+[1.169s] reading manifest file 'data_collection.egg-info/SOURCES.txt'
+[1.169s] writing manifest file 'data_collection.egg-info/SOURCES.txt'
+[1.170s] running build_ext
+[1.170s] Creating /home/optimo/workspaces/maestro_ws/install/data_collection/lib/python3.10/site-packages/data-collection.egg-link (link to .)
+[1.171s] Installing data_collection script to /home/optimo/workspaces/maestro_ws/install/data_collection/lib/data_collection
+[1.171s] 
+[1.171s] Installed /home/optimo/workspaces/maestro_ws/build/data_collection
+[1.171s] running install_data
+[1.188s] Invoked command in '/home/optimo/workspaces/maestro_ws/build/data_collection' returned '0': PYTHONPATH=/home/optimo/workspaces/maestro_ws/build/data_collection/prefix_override:/home/optimo/workspaces/maestro_ws/install/data_collection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/optimo/workspaces/maestro_ws/build/data_collection/build --no-deps install_data

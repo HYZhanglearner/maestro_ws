@@ -1,0 +1,39 @@
+[0.892s] Invoking command in '/home/optimo/workspaces/maestro_ws/src/data_collection': PYTHONPATH=/home/optimo/workspaces/maestro_ws/build/data_collection/prefix_override:/home/optimo/workspaces/maestro_ws/install/data_collection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/data_collection build --build-base /home/optimo/workspaces/maestro_ws/build/data_collection/build install --record /home/optimo/workspaces/maestro_ws/build/data_collection/install.log --single-version-externally-managed
+[1.023s] running egg_info
+[1.024s] creating ../../build/data_collection/data_collection.egg-info
+[1.024s] writing ../../build/data_collection/data_collection.egg-info/PKG-INFO
+[1.024s] writing dependency_links to ../../build/data_collection/data_collection.egg-info/dependency_links.txt
+[1.024s] writing entry points to ../../build/data_collection/data_collection.egg-info/entry_points.txt
+[1.024s] writing requirements to ../../build/data_collection/data_collection.egg-info/requires.txt
+[1.024s] writing top-level names to ../../build/data_collection/data_collection.egg-info/top_level.txt
+[1.024s] writing manifest file '../../build/data_collection/data_collection.egg-info/SOURCES.txt'
+[1.025s] reading manifest file '../../build/data_collection/data_collection.egg-info/SOURCES.txt'
+[1.025s] writing manifest file '../../build/data_collection/data_collection.egg-info/SOURCES.txt'
+[1.025s] running build
+[1.026s] running build_py
+[1.026s] creating /home/optimo/workspaces/maestro_ws/build/data_collection/build
+[1.026s] creating /home/optimo/workspaces/maestro_ws/build/data_collection/build/lib
+[1.026s] creating /home/optimo/workspaces/maestro_ws/build/data_collection/build/lib/data_collection
+[1.026s] copying data_collection/__init__.py -> /home/optimo/workspaces/maestro_ws/build/data_collection/build/lib/data_collection
+[1.026s] copying data_collection/dataCollection.py -> /home/optimo/workspaces/maestro_ws/build/data_collection/build/lib/data_collection
+[1.026s] running install
+[1.026s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.026s]   warnings.warn(
+[1.026s] running install_lib
+[1.026s] creating /home/optimo/workspaces/maestro_ws/install/data_collection/lib/python3.10/site-packages/data_collection
+[1.026s] copying /home/optimo/workspaces/maestro_ws/build/data_collection/build/lib/data_collection/__init__.py -> /home/optimo/workspaces/maestro_ws/install/data_collection/lib/python3.10/site-packages/data_collection
+[1.027s] copying /home/optimo/workspaces/maestro_ws/build/data_collection/build/lib/data_collection/dataCollection.py -> /home/optimo/workspaces/maestro_ws/install/data_collection/lib/python3.10/site-packages/data_collection
+[1.027s] byte-compiling /home/optimo/workspaces/maestro_ws/install/data_collection/lib/python3.10/site-packages/data_collection/__init__.py to __init__.cpython-310.pyc
+[1.027s] byte-compiling /home/optimo/workspaces/maestro_ws/install/data_collection/lib/python3.10/site-packages/data_collection/dataCollection.py to dataCollection.cpython-310.pyc
+[1.028s] running install_data
+[1.028s] creating /home/optimo/workspaces/maestro_ws/install/data_collection/share/ament_index
+[1.028s] creating /home/optimo/workspaces/maestro_ws/install/data_collection/share/ament_index/resource_index
+[1.028s] creating /home/optimo/workspaces/maestro_ws/install/data_collection/share/ament_index/resource_index/packages
+[1.028s] copying resource/data_collection -> /home/optimo/workspaces/maestro_ws/install/data_collection/share/ament_index/resource_index/packages
+[1.029s] copying package.xml -> /home/optimo/workspaces/maestro_ws/install/data_collection/share/data_collection
+[1.029s] running install_egg_info
+[1.029s] Copying ../../build/data_collection/data_collection.egg-info to /home/optimo/workspaces/maestro_ws/install/data_collection/lib/python3.10/site-packages/data_collection-0.0.0-py3.10.egg-info
+[1.029s] running install_scripts
+[1.041s] Installing data_collection script to /home/optimo/workspaces/maestro_ws/install/data_collection/lib/data_collection
+[1.041s] writing list of installed files to '/home/optimo/workspaces/maestro_ws/build/data_collection/install.log'
+[1.056s] Invoked command in '/home/optimo/workspaces/maestro_ws/src/data_collection' returned '0': PYTHONPATH=/home/optimo/workspaces/maestro_ws/build/data_collection/prefix_override:/home/optimo/workspaces/maestro_ws/install/data_collection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/data_collection build --build-base /home/optimo/workspaces/maestro_ws/build/data_collection/build install --record /home/optimo/workspaces/maestro_ws/build/data_collection/install.log --single-version-externally-managed

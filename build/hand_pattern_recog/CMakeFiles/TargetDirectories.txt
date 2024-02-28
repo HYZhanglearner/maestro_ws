@@ -1,0 +1,10 @@
+/home/optimo/workspaces/maestro_ws/build/hand_pattern_recog/CMakeFiles/uninstall.dir
+/home/optimo/workspaces/maestro_ws/build/hand_pattern_recog/CMakeFiles/hand_pattern_recog_uninstall.dir
+/home/optimo/workspaces/maestro_ws/build/hand_pattern_recog/CMakeFiles/hand_pattern_recog.dir
+/home/optimo/workspaces/maestro_ws/build/hand_pattern_recog/CMakeFiles/test.dir
+/home/optimo/workspaces/maestro_ws/build/hand_pattern_recog/CMakeFiles/edit_cache.dir
+/home/optimo/workspaces/maestro_ws/build/hand_pattern_recog/CMakeFiles/rebuild_cache.dir
+/home/optimo/workspaces/maestro_ws/build/hand_pattern_recog/CMakeFiles/list_install_components.dir
+/home/optimo/workspaces/maestro_ws/build/hand_pattern_recog/CMakeFiles/install.dir
+/home/optimo/workspaces/maestro_ws/build/hand_pattern_recog/CMakeFiles/install/local.dir
+/home/optimo/workspaces/maestro_ws/build/hand_pattern_recog/CMakeFiles/install/strip.dir

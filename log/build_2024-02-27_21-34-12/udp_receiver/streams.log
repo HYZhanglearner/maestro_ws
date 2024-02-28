@@ -1,0 +1,49 @@
+[0.574s] Invoking command in '/home/optimo/workspaces/maestro_ws/build/udp_receiver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/optimo/workspaces/maestro_ws/install/spaceMouse_navigator:/home/optimo/workspaces/maestro_ws/install/data_collection:/home/optimo/workspaces/plato_ws/install/plato_pycontroller:/opt/ros/humble /usr/bin/cmake /home/optimo/workspaces/maestro_ws/src/udp_receiver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/optimo/workspaces/maestro_ws/install/udp_receiver
+[0.592s] -- Checking for module 'glut'
+[0.595s] --   No package 'glut' found
+[0.598s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.726s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.731s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.753s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.754s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.763s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.771s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.783s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.827s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.828s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.936s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.087s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.271s] -- Configuring done
+[1.393s] -- Generating done
+[1.394s] -- Build files have been written to: /home/optimo/workspaces/maestro_ws/build/udp_receiver
+[1.410s] Invoked command in '/home/optimo/workspaces/maestro_ws/build/udp_receiver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/optimo/workspaces/maestro_ws/install/spaceMouse_navigator:/home/optimo/workspaces/maestro_ws/install/data_collection:/home/optimo/workspaces/plato_ws/install/plato_pycontroller:/opt/ros/humble /usr/bin/cmake /home/optimo/workspaces/maestro_ws/src/udp_receiver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/optimo/workspaces/maestro_ws/install/udp_receiver
+[1.410s] Invoking command in '/home/optimo/workspaces/maestro_ws/build/udp_receiver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/optimo/workspaces/maestro_ws/install/spaceMouse_navigator:/home/optimo/workspaces/maestro_ws/install/data_collection:/home/optimo/workspaces/plato_ws/install/plato_pycontroller:/opt/ros/humble /usr/bin/cmake --build /home/optimo/workspaces/maestro_ws/build/udp_receiver -- -j20 -l20
+[1.441s] [35m[1mConsolidate compiler generated dependencies of target render_test[0m
+[1.441s] [35m[1mConsolidate compiler generated dependencies of target UDPReceiver[0m
+[1.442s] [35m[1mConsolidate compiler generated dependencies of target UDPReceiver_mthread[0m
+[1.455s] [ 27%] Built target render_test
+[1.462s] [ 63%] Built target UDPReceiver
+[1.467s] [100%] Built target UDPReceiver_mthread
+[1.475s] Invoked command in '/home/optimo/workspaces/maestro_ws/build/udp_receiver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/optimo/workspaces/maestro_ws/install/spaceMouse_navigator:/home/optimo/workspaces/maestro_ws/install/data_collection:/home/optimo/workspaces/plato_ws/install/plato_pycontroller:/opt/ros/humble /usr/bin/cmake --build /home/optimo/workspaces/maestro_ws/build/udp_receiver -- -j20 -l20
+[1.503s] Invoking command in '/home/optimo/workspaces/maestro_ws/build/udp_receiver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/optimo/workspaces/maestro_ws/install/spaceMouse_navigator:/home/optimo/workspaces/maestro_ws/install/data_collection:/home/optimo/workspaces/plato_ws/install/plato_pycontroller:/opt/ros/humble /usr/bin/cmake --install /home/optimo/workspaces/maestro_ws/build/udp_receiver
+[1.508s] -- Install configuration: ""
+[1.508s] -- Execute custom install script
+[1.508s] -- Up-to-date symlink: /home/optimo/workspaces/maestro_ws/install/udp_receiver/lib/udp_receiver/UDPReceiver
+[1.508s] -- Up-to-date symlink: /home/optimo/workspaces/maestro_ws/install/udp_receiver/lib/udp_receiver/UDPReceiver_mthread
+[1.508s] -- Up-to-date symlink: /home/optimo/workspaces/maestro_ws/install/udp_receiver/lib/udp_receiver/render_test
+[1.508s] -- Up-to-date symlink: /home/optimo/workspaces/maestro_ws/install/udp_receiver/share/ament_index/resource_index/package_run_dependencies/udp_receiver
+[1.508s] -- Up-to-date symlink: /home/optimo/workspaces/maestro_ws/install/udp_receiver/share/ament_index/resource_index/parent_prefix_path/udp_receiver
+[1.509s] -- Up-to-date symlink: /home/optimo/workspaces/maestro_ws/install/udp_receiver/share/udp_receiver/environment/ament_prefix_path.sh
+[1.509s] -- Up-to-date symlink: /home/optimo/workspaces/maestro_ws/install/udp_receiver/share/udp_receiver/environment/ament_prefix_path.dsv
+[1.509s] -- Up-to-date symlink: /home/optimo/workspaces/maestro_ws/install/udp_receiver/share/udp_receiver/environment/path.sh
+[1.509s] -- Up-to-date symlink: /home/optimo/workspaces/maestro_ws/install/udp_receiver/share/udp_receiver/environment/path.dsv
+[1.510s] -- Up-to-date symlink: /home/optimo/workspaces/maestro_ws/install/udp_receiver/share/udp_receiver/local_setup.bash
+[1.510s] -- Up-to-date symlink: /home/optimo/workspaces/maestro_ws/install/udp_receiver/share/udp_receiver/local_setup.sh
+[1.510s] -- Up-to-date symlink: /home/optimo/workspaces/maestro_ws/install/udp_receiver/share/udp_receiver/local_setup.zsh
+[1.510s] -- Up-to-date symlink: /home/optimo/workspaces/maestro_ws/install/udp_receiver/share/udp_receiver/local_setup.dsv
+[1.510s] -- Symlinking: /home/optimo/workspaces/maestro_ws/install/udp_receiver/share/udp_receiver/package.dsv
+[1.516s] -- Up-to-date symlink: /home/optimo/workspaces/maestro_ws/install/udp_receiver/share/ament_index/resource_index/packages/udp_receiver
+[1.516s] -- Up-to-date symlink: /home/optimo/workspaces/maestro_ws/install/udp_receiver/share/udp_receiver/cmake/udp_receiverConfig.cmake
+[1.516s] -- Up-to-date symlink: /home/optimo/workspaces/maestro_ws/install/udp_receiver/share/udp_receiver/cmake/udp_receiverConfig-version.cmake
+[1.516s] -- Up-to-date symlink: /home/optimo/workspaces/maestro_ws/install/udp_receiver/share/udp_receiver/package.xml
+[1.517s] Invoked command in '/home/optimo/workspaces/maestro_ws/build/udp_receiver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/optimo/workspaces/maestro_ws/install/spaceMouse_navigator:/home/optimo/workspaces/maestro_ws/install/data_collection:/home/optimo/workspaces/plato_ws/install/plato_pycontroller:/opt/ros/humble /usr/bin/cmake --install /home/optimo/workspaces/maestro_ws/build/udp_receiver

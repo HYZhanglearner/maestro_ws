@@ -1,0 +1,56 @@
+[0.316s] Invoking command in '/home/optimo/workspaces/maestro_ws/build/plato_teleop': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/optimo/workspaces/plato_ws/install/plato_pycontroller:/home/optimo/workspaces/spacemouse_ws/install/spaceMouse_navigator:/home/optimo/workspaces/spacemouse_ws/install/data_collection:/opt/ros/humble /usr/bin/cmake /home/optimo/workspaces/maestro_ws/src/plato_teleop -DCMAKE_INSTALL_PREFIX=/home/optimo/workspaces/maestro_ws/install/plato_teleop
+[0.504s] -- Found moveit_common: 2.5.5 (/opt/ros/humble/share/moveit_common/cmake)
+[0.504s] -- Found tf2_geometry_msgs: 0.25.5 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[0.505s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.505s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.505s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.505s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.505s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.538s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.538s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.594s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.595s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.674s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.063s] -- BACKWARD_HAS_UNWIND=1
+[1.063s] -- BACKWARD_HAS_BACKTRACE=0
+[1.063s] -- BACKWARD_HAS_BACKTRACE_SYMBOL=0
+[1.063s] -- BACKWARD_HAS_DW=1
+[1.063s] -- BACKWARD_HAS_BFD=0
+[1.063s] -- Found Backward: /opt/ros/humble/share/backward_ros/cmake  
+[1.063s] [0mplato_teleop: You did not request a specific build type: Choosing 'Release' for maximum performance[0m
+[1.066s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")  
+[1.066s] -- Found control_msgs: 4.4.0 (/opt/ros/humble/share/control_msgs/cmake)
+[1.275s] -- Found interactive_markers: 2.3.2 (/opt/ros/humble/share/interactive_markers/cmake)
+[1.353s] -- Found moveit_core: 2.5.5 (/opt/ros/humble/share/moveit_core/cmake)
+[1.361s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[1.365s] -- Found parameter_traits: 0.3.7 (/opt/ros/humble/share/parameter_traits/cmake)
+[1.374s] -- Found rclcpp_lifecycle: 16.0.8 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.399s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[1.421s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[1.848s] -- Found moveit_ros_planning: 2.5.5 (/opt/ros/humble/share/moveit_ros_planning/cmake)
+[1.851s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[2.108s] -- Found moveit_ros_planning_interface: 2.5.5 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+[2.111s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[2.223s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[2.369s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[2.619s] -- Found moveit_servo: 2.5.5 (/opt/ros/humble/share/moveit_servo/cmake)
+[2.986s] [31mCMake Error at CMakeLists.txt:37 (find_package):
+[2.986s]   By not providing "Findrviz_visual_tools.cmake" in CMAKE_MODULE_PATH this
+[2.986s]   project has asked CMake to find a package configuration file provided by
+[2.986s]   "rviz_visual_tools", but CMake did not find one.
+[2.986s] 
+[2.986s]   Could not find a package configuration file provided by "rviz_visual_tools"
+[2.986s]   with any of the following names:
+[2.986s] 
+[2.986s]     rviz_visual_toolsConfig.cmake
+[2.986s]     rviz_visual_tools-config.cmake
+[2.986s] 
+[2.986s]   Add the installation prefix of "rviz_visual_tools" to CMAKE_PREFIX_PATH or
+[2.986s]   set "rviz_visual_tools_DIR" to a directory containing one of the above
+[2.986s]   files.  If "rviz_visual_tools" provides a separate development package or
+[2.986s]   SDK, be sure it has been installed.
+[2.987s] 
+[2.987s] [0m
+[2.987s] -- Configuring incomplete, errors occurred!
+[2.987s] See also "/home/optimo/workspaces/maestro_ws/build/plato_teleop/CMakeFiles/CMakeOutput.log".
+[2.993s] Invoked command in '/home/optimo/workspaces/maestro_ws/build/plato_teleop' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/optimo/workspaces/plato_ws/install/plato_pycontroller:/home/optimo/workspaces/spacemouse_ws/install/spaceMouse_navigator:/home/optimo/workspaces/spacemouse_ws/install/data_collection:/opt/ros/humble /usr/bin/cmake /home/optimo/workspaces/maestro_ws/src/plato_teleop -DCMAKE_INSTALL_PREFIX=/home/optimo/workspaces/maestro_ws/install/plato_teleop

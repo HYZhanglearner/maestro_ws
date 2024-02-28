@@ -1,0 +1,40 @@
+[0.451s] Invoking command in '/home/optimo/workspaces/maestro_ws/build/plato_teleop': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/optimo/workspaces/maestro_ws/install/spaceMouse_navigator:/home/optimo/workspaces/maestro_ws/install/data_collection:/home/optimo/workspaces/plato_ws/install/plato_pycontroller:/opt/ros/humble /usr/bin/cmake --build /home/optimo/workspaces/maestro_ws/build/plato_teleop -- -j20 -l20
+[0.714s] [35m[1mConsolidate compiler generated dependencies of target controller_PlatoHand[0m
+[0.715s] [ 25%] [32mBuilding CXX object CMakeFiles/controller_PlatoHand.dir/src/controller_PlatoHand.cpp.o[0m
+[1.151s] In file included from [01m[K/home/optimo/workspaces/maestro_ws/src/plato_teleop/src/controller_PlatoHand.cpp:27[m[K:
+[1.151s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[1.151s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[1.151s]       |  [01;35m[K^~~~~~~[m[K
+[4.538s] [01m[K/home/optimo/workspaces/maestro_ws/src/plato_teleop/src/controller_PlatoHand.cpp:[m[K In function ‘[01m[Kvoid publishJointTrajectory(std::vector<double>, rclcpp::Node::SharedPtr, const rclcpp::Logger&)[m[K’:
+[4.538s] [01m[K/home/optimo/workspaces/maestro_ws/src/plato_teleop/src/controller_PlatoHand.cpp:127:90:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Knode[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.538s]   127 | ishJointTrajectory(std::vector<double> joint_positions, [01;35m[Krclcpp::Node::SharedPtr node[m[K, const rclcpp::Logger &logger_)
+[4.538s]       |                                                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[4.538s] 
+[16.937s] [ 50%] [32m[1mLinking CXX executable controller_PlatoHand[0m
+[17.269s] [ 50%] Built target controller_PlatoHand
+[17.297s] [100%] Built target controller_spaceMouse
+[17.305s] Invoked command in '/home/optimo/workspaces/maestro_ws/build/plato_teleop' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/optimo/workspaces/maestro_ws/install/spaceMouse_navigator:/home/optimo/workspaces/maestro_ws/install/data_collection:/home/optimo/workspaces/plato_ws/install/plato_pycontroller:/opt/ros/humble /usr/bin/cmake --build /home/optimo/workspaces/maestro_ws/build/plato_teleop -- -j20 -l20
+[17.325s] Invoking command in '/home/optimo/workspaces/maestro_ws/build/plato_teleop': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/optimo/workspaces/maestro_ws/install/spaceMouse_navigator:/home/optimo/workspaces/maestro_ws/install/data_collection:/home/optimo/workspaces/plato_ws/install/plato_pycontroller:/opt/ros/humble /usr/bin/cmake --install /home/optimo/workspaces/maestro_ws/build/plato_teleop
+[17.330s] -- Install configuration: "Release"
+[17.330s] -- Execute custom install script
+[17.331s] -- Up-to-date symlink: /home/optimo/workspaces/maestro_ws/install/plato_teleop/lib/plato_teleop/controller_PlatoHand
+[17.331s] -- Up-to-date symlink: /home/optimo/workspaces/maestro_ws/install/plato_teleop/lib/plato_teleop/controller_spaceMouse
+[17.331s] -- Up-to-date symlink: /home/optimo/workspaces/maestro_ws/install/plato_teleop/share/plato_teleop//launch/controller_PlatoHand.py
+[17.331s] -- Up-to-date symlink: /home/optimo/workspaces/maestro_ws/install/plato_teleop/share/ament_index/resource_index/package_run_dependencies/plato_teleop
+[17.332s] -- Up-to-date symlink: /home/optimo/workspaces/maestro_ws/install/plato_teleop/share/ament_index/resource_index/parent_prefix_path/plato_teleop
+[17.332s] -- Up-to-date symlink: /home/optimo/workspaces/maestro_ws/install/plato_teleop/share/plato_teleop/environment/ament_prefix_path.sh
+[17.332s] -- Up-to-date symlink: /home/optimo/workspaces/maestro_ws/install/plato_teleop/share/plato_teleop/environment/ament_prefix_path.dsv
+[17.332s] -- Up-to-date symlink: /home/optimo/workspaces/maestro_ws/install/plato_teleop/share/plato_teleop/environment/path.sh
+[17.332s] -- Up-to-date symlink: /home/optimo/workspaces/maestro_ws/install/plato_teleop/share/plato_teleop/environment/path.dsv
+[17.332s] -- Up-to-date symlink: /home/optimo/workspaces/maestro_ws/install/plato_teleop/share/plato_teleop/local_setup.bash
+[17.332s] -- Up-to-date symlink: /home/optimo/workspaces/maestro_ws/install/plato_teleop/share/plato_teleop/local_setup.sh
+[17.332s] -- Up-to-date symlink: /home/optimo/workspaces/maestro_ws/install/plato_teleop/share/plato_teleop/local_setup.zsh
+[17.333s] -- Up-to-date symlink: /home/optimo/workspaces/maestro_ws/install/plato_teleop/share/plato_teleop/local_setup.dsv
+[17.333s] -- Symlinking: /home/optimo/workspaces/maestro_ws/install/plato_teleop/share/plato_teleop/package.dsv
+[17.339s] -- Up-to-date symlink: /home/optimo/workspaces/maestro_ws/install/plato_teleop/share/ament_index/resource_index/packages/plato_teleop
+[17.339s] -- Up-to-date symlink: /home/optimo/workspaces/maestro_ws/install/plato_teleop/share/plato_teleop/cmake/ament_cmake_export_dependencies-extras.cmake
+[17.339s] -- Up-to-date symlink: /home/optimo/workspaces/maestro_ws/install/plato_teleop/share/plato_teleop/cmake/ament_cmake_export_include_directories-extras.cmake
+[17.340s] -- Up-to-date symlink: /home/optimo/workspaces/maestro_ws/install/plato_teleop/share/plato_teleop/cmake/plato_teleopConfig.cmake
+[17.340s] -- Up-to-date symlink: /home/optimo/workspaces/maestro_ws/install/plato_teleop/share/plato_teleop/cmake/plato_teleopConfig-version.cmake
+[17.340s] -- Up-to-date symlink: /home/optimo/workspaces/maestro_ws/install/plato_teleop/share/plato_teleop/package.xml
+[17.341s] Invoked command in '/home/optimo/workspaces/maestro_ws/build/plato_teleop' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/optimo/workspaces/maestro_ws/install/spaceMouse_navigator:/home/optimo/workspaces/maestro_ws/install/data_collection:/home/optimo/workspaces/plato_ws/install/plato_pycontroller:/opt/ros/humble /usr/bin/cmake --install /home/optimo/workspaces/maestro_ws/build/plato_teleop

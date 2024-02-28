@@ -1,0 +1,10 @@
+[0mplato_teleop: You did not request a specific build type: Choosing 'Release' for maximum performance[0m
+In file included from [01m[K/home/optimo/workspaces/maestro_ws/src/plato_teleop/src/controller_PlatoHand.cpp:27[m[K:
+[01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+      |  [01;35m[K^~~~~~~[m[K
+[01m[K/home/optimo/workspaces/maestro_ws/src/plato_teleop/src/controller_PlatoHand.cpp:[m[K In function ‘[01m[Kvoid publishJointTrajectory(std::vector<double>, rclcpp::Node::SharedPtr, const rclcpp::Logger&)[m[K’:
+[01m[K/home/optimo/workspaces/maestro_ws/src/plato_teleop/src/controller_PlatoHand.cpp:127:90:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Knode[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  127 | ishJointTrajectory(std::vector<double> joint_positions, [01;35m[Krclcpp::Node::SharedPtr node[m[K, const rclcpp::Logger &logger_)
+      |                                                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+

@@ -1,0 +1,131 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+-- Checking for module 'glut'
+--   No package 'glut' found
+-- Found GLUT: /usr/lib/x86_64-linux-gnu/libglut.so  
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.10") 
+-- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/optimo/workspaces/maestro_ws/build/udp_receiver
+[ 45%] [32mBuilding CXX object CMakeFiles/UDPReceiver_mthread.dir/receiver_main_thread.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/render_test.dir/hand_display.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/UDPReceiver.dir/hand_display.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/render_test.dir/render_test.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/UDPReceiver_mthread.dir/hand_display.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/UDPReceiver.dir/UDP_receiver.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/UDPReceiver.dir/receiver_main.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/UDPReceiver_mthread.dir/UDP_receiver.cpp.o[0m
+[01m[K/home/optimo/workspaces/maestro_ws/src/udp_receiver/hand_display.cpp:[m[K In member function ‘[01m[Kvoid HandDisplay::updateFingerAngles(const std::array<double, 16>&)[m[K’:
+[01m[K/home/optimo/workspaces/maestro_ws/src/udp_receiver/hand_display.cpp:66:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kgain[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   66 |         double [01;35m[Kgain[m[K = 1.0;
+      |                [01;35m[K^~~~[m[K
+[01m[K/home/optimo/workspaces/maestro_ws/src/udp_receiver/hand_display.cpp:[m[K In member function ‘[01m[Kvoid HandDisplay::updateFingerAngles(const std::array<double, 16>&)[m[K’:
+[01m[K/home/optimo/workspaces/maestro_ws/src/udp_receiver/hand_display.cpp:66:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kgain[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   66 |         double [01;35m[Kgain[m[K = 1.0;
+      |                [01;35m[K^~~~[m[K
+[01m[K/home/optimo/workspaces/maestro_ws/src/udp_receiver/hand_display.cpp:[m[K In static member function ‘[01m[Kstatic void HandDisplay::staticPlotTimerCallback(int)[m[K’:
+[01m[K/home/optimo/workspaces/maestro_ws/src/udp_receiver/hand_display.cpp:357:47:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kvalue[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  357 | void HandDisplay::staticPlotTimerCallback([01;35m[Kint value[m[K) {
+      |                                           [01;35m[K~~~~^~~~~[m[K
+[01m[K/home/optimo/workspaces/maestro_ws/src/udp_receiver/hand_display.cpp:[m[K In static member function ‘[01m[Kstatic void HandDisplay::staticPlotTimerCallback(int)[m[K’:
+[01m[K/home/optimo/workspaces/maestro_ws/src/udp_receiver/hand_display.cpp:357:47:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kvalue[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  357 | void HandDisplay::staticPlotTimerCallback([01;35m[Kint value[m[K) {
+      |                                           [01;35m[K~~~~^~~~~[m[K
+[01m[K/home/optimo/workspaces/maestro_ws/src/udp_receiver/hand_display.cpp:[m[K In member function ‘[01m[Kvoid HandDisplay::updateFingerAngles(const std::array<double, 16>&)[m[K’:
+[01m[K/home/optimo/workspaces/maestro_ws/src/udp_receiver/hand_display.cpp:66:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kgain[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   66 |         double [01;35m[Kgain[m[K = 1.0;
+      |                [01;35m[K^~~~[m[K
+[01m[K/home/optimo/workspaces/maestro_ws/src/udp_receiver/hand_display.cpp:[m[K In static member function ‘[01m[Kstatic void HandDisplay::staticPlotTimerCallback(int)[m[K’:
+[01m[K/home/optimo/workspaces/maestro_ws/src/udp_receiver/hand_display.cpp:357:47:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kvalue[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  357 | void HandDisplay::staticPlotTimerCallback([01;35m[Kint value[m[K) {
+      |                                           [01;35m[K~~~~^~~~~[m[K
+[01m[K/home/optimo/workspaces/maestro_ws/src/udp_receiver/render_test.cpp:[m[K In function ‘[01m[Kvoid mouseButton(int, int, int, int)[m[K’:
+[01m[K/home/optimo/workspaces/maestro_ws/src/udp_receiver/render_test.cpp:34:45:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   34 | void mouseButton(int button, int state, [01;35m[Kint x[m[K, int y) {
+      |                                         [01;35m[K~~~~^[m[K
+[01m[K/home/optimo/workspaces/maestro_ws/src/udp_receiver/render_test.cpp:34:52:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ky[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   34 | void mouseButton(int button, int state, int x, [01;35m[Kint y[m[K) {
+      |                                                [01;35m[K~~~~^[m[K
+[ 81%] [32m[1mLinking CXX executable render_test[0m
+[01m[K/home/optimo/workspaces/maestro_ws/src/udp_receiver/receiver_main.cpp:58:9:[m[K [01;35m[Kwarning: [m[Kmulti-line comment [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcomment-Wcomment]8;;[m[K]
+   58 |         [01;35m[K/[m[K/ std::cout << "Received message from Cadence: " << dataFromCadence[0]\
+      |         [01;35m[K^[m[K
+[ 90%] [32m[1mLinking CXX executable UDPReceiver[0m
+[01m[K/home/optimo/workspaces/maestro_ws/src/udp_receiver/receiver_main_thread.cpp:[m[K In function ‘[01m[Kvoid communicationThread(int, char**, UdpCommunicator&)[m[K’:
+[01m[K/home/optimo/workspaces/maestro_ws/src/udp_receiver/receiver_main_thread.cpp:99:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Knum_joints[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   99 |     int [01;35m[Knum_joints[m[K = 12;
+      |         [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/optimo/workspaces/maestro_ws/src/udp_receiver/receiver_main_thread.cpp:97:30:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   97 | void communicationThread([01;35m[Kint argc[m[K, char **argv, UdpCommunicator& slaveDevice)  {
+      |                          [01;35m[K~~~~^~~~[m[K
+[01m[K/home/optimo/workspaces/maestro_ws/src/udp_receiver/receiver_main_thread.cpp:97:43:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   97 | void communicationThread(int argc, [01;35m[Kchar **argv[m[K, UdpCommunicator& slaveDevice)  {
+      |                                    [01;35m[K~~~~~~~^~~~[m[K
+[01m[K/home/optimo/workspaces/maestro_ws/src/udp_receiver/receiver_main_thread.cpp:[m[K In function ‘[01m[Kvoid signalHandler(int)[m[K’:
+[01m[K/home/optimo/workspaces/maestro_ws/src/udp_receiver/receiver_main_thread.cpp:219:24:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksignum[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  219 | void signalHandler([01;35m[Kint signum[m[K) {
+      |                    [01;35m[K~~~~^~~~~~[m[K
+[01m[K/home/optimo/workspaces/maestro_ws/src/udp_receiver/receiver_main_thread.cpp:[m[K In function ‘[01m[Kvoid mouseButton(int, int, int, int)[m[K’:
+[01m[K/home/optimo/workspaces/maestro_ws/src/udp_receiver/receiver_main_thread.cpp:267:45:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  267 | void mouseButton(int button, int state, [01;35m[Kint x[m[K, int y) {
+      |                                         [01;35m[K~~~~^[m[K
+[01m[K/home/optimo/workspaces/maestro_ws/src/udp_receiver/receiver_main_thread.cpp:267:52:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ky[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  267 | void mouseButton(int button, int state, int x, [01;35m[Kint y[m[K) {
+      |                                                [01;35m[K~~~~^[m[K
+[100%] [32m[1mLinking CXX executable UDPReceiver_mthread[0m
+[100%] Built target UDPReceiver_mthread
+[100%] Built target render_test
+[100%] Built target UDPReceiver
+-- Install configuration: ""
+-- Installing: /home/optimo/workspaces/maestro_ws/install/udp_receiver/lib/udp_receiver/UDPReceiver
+-- Set runtime path of "/home/optimo/workspaces/maestro_ws/install/udp_receiver/lib/udp_receiver/UDPReceiver" to ""
+-- Installing: /home/optimo/workspaces/maestro_ws/install/udp_receiver/lib/udp_receiver/UDPReceiver_mthread
+-- Set runtime path of "/home/optimo/workspaces/maestro_ws/install/udp_receiver/lib/udp_receiver/UDPReceiver_mthread" to ""
+-- Installing: /home/optimo/workspaces/maestro_ws/install/udp_receiver/lib/udp_receiver/render_test
+-- Set runtime path of "/home/optimo/workspaces/maestro_ws/install/udp_receiver/lib/udp_receiver/render_test" to ""
+-- Installing: /home/optimo/workspaces/maestro_ws/install/udp_receiver/share/ament_index/resource_index/package_run_dependencies/udp_receiver
+-- Installing: /home/optimo/workspaces/maestro_ws/install/udp_receiver/share/ament_index/resource_index/parent_prefix_path/udp_receiver
+-- Installing: /home/optimo/workspaces/maestro_ws/install/udp_receiver/share/udp_receiver/environment/ament_prefix_path.sh
+-- Installing: /home/optimo/workspaces/maestro_ws/install/udp_receiver/share/udp_receiver/environment/ament_prefix_path.dsv
+-- Installing: /home/optimo/workspaces/maestro_ws/install/udp_receiver/share/udp_receiver/environment/path.sh
+-- Installing: /home/optimo/workspaces/maestro_ws/install/udp_receiver/share/udp_receiver/environment/path.dsv
+-- Installing: /home/optimo/workspaces/maestro_ws/install/udp_receiver/share/udp_receiver/local_setup.bash
+-- Installing: /home/optimo/workspaces/maestro_ws/install/udp_receiver/share/udp_receiver/local_setup.sh
+-- Installing: /home/optimo/workspaces/maestro_ws/install/udp_receiver/share/udp_receiver/local_setup.zsh
+-- Installing: /home/optimo/workspaces/maestro_ws/install/udp_receiver/share/udp_receiver/local_setup.dsv
+-- Installing: /home/optimo/workspaces/maestro_ws/install/udp_receiver/share/udp_receiver/package.dsv
+-- Installing: /home/optimo/workspaces/maestro_ws/install/udp_receiver/share/ament_index/resource_index/packages/udp_receiver
+-- Installing: /home/optimo/workspaces/maestro_ws/install/udp_receiver/share/udp_receiver/cmake/udp_receiverConfig.cmake
+-- Installing: /home/optimo/workspaces/maestro_ws/install/udp_receiver/share/udp_receiver/cmake/udp_receiverConfig-version.cmake
+-- Installing: /home/optimo/workspaces/maestro_ws/install/udp_receiver/share/udp_receiver/package.xml

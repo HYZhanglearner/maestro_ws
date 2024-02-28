@@ -1,0 +1,23 @@
+{
+    "ros.distro": "humble",
+    "python.autoComplete.extraPaths": [
+        "/home/optimo/workspaces/build/spaceMouse_navigator",
+        "/home/optimo/workspaces/install/spaceMouse_navigator/lib/python3.10/site-packages",
+        "/home/optimo/workspaces/build/data_collection",
+        "/home/optimo/workspaces/install/data_collection/lib/python3.10/site-packages",
+        "/home/optimo/CODE/roboligent_sdk/optimo_controller/ros_wrapper/build/spaceMouse_navigator",
+        "/home/optimo/CODE/roboligent_sdk/optimo_controller/ros_wrapper/install/spaceMouse_navigator/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/optimo/workspaces/build/spaceMouse_navigator",
+        "/home/optimo/workspaces/install/spaceMouse_navigator/lib/python3.10/site-packages",
+        "/home/optimo/workspaces/build/data_collection",
+        "/home/optimo/workspaces/install/data_collection/lib/python3.10/site-packages",
+        "/home/optimo/CODE/roboligent_sdk/optimo_controller/ros_wrapper/build/spaceMouse_navigator",
+        "/home/optimo/CODE/roboligent_sdk/optimo_controller/ros_wrapper/install/spaceMouse_navigator/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

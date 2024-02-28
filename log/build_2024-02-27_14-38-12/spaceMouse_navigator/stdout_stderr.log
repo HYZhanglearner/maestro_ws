@@ -1,0 +1,20 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+writing spaceMouse_navigator.egg-info/PKG-INFO
+writing dependency_links to spaceMouse_navigator.egg-info/dependency_links.txt
+writing entry points to spaceMouse_navigator.egg-info/entry_points.txt
+writing requirements to spaceMouse_navigator.egg-info/requires.txt
+writing top-level names to spaceMouse_navigator.egg-info/top_level.txt
+reading manifest file 'spaceMouse_navigator.egg-info/SOURCES.txt'
+writing manifest file 'spaceMouse_navigator.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/optimo/workspaces/maestro_ws/install/spaceMouse_navigator/lib/python3.10/site-packages/spaceMouse-navigator.egg-link (link to .)
+Installing spaceMouse_motionTest script to /home/optimo/workspaces/maestro_ws/install/spaceMouse_navigator/lib/spaceMouse_navigator
+Installing spaceMouse_publisher script to /home/optimo/workspaces/maestro_ws/install/spaceMouse_navigator/lib/spaceMouse_navigator
+
+Installed /home/optimo/workspaces/maestro_ws/build/spaceMouse_navigator
+running install_data

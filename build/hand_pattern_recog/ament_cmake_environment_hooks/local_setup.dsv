@@ -1,0 +1,2 @@
+source;share/hand_pattern_recog/environment/ament_prefix_path.sh
+source;share/hand_pattern_recog/environment/path.sh

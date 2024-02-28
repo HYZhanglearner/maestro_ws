@@ -1,0 +1,1489 @@
+[0.000000] (-) TimerEvent: {}
+[0.000074] (data_collection) JobQueued: {'identifier': 'data_collection', 'dependencies': OrderedDict()}
+[0.000092] (hand_pattern_recog) JobQueued: {'identifier': 'hand_pattern_recog', 'dependencies': OrderedDict()}
+[0.000102] (plato_teleop) JobQueued: {'identifier': 'plato_teleop', 'dependencies': OrderedDict()}
+[0.000110] (spaceMouse_navigator) JobQueued: {'identifier': 'spaceMouse_navigator', 'dependencies': OrderedDict()}
+[0.000117] (udp_receiver) JobQueued: {'identifier': 'udp_receiver', 'dependencies': OrderedDict()}
+[0.000388] (data_collection) JobStarted: {'identifier': 'data_collection'}
+[0.049359] (hand_pattern_recog) JobStarted: {'identifier': 'hand_pattern_recog'}
+[0.088968] (plato_teleop) JobStarted: {'identifier': 'plato_teleop'}
+[0.099841] (-) TimerEvent: {}
+[0.129005] (spaceMouse_navigator) JobStarted: {'identifier': 'spaceMouse_navigator'}
+[0.176070] (udp_receiver) JobStarted: {'identifier': 'udp_receiver'}
+[0.199936] (-) TimerEvent: {}
+[0.300160] (-) TimerEvent: {}
+[0.400360] (-) TimerEvent: {}
+[0.400853] (hand_pattern_recog) JobProgress: {'identifier': 'hand_pattern_recog', 'progress': 'cmake'}
+[0.401183] (hand_pattern_recog) Command: {'cmd': ['/usr/bin/cmake', '/home/optimo/workspaces/maestro_ws/src/hand_pattern_recog', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/optimo/workspaces/maestro_ws/install/hand_pattern_recog'], 'cwd': '/home/optimo/workspaces/maestro_ws/build/hand_pattern_recog', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'optimo'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/openrobots/lib:/home/optimo/workspaces/plato_ws/install/plato_hardware_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/optimo'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/optimo/workspaces'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2088'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('COLCON_PREFIX_PATH', '/home/optimo/workspaces/plato_ws/install:/home/optimo/workspaces/spacemouse_ws/install:/home/optimo/roboligent_sdk/optimo_controller/ros_wrapper/install:/home/optimo/workspaces/moveit_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'optimo'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/openrobots/lib/pkgconfig:'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'optimo'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/openrobots/bin:/home/optimo/miniconda3/condabin:/opt/ros/humble/bin:/home/optimo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hcrl-optimo:@/tmp/.ICE-unix/2066,unix/hcrl-optimo:/tmp/.ICE-unix/2066'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/47108c09_9e88_4154_a92b_eca88a6b27d1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.119'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/optimo/roboligent_sdk/optimo_controller/ros_wrapper/install/optimo_sim:/home/optimo/roboligent_sdk/optimo_controller/ros_wrapper/install/optimo_moveit_config:/home/optimo/roboligent_sdk/optimo_controller/ros_wrapper/install/optimo_description:/home/optimo/workspaces/plato_ws/install/plato_teleop:/home/optimo/workspaces/plato_ws/install/plato_pycontroller:/home/optimo/workspaces/plato_ws/install/plato_moveit_config:/home/optimo/workspaces/plato_ws/install/plato_hardware_interface:/home/optimo/workspaces/plato_ws/install/plato_gazebo:/home/optimo/workspaces/plato_ws/install/plato_description:/home/optimo/workspaces/plato_ws/install/plato_bringup:/home/optimo/workspaces/plato_ws/install/optiman_description:/home/optimo/workspaces/spacemouse_ws/install/spaceMouse_navigator:/home/optimo/workspaces/spacemouse_ws/install/data_collection:/home/optimo/workspaces/moveit_ws/install/plato_moveit_control:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/optimo/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/optimo/workspaces/maestro_ws/build/hand_pattern_recog'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/optimo/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/openrobots/lib/python3.10/site-packages:/home/optimo/workspaces/plato_ws/build/plato_pycontroller:/home/optimo/workspaces/plato_ws/install/plato_pycontroller/lib/python3.10/site-packages:/home/optimo/workspaces/spacemouse_ws/install/spaceMouse_navigator/lib/python3.10/site-packages:/home/optimo/workspaces/spacemouse_ws/install/data_collection/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/openrobots:/home/optimo/roboligent_sdk/optimo_controller/ros_wrapper/install/optimo_sim:/home/optimo/roboligent_sdk/optimo_controller/ros_wrapper/install/optimo_moveit_config:/home/optimo/roboligent_sdk/optimo_controller/ros_wrapper/install/optimo_description:/home/optimo/workspaces/plato_ws/install/plato_teleop:/home/optimo/workspaces/plato_ws/install/plato_moveit_config:/home/optimo/workspaces/plato_ws/install/plato_hardware_interface:/home/optimo/workspaces/plato_ws/install/plato_gazebo:/home/optimo/workspaces/plato_ws/install/plato_description:/home/optimo/workspaces/plato_ws/install/plato_bringup:/home/optimo/workspaces/plato_ws/install/optiman_description:/home/optimo/workspaces/moveit_ws/install/plato_moveit_control:/home/optimo/workspaces/plato_ws/install/plato_pycontroller:/home/optimo/workspaces/spacemouse_ws/install/spaceMouse_navigator:/home/optimo/workspaces/spacemouse_ws/install/data_collection:/opt/ros/humble')]), 'shell': False}
+[0.402669] (plato_teleop) JobProgress: {'identifier': 'plato_teleop', 'progress': 'cmake'}
+[0.403210] (plato_teleop) Command: {'cmd': ['/usr/bin/cmake', '/home/optimo/workspaces/maestro_ws/src/plato_teleop', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/optimo/workspaces/maestro_ws/install/plato_teleop'], 'cwd': '/home/optimo/workspaces/maestro_ws/build/plato_teleop', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'optimo'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/openrobots/lib:/home/optimo/workspaces/plato_ws/install/plato_hardware_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/optimo'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/optimo/workspaces'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2088'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('COLCON_PREFIX_PATH', '/home/optimo/workspaces/plato_ws/install:/home/optimo/workspaces/spacemouse_ws/install:/home/optimo/roboligent_sdk/optimo_controller/ros_wrapper/install:/home/optimo/workspaces/moveit_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'optimo'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/openrobots/lib/pkgconfig:'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'optimo'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/openrobots/bin:/home/optimo/miniconda3/condabin:/opt/ros/humble/bin:/home/optimo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hcrl-optimo:@/tmp/.ICE-unix/2066,unix/hcrl-optimo:/tmp/.ICE-unix/2066'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/47108c09_9e88_4154_a92b_eca88a6b27d1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.119'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/optimo/roboligent_sdk/optimo_controller/ros_wrapper/install/optimo_sim:/home/optimo/roboligent_sdk/optimo_controller/ros_wrapper/install/optimo_moveit_config:/home/optimo/roboligent_sdk/optimo_controller/ros_wrapper/install/optimo_description:/home/optimo/workspaces/plato_ws/install/plato_teleop:/home/optimo/workspaces/plato_ws/install/plato_pycontroller:/home/optimo/workspaces/plato_ws/install/plato_moveit_config:/home/optimo/workspaces/plato_ws/install/plato_hardware_interface:/home/optimo/workspaces/plato_ws/install/plato_gazebo:/home/optimo/workspaces/plato_ws/install/plato_description:/home/optimo/workspaces/plato_ws/install/plato_bringup:/home/optimo/workspaces/plato_ws/install/optiman_description:/home/optimo/workspaces/spacemouse_ws/install/spaceMouse_navigator:/home/optimo/workspaces/spacemouse_ws/install/data_collection:/home/optimo/workspaces/moveit_ws/install/plato_moveit_control:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/optimo/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/optimo/workspaces/maestro_ws/build/plato_teleop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/optimo/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/openrobots/lib/python3.10/site-packages:/home/optimo/workspaces/plato_ws/build/plato_pycontroller:/home/optimo/workspaces/plato_ws/install/plato_pycontroller/lib/python3.10/site-packages:/home/optimo/workspaces/spacemouse_ws/install/spaceMouse_navigator/lib/python3.10/site-packages:/home/optimo/workspaces/spacemouse_ws/install/data_collection/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/openrobots:/home/optimo/roboligent_sdk/optimo_controller/ros_wrapper/install/optimo_sim:/home/optimo/roboligent_sdk/optimo_controller/ros_wrapper/install/optimo_moveit_config:/home/optimo/roboligent_sdk/optimo_controller/ros_wrapper/install/optimo_description:/home/optimo/workspaces/plato_ws/install/plato_teleop:/home/optimo/workspaces/plato_ws/install/plato_moveit_config:/home/optimo/workspaces/plato_ws/install/plato_hardware_interface:/home/optimo/workspaces/plato_ws/install/plato_gazebo:/home/optimo/workspaces/plato_ws/install/plato_description:/home/optimo/workspaces/plato_ws/install/plato_bringup:/home/optimo/workspaces/plato_ws/install/optiman_description:/home/optimo/workspaces/moveit_ws/install/plato_moveit_control:/home/optimo/workspaces/plato_ws/install/plato_pycontroller:/home/optimo/workspaces/spacemouse_ws/install/spaceMouse_navigator:/home/optimo/workspaces/spacemouse_ws/install/data_collection:/opt/ros/humble')]), 'shell': False}
+[0.500447] (-) TimerEvent: {}
+[0.600657] (-) TimerEvent: {}
+[0.606051] (hand_pattern_recog) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.606431] (hand_pattern_recog) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.606670] (hand_pattern_recog) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.607057] (hand_pattern_recog) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.607660] (hand_pattern_recog) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.607751] (hand_pattern_recog) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.607910] (hand_pattern_recog) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.607980] (hand_pattern_recog) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.608057] (hand_pattern_recog) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.608131] (hand_pattern_recog) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.608364] (plato_teleop) StdoutLine: {'line': b'-- Found moveit_common: 2.5.5 (/opt/ros/humble/share/moveit_common/cmake)\n'}
+[0.608643] (plato_teleop) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.5 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[0.608737] (plato_teleop) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.608886] (plato_teleop) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.608988] (plato_teleop) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.609087] (plato_teleop) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.609481] (plato_teleop) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.610310] (plato_teleop) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.610392] (udp_receiver) JobProgress: {'identifier': 'udp_receiver', 'progress': 'cmake'}
+[0.610424] (udp_receiver) Command: {'cmd': ['/usr/bin/cmake', '/home/optimo/workspaces/maestro_ws/src/udp_receiver', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/optimo/workspaces/maestro_ws/install/udp_receiver'], 'cwd': '/home/optimo/workspaces/maestro_ws/build/udp_receiver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'optimo'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/openrobots/lib:/home/optimo/workspaces/plato_ws/install/plato_hardware_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/optimo'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/optimo/workspaces'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2088'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('COLCON_PREFIX_PATH', '/home/optimo/workspaces/plato_ws/install:/home/optimo/workspaces/spacemouse_ws/install:/home/optimo/roboligent_sdk/optimo_controller/ros_wrapper/install:/home/optimo/workspaces/moveit_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'optimo'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/openrobots/lib/pkgconfig:'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'optimo'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/openrobots/bin:/home/optimo/miniconda3/condabin:/opt/ros/humble/bin:/home/optimo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hcrl-optimo:@/tmp/.ICE-unix/2066,unix/hcrl-optimo:/tmp/.ICE-unix/2066'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/47108c09_9e88_4154_a92b_eca88a6b27d1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.119'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/optimo/roboligent_sdk/optimo_controller/ros_wrapper/install/optimo_sim:/home/optimo/roboligent_sdk/optimo_controller/ros_wrapper/install/optimo_moveit_config:/home/optimo/roboligent_sdk/optimo_controller/ros_wrapper/install/optimo_description:/home/optimo/workspaces/plato_ws/install/plato_teleop:/home/optimo/workspaces/plato_ws/install/plato_pycontroller:/home/optimo/workspaces/plato_ws/install/plato_moveit_config:/home/optimo/workspaces/plato_ws/install/plato_hardware_interface:/home/optimo/workspaces/plato_ws/install/plato_gazebo:/home/optimo/workspaces/plato_ws/install/plato_description:/home/optimo/workspaces/plato_ws/install/plato_bringup:/home/optimo/workspaces/plato_ws/install/optiman_description:/home/optimo/workspaces/spacemouse_ws/install/spaceMouse_navigator:/home/optimo/workspaces/spacemouse_ws/install/data_collection:/home/optimo/workspaces/moveit_ws/install/plato_moveit_control:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/optimo/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/optimo/workspaces/maestro_ws/build/udp_receiver'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/optimo/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/openrobots/lib/python3.10/site-packages:/home/optimo/workspaces/plato_ws/build/plato_pycontroller:/home/optimo/workspaces/plato_ws/install/plato_pycontroller/lib/python3.10/site-packages:/home/optimo/workspaces/spacemouse_ws/install/spaceMouse_navigator/lib/python3.10/site-packages:/home/optimo/workspaces/spacemouse_ws/install/data_collection/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/openrobots:/home/optimo/roboligent_sdk/optimo_controller/ros_wrapper/install/optimo_sim:/home/optimo/roboligent_sdk/optimo_controller/ros_wrapper/install/optimo_moveit_config:/home/optimo/roboligent_sdk/optimo_controller/ros_wrapper/install/optimo_description:/home/optimo/workspaces/plato_ws/install/plato_teleop:/home/optimo/workspaces/plato_ws/install/plato_moveit_config:/home/optimo/workspaces/plato_ws/install/plato_hardware_interface:/home/optimo/workspaces/plato_ws/install/plato_gazebo:/home/optimo/workspaces/plato_ws/install/plato_description:/home/optimo/workspaces/plato_ws/install/plato_bringup:/home/optimo/workspaces/plato_ws/install/optiman_description:/home/optimo/workspaces/moveit_ws/install/plato_moveit_control:/home/optimo/workspaces/plato_ws/install/plato_pycontroller:/home/optimo/workspaces/spacemouse_ws/install/spaceMouse_navigator:/home/optimo/workspaces/spacemouse_ws/install/data_collection:/opt/ros/humble')]), 'shell': False}
+[0.623066] (plato_teleop) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[0.623200] (plato_teleop) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[0.623537] (udp_receiver) StdoutLine: {'line': b"-- Checking for module 'glut'\n"}
+[0.625173] (udp_receiver) StdoutLine: {'line': b"--   No package 'glut' found\n"}
+[0.626960] (udp_receiver) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.683073] (hand_pattern_recog) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.685076] (plato_teleop) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.686064] (plato_teleop) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.700749] (-) TimerEvent: {}
+[0.731886] (udp_receiver) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.735901] (udp_receiver) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.755575] (udp_receiver) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.757842] (udp_receiver) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.763424] (udp_receiver) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.763584] (plato_teleop) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.773567] (hand_pattern_recog) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.774361] (udp_receiver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.789865] (udp_receiver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.800821] (-) TimerEvent: {}
+[0.820570] (data_collection) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/optimo/workspaces/maestro_ws/build/data_collection/build', '--no-deps', 'install_data'], 'cwd': '/home/optimo/workspaces/maestro_ws/build/data_collection', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'optimo', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/openrobots/lib:/home/optimo/workspaces/plato_ws/install/plato_hardware_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/optimo', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/optimo/workspaces', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2088', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'COLCON_PREFIX_PATH': '/home/optimo/workspaces/plato_ws/install:/home/optimo/workspaces/spacemouse_ws/install:/home/optimo/roboligent_sdk/optimo_controller/ros_wrapper/install:/home/optimo/workspaces/moveit_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'optimo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/opt/openrobots/lib/pkgconfig:', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'optimo', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/openrobots/bin:/home/optimo/miniconda3/condabin:/opt/ros/humble/bin:/home/optimo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/hcrl-optimo:@/tmp/.ICE-unix/2066,unix/hcrl-optimo:/tmp/.ICE-unix/2066', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/47108c09_9e88_4154_a92b_eca88a6b27d1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.119', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/optimo/roboligent_sdk/optimo_controller/ros_wrapper/install/optimo_sim:/home/optimo/roboligent_sdk/optimo_controller/ros_wrapper/install/optimo_moveit_config:/home/optimo/roboligent_sdk/optimo_controller/ros_wrapper/install/optimo_description:/home/optimo/workspaces/plato_ws/install/plato_teleop:/home/optimo/workspaces/plato_ws/install/plato_pycontroller:/home/optimo/workspaces/plato_ws/install/plato_moveit_config:/home/optimo/workspaces/plato_ws/install/plato_hardware_interface:/home/optimo/workspaces/plato_ws/install/plato_gazebo:/home/optimo/workspaces/plato_ws/install/plato_description:/home/optimo/workspaces/plato_ws/install/plato_bringup:/home/optimo/workspaces/plato_ws/install/optiman_description:/home/optimo/workspaces/spacemouse_ws/install/spaceMouse_navigator:/home/optimo/workspaces/spacemouse_ws/install/data_collection:/home/optimo/workspaces/moveit_ws/install/plato_moveit_control:/opt/ros/humble', 'CONDA_PYTHON_EXE': '/home/optimo/miniconda3/bin/python', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/optimo/workspaces/maestro_ws/build/data_collection', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/optimo/miniconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/optimo/workspaces/maestro_ws/build/data_collection/prefix_override:/home/optimo/workspaces/maestro_ws/install/data_collection/lib/python3.10/site-packages:/opt/openrobots/lib/python3.10/site-packages:/home/optimo/workspaces/plato_ws/build/plato_pycontroller:/home/optimo/workspaces/plato_ws/install/plato_pycontroller/lib/python3.10/site-packages:/home/optimo/workspaces/spacemouse_ws/install/spaceMouse_navigator/lib/python3.10/site-packages:/home/optimo/workspaces/spacemouse_ws/install/data_collection/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/opt/openrobots:/home/optimo/roboligent_sdk/optimo_controller/ros_wrapper/install/optimo_sim:/home/optimo/roboligent_sdk/optimo_controller/ros_wrapper/install/optimo_moveit_config:/home/optimo/roboligent_sdk/optimo_controller/ros_wrapper/install/optimo_description:/home/optimo/workspaces/plato_ws/install/plato_teleop:/home/optimo/workspaces/plato_ws/install/plato_moveit_config:/home/optimo/workspaces/plato_ws/install/plato_hardware_interface:/home/optimo/workspaces/plato_ws/install/plato_gazebo:/home/optimo/workspaces/plato_ws/install/plato_description:/home/optimo/workspaces/plato_ws/install/plato_bringup:/home/optimo/workspaces/plato_ws/install/optiman_description:/home/optimo/workspaces/moveit_ws/install/plato_moveit_control'}, 'shell': False}
+[0.846574] (udp_receiver) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.848128] (udp_receiver) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.866363] (spaceMouse_navigator) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/optimo/workspaces/maestro_ws/build/spaceMouse_navigator/build', '--no-deps', 'install_data'], 'cwd': '/home/optimo/workspaces/maestro_ws/build/spaceMouse_navigator', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'optimo', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/openrobots/lib:/home/optimo/workspaces/plato_ws/install/plato_hardware_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/optimo', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/optimo/workspaces', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2088', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'COLCON_PREFIX_PATH': '/home/optimo/workspaces/plato_ws/install:/home/optimo/workspaces/spacemouse_ws/install:/home/optimo/roboligent_sdk/optimo_controller/ros_wrapper/install:/home/optimo/workspaces/moveit_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'optimo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/opt/openrobots/lib/pkgconfig:', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'optimo', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/openrobots/bin:/home/optimo/miniconda3/condabin:/opt/ros/humble/bin:/home/optimo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/hcrl-optimo:@/tmp/.ICE-unix/2066,unix/hcrl-optimo:/tmp/.ICE-unix/2066', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/47108c09_9e88_4154_a92b_eca88a6b27d1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.119', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/optimo/roboligent_sdk/optimo_controller/ros_wrapper/install/optimo_sim:/home/optimo/roboligent_sdk/optimo_controller/ros_wrapper/install/optimo_moveit_config:/home/optimo/roboligent_sdk/optimo_controller/ros_wrapper/install/optimo_description:/home/optimo/workspaces/plato_ws/install/plato_teleop:/home/optimo/workspaces/plato_ws/install/plato_pycontroller:/home/optimo/workspaces/plato_ws/install/plato_moveit_config:/home/optimo/workspaces/plato_ws/install/plato_hardware_interface:/home/optimo/workspaces/plato_ws/install/plato_gazebo:/home/optimo/workspaces/plato_ws/install/plato_description:/home/optimo/workspaces/plato_ws/install/plato_bringup:/home/optimo/workspaces/plato_ws/install/optiman_description:/home/optimo/workspaces/spacemouse_ws/install/spaceMouse_navigator:/home/optimo/workspaces/spacemouse_ws/install/data_collection:/home/optimo/workspaces/moveit_ws/install/plato_moveit_control:/opt/ros/humble', 'CONDA_PYTHON_EXE': '/home/optimo/miniconda3/bin/python', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/optimo/workspaces/maestro_ws/build/spaceMouse_navigator', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/optimo/miniconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/optimo/workspaces/maestro_ws/build/spaceMouse_navigator/prefix_override:/home/optimo/workspaces/maestro_ws/install/spaceMouse_navigator/lib/python3.10/site-packages:/opt/openrobots/lib/python3.10/site-packages:/home/optimo/workspaces/plato_ws/build/plato_pycontroller:/home/optimo/workspaces/plato_ws/install/plato_pycontroller/lib/python3.10/site-packages:/home/optimo/workspaces/spacemouse_ws/install/spaceMouse_navigator/lib/python3.10/site-packages:/home/optimo/workspaces/spacemouse_ws/install/data_collection/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/opt/openrobots:/home/optimo/roboligent_sdk/optimo_controller/ros_wrapper/install/optimo_sim:/home/optimo/roboligent_sdk/optimo_controller/ros_wrapper/install/optimo_moveit_config:/home/optimo/roboligent_sdk/optimo_controller/ros_wrapper/install/optimo_description:/home/optimo/workspaces/plato_ws/install/plato_teleop:/home/optimo/workspaces/plato_ws/install/plato_moveit_config:/home/optimo/workspaces/plato_ws/install/plato_hardware_interface:/home/optimo/workspaces/plato_ws/install/plato_gazebo:/home/optimo/workspaces/plato_ws/install/plato_description:/home/optimo/workspaces/plato_ws/install/plato_bringup:/home/optimo/workspaces/plato_ws/install/optiman_description:/home/optimo/workspaces/moveit_ws/install/plato_moveit_control'}, 'shell': False}
+[0.900907] (-) TimerEvent: {}
+[0.904257] (hand_pattern_recog) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.932784] (udp_receiver) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.942278] (hand_pattern_recog) StdoutLine: {'line': b'-- Generating done\n'}
+[0.943118] (hand_pattern_recog) StdoutLine: {'line': b'-- Build files have been written to: /home/optimo/workspaces/maestro_ws/build/hand_pattern_recog\n'}
+[0.947937] (hand_pattern_recog) CommandEnded: {'returncode': 0}
+[0.948240] (hand_pattern_recog) JobProgress: {'identifier': 'hand_pattern_recog', 'progress': 'build'}
+[0.948609] (hand_pattern_recog) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/optimo/workspaces/maestro_ws/build/hand_pattern_recog', '--', '-j20', '-l20'], 'cwd': '/home/optimo/workspaces/maestro_ws/build/hand_pattern_recog', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'optimo'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/openrobots/lib:/home/optimo/workspaces/plato_ws/install/plato_hardware_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/optimo'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/optimo/workspaces'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2088'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('COLCON_PREFIX_PATH', '/home/optimo/workspaces/plato_ws/install:/home/optimo/workspaces/spacemouse_ws/install:/home/optimo/roboligent_sdk/optimo_controller/ros_wrapper/install:/home/optimo/workspaces/moveit_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'optimo'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/openrobots/lib/pkgconfig:'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'optimo'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/openrobots/bin:/home/optimo/miniconda3/condabin:/opt/ros/humble/bin:/home/optimo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hcrl-optimo:@/tmp/.ICE-unix/2066,unix/hcrl-optimo:/tmp/.ICE-unix/2066'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/47108c09_9e88_4154_a92b_eca88a6b27d1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.119'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/optimo/roboligent_sdk/optimo_controller/ros_wrapper/install/optimo_sim:/home/optimo/roboligent_sdk/optimo_controller/ros_wrapper/install/optimo_moveit_config:/home/optimo/roboligent_sdk/optimo_controller/ros_wrapper/install/optimo_description:/home/optimo/workspaces/plato_ws/install/plato_teleop:/home/optimo/workspaces/plato_ws/install/plato_pycontroller:/home/optimo/workspaces/plato_ws/install/plato_moveit_config:/home/optimo/workspaces/plato_ws/install/plato_hardware_interface:/home/optimo/workspaces/plato_ws/install/plato_gazebo:/home/optimo/workspaces/plato_ws/install/plato_description:/home/optimo/workspaces/plato_ws/install/plato_bringup:/home/optimo/workspaces/plato_ws/install/optiman_description:/home/optimo/workspaces/spacemouse_ws/install/spaceMouse_navigator:/home/optimo/workspaces/spacemouse_ws/install/data_collection:/home/optimo/workspaces/moveit_ws/install/plato_moveit_control:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/optimo/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/optimo/workspaces/maestro_ws/build/hand_pattern_recog'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/optimo/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/openrobots/lib/python3.10/site-packages:/home/optimo/workspaces/plato_ws/build/plato_pycontroller:/home/optimo/workspaces/plato_ws/install/plato_pycontroller/lib/python3.10/site-packages:/home/optimo/workspaces/spacemouse_ws/install/spaceMouse_navigator/lib/python3.10/site-packages:/home/optimo/workspaces/spacemouse_ws/install/data_collection/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/openrobots:/home/optimo/roboligent_sdk/optimo_controller/ros_wrapper/install/optimo_sim:/home/optimo/roboligent_sdk/optimo_controller/ros_wrapper/install/optimo_moveit_config:/home/optimo/roboligent_sdk/optimo_controller/ros_wrapper/install/optimo_description:/home/optimo/workspaces/plato_ws/install/plato_teleop:/home/optimo/workspaces/plato_ws/install/plato_moveit_config:/home/optimo/workspaces/plato_ws/install/plato_hardware_interface:/home/optimo/workspaces/plato_ws/install/plato_gazebo:/home/optimo/workspaces/plato_ws/install/plato_description:/home/optimo/workspaces/plato_ws/install/plato_bringup:/home/optimo/workspaces/plato_ws/install/optiman_description:/home/optimo/workspaces/moveit_ws/install/plato_moveit_control:/home/optimo/workspaces/plato_ws/install/plato_pycontroller:/home/optimo/workspaces/spacemouse_ws/install/spaceMouse_navigator:/home/optimo/workspaces/spacemouse_ws/install/data_collection:/opt/ros/humble')]), 'shell': False}
+[0.971772] (hand_pattern_recog) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target hand_pattern_recog\x1b[0m\n'}
+[0.980735] (data_collection) StdoutLine: {'line': b'running develop\n'}
+[0.981186] (data_collection) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[0.981271] (data_collection) StderrLine: {'line': b'  warnings.warn(\n'}
+[0.981966] (data_collection) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[0.982011] (data_collection) StderrLine: {'line': b'  warnings.warn(\n'}
+[0.984804] (hand_pattern_recog) StdoutLine: {'line': b'[ 33%] \x1b[32m\x1b[1mLinking CXX executable hand_pattern_recog\x1b[0m\n'}
+[1.001002] (-) TimerEvent: {}
+[1.016399] (spaceMouse_navigator) StdoutLine: {'line': b'running develop\n'}
+[1.016627] (spaceMouse_navigator) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[1.016725] (spaceMouse_navigator) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.017414] (spaceMouse_navigator) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[1.017484] (spaceMouse_navigator) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.028171] (udp_receiver) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.060107] (plato_teleop) StdoutLine: {'line': b'-- BACKWARD_HAS_UNWIND=1\n'}
+[1.060272] (plato_teleop) StdoutLine: {'line': b'-- BACKWARD_HAS_BACKTRACE=0\n'}
+[1.060341] (plato_teleop) StdoutLine: {'line': b'-- BACKWARD_HAS_BACKTRACE_SYMBOL=0\n'}
+[1.060406] (plato_teleop) StdoutLine: {'line': b'-- BACKWARD_HAS_DW=1\n'}
+[1.060470] (plato_teleop) StdoutLine: {'line': b'-- BACKWARD_HAS_BFD=0\n'}
+[1.060546] (plato_teleop) StdoutLine: {'line': b'-- Found Backward: /opt/ros/humble/share/backward_ros/cmake  \n'}
+[1.060754] (plato_teleop) StderrLine: {'line': b"\x1b[0mplato_teleop: You did not request a specific build type: Choosing 'Release' for maximum performance\x1b[0m\n"}
+[1.063225] (plato_teleop) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")  \n'}
+[1.063620] (plato_teleop) StdoutLine: {'line': b'-- Found control_msgs: 4.4.0 (/opt/ros/humble/share/control_msgs/cmake)\n'}
+[1.099957] (data_collection) StdoutLine: {'line': b'running egg_info\n'}
+[1.100146] (data_collection) StdoutLine: {'line': b'writing data_collection.egg-info/PKG-INFO\n'}
+[1.100318] (data_collection) StdoutLine: {'line': b'writing dependency_links to data_collection.egg-info/dependency_links.txt\n'}
+[1.100433] (data_collection) StdoutLine: {'line': b'writing entry points to data_collection.egg-info/entry_points.txt\n'}
+[1.100526] (data_collection) StdoutLine: {'line': b'writing requirements to data_collection.egg-info/requires.txt\n'}
+[1.100599] (data_collection) StdoutLine: {'line': b'writing top-level names to data_collection.egg-info/top_level.txt\n'}
+[1.101064] (-) TimerEvent: {}
+[1.102178] (data_collection) StdoutLine: {'line': b"reading manifest file 'data_collection.egg-info/SOURCES.txt'\n"}
+[1.102789] (data_collection) StdoutLine: {'line': b"writing manifest file 'data_collection.egg-info/SOURCES.txt'\n"}
+[1.103930] (data_collection) StdoutLine: {'line': b'running build_ext\n'}
+[1.104085] (data_collection) StdoutLine: {'line': b'Creating /home/optimo/workspaces/maestro_ws/install/data_collection/lib/python3.10/site-packages/data-collection.egg-link (link to .)\n'}
+[1.104663] (data_collection) StdoutLine: {'line': b'Installing data_collection script to /home/optimo/workspaces/maestro_ws/install/data_collection/lib/data_collection\n'}
+[1.104854] (data_collection) StdoutLine: {'line': b'\n'}
+[1.104923] (data_collection) StdoutLine: {'line': b'Installed /home/optimo/workspaces/maestro_ws/build/data_collection\n'}
+[1.105001] (data_collection) StdoutLine: {'line': b'running install_data\n'}
+[1.108187] (spaceMouse_navigator) StdoutLine: {'line': b'running egg_info\n'}
+[1.108324] (spaceMouse_navigator) StdoutLine: {'line': b'writing spaceMouse_navigator.egg-info/PKG-INFO\n'}
+[1.108497] (spaceMouse_navigator) StdoutLine: {'line': b'writing dependency_links to spaceMouse_navigator.egg-info/dependency_links.txt\n'}
+[1.108634] (spaceMouse_navigator) StdoutLine: {'line': b'writing entry points to spaceMouse_navigator.egg-info/entry_points.txt\n'}
+[1.108720] (spaceMouse_navigator) StdoutLine: {'line': b'writing requirements to spaceMouse_navigator.egg-info/requires.txt\n'}
+[1.108783] (spaceMouse_navigator) StdoutLine: {'line': b'writing top-level names to spaceMouse_navigator.egg-info/top_level.txt\n'}
+[1.109835] (spaceMouse_navigator) StdoutLine: {'line': b"reading manifest file 'spaceMouse_navigator.egg-info/SOURCES.txt'\n"}
+[1.110235] (spaceMouse_navigator) StdoutLine: {'line': b"writing manifest file 'spaceMouse_navigator.egg-info/SOURCES.txt'\n"}
+[1.111069] (spaceMouse_navigator) StdoutLine: {'line': b'running build_ext\n'}
+[1.111186] (spaceMouse_navigator) StdoutLine: {'line': b'Creating /home/optimo/workspaces/maestro_ws/install/spaceMouse_navigator/lib/python3.10/site-packages/spaceMouse-navigator.egg-link (link to .)\n'}
+[1.111699] (spaceMouse_navigator) StdoutLine: {'line': b'Installing spaceMouse_motionTest script to /home/optimo/workspaces/maestro_ws/install/spaceMouse_navigator/lib/spaceMouse_navigator\n'}
+[1.111762] (spaceMouse_navigator) StdoutLine: {'line': b'Installing spaceMouse_publisher script to /home/optimo/workspaces/maestro_ws/install/spaceMouse_navigator/lib/spaceMouse_navigator\n'}
+[1.111869] (spaceMouse_navigator) StdoutLine: {'line': b'\n'}
+[1.111915] (spaceMouse_navigator) StdoutLine: {'line': b'Installed /home/optimo/workspaces/maestro_ws/build/spaceMouse_navigator\n'}
+[1.111946] (spaceMouse_navigator) StdoutLine: {'line': b'running install_data\n'}
+[1.130033] (data_collection) CommandEnded: {'returncode': 0}
+[1.167141] (data_collection) JobEnded: {'identifier': 'data_collection', 'rc': 0}
+[1.168345] (spaceMouse_navigator) CommandEnded: {'returncode': 0}
+[1.198697] (udp_receiver) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.201226] (-) TimerEvent: {}
+[1.204898] (spaceMouse_navigator) JobEnded: {'identifier': 'spaceMouse_navigator', 'rc': 0}
+[1.282337] (udp_receiver) StdoutLine: {'line': b'-- Generating done\n'}
+[1.283400] (udp_receiver) StdoutLine: {'line': b'-- Build files have been written to: /home/optimo/workspaces/maestro_ws/build/udp_receiver\n'}
+[1.288864] (udp_receiver) CommandEnded: {'returncode': 0}
+[1.289328] (udp_receiver) JobProgress: {'identifier': 'udp_receiver', 'progress': 'build'}
+[1.289610] (udp_receiver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/optimo/workspaces/maestro_ws/build/udp_receiver', '--', '-j20', '-l20'], 'cwd': '/home/optimo/workspaces/maestro_ws/build/udp_receiver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'optimo'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/openrobots/lib:/home/optimo/workspaces/plato_ws/install/plato_hardware_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/optimo'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/optimo/workspaces'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2088'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('COLCON_PREFIX_PATH', '/home/optimo/workspaces/plato_ws/install:/home/optimo/workspaces/spacemouse_ws/install:/home/optimo/roboligent_sdk/optimo_controller/ros_wrapper/install:/home/optimo/workspaces/moveit_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'optimo'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/openrobots/lib/pkgconfig:'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'optimo'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/openrobots/bin:/home/optimo/miniconda3/condabin:/opt/ros/humble/bin:/home/optimo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hcrl-optimo:@/tmp/.ICE-unix/2066,unix/hcrl-optimo:/tmp/.ICE-unix/2066'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/47108c09_9e88_4154_a92b_eca88a6b27d1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.119'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/optimo/roboligent_sdk/optimo_controller/ros_wrapper/install/optimo_sim:/home/optimo/roboligent_sdk/optimo_controller/ros_wrapper/install/optimo_moveit_config:/home/optimo/roboligent_sdk/optimo_controller/ros_wrapper/install/optimo_description:/home/optimo/workspaces/plato_ws/install/plato_teleop:/home/optimo/workspaces/plato_ws/install/plato_pycontroller:/home/optimo/workspaces/plato_ws/install/plato_moveit_config:/home/optimo/workspaces/plato_ws/install/plato_hardware_interface:/home/optimo/workspaces/plato_ws/install/plato_gazebo:/home/optimo/workspaces/plato_ws/install/plato_description:/home/optimo/workspaces/plato_ws/install/plato_bringup:/home/optimo/workspaces/plato_ws/install/optiman_description:/home/optimo/workspaces/spacemouse_ws/install/spaceMouse_navigator:/home/optimo/workspaces/spacemouse_ws/install/data_collection:/home/optimo/workspaces/moveit_ws/install/plato_moveit_control:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/optimo/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/optimo/workspaces/maestro_ws/build/udp_receiver'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/optimo/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/openrobots/lib/python3.10/site-packages:/home/optimo/workspaces/plato_ws/build/plato_pycontroller:/home/optimo/workspaces/plato_ws/install/plato_pycontroller/lib/python3.10/site-packages:/home/optimo/workspaces/spacemouse_ws/install/spaceMouse_navigator/lib/python3.10/site-packages:/home/optimo/workspaces/spacemouse_ws/install/data_collection/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/openrobots:/home/optimo/roboligent_sdk/optimo_controller/ros_wrapper/install/optimo_sim:/home/optimo/roboligent_sdk/optimo_controller/ros_wrapper/install/optimo_moveit_config:/home/optimo/roboligent_sdk/optimo_controller/ros_wrapper/install/optimo_description:/home/optimo/workspaces/plato_ws/install/plato_teleop:/home/optimo/workspaces/plato_ws/install/plato_moveit_config:/home/optimo/workspaces/plato_ws/install/plato_hardware_interface:/home/optimo/workspaces/plato_ws/install/plato_gazebo:/home/optimo/workspaces/plato_ws/install/plato_description:/home/optimo/workspaces/plato_ws/install/plato_bringup:/home/optimo/workspaces/plato_ws/install/optiman_description:/home/optimo/workspaces/moveit_ws/install/plato_moveit_control:/home/optimo/workspaces/plato_ws/install/plato_pycontroller:/home/optimo/workspaces/spacemouse_ws/install/spaceMouse_navigator:/home/optimo/workspaces/spacemouse_ws/install/data_collection:/opt/ros/humble')]), 'shell': False}
+[1.301324] (-) TimerEvent: {}
+[1.314133] (udp_receiver) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target render_test\x1b[0m\n'}
+[1.315131] (udp_receiver) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target UDPReceiver\x1b[0m\n'}
+[1.315358] (udp_receiver) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target UDPReceiver_mthread\x1b[0m\n'}
+[1.323019] (udp_receiver) StdoutLine: {'line': b'[  9%] \x1b[32m\x1b[1mLinking CXX executable render_test\x1b[0m\n'}
+[1.329575] (udp_receiver) StdoutLine: {'line': b'[ 18%] \x1b[32m\x1b[1mLinking CXX executable UDPReceiver\x1b[0m\n'}
+[1.331583] (udp_receiver) StdoutLine: {'line': b'[ 27%] \x1b[32m\x1b[1mLinking CXX executable UDPReceiver_mthread\x1b[0m\n'}
+[1.401421] (-) TimerEvent: {}
+[1.405860] (plato_teleop) StdoutLine: {'line': b'-- Found interactive_markers: 2.3.2 (/opt/ros/humble/share/interactive_markers/cmake)\n'}
+[1.501509] (-) TimerEvent: {}
+[1.539732] (plato_teleop) StdoutLine: {'line': b'-- Found moveit_core: 2.5.5 (/opt/ros/humble/share/moveit_core/cmake)\n'}
+[1.553759] (plato_teleop) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread \n'}
+[1.561249] (plato_teleop) StdoutLine: {'line': b'-- Found parameter_traits: 0.3.7 (/opt/ros/humble/share/parameter_traits/cmake)\n'}
+[1.575348] (plato_teleop) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 16.0.8 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)\n'}
+[1.601599] (-) TimerEvent: {}
+[1.619474] (plato_teleop) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem \n'}
+[1.655536] (plato_teleop) StdoutLine: {'line': b'-- library: /usr/lib/x86_64-linux-gnu/libcurl.so\n'}
+[1.701687] (-) TimerEvent: {}
+[1.801914] (-) TimerEvent: {}
+[1.902152] (-) TimerEvent: {}
+[1.910182] (hand_pattern_recog) StdoutLine: {'line': b'[100%] Built target hand_pattern_recog\n'}
+[1.912994] (udp_receiver) StdoutLine: {'line': b'[ 54%] Built target UDPReceiver_mthread\n'}
+[1.916158] (hand_pattern_recog) CommandEnded: {'returncode': 0}
+[1.930399] (hand_pattern_recog) JobProgress: {'identifier': 'hand_pattern_recog', 'progress': 'install'}
+[1.935386] (hand_pattern_recog) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/optimo/workspaces/maestro_ws/build/hand_pattern_recog'], 'cwd': '/home/optimo/workspaces/maestro_ws/build/hand_pattern_recog', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'optimo'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/openrobots/lib:/home/optimo/workspaces/plato_ws/install/plato_hardware_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/optimo'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/optimo/workspaces'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2088'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('COLCON_PREFIX_PATH', '/home/optimo/workspaces/plato_ws/install:/home/optimo/workspaces/spacemouse_ws/install:/home/optimo/roboligent_sdk/optimo_controller/ros_wrapper/install:/home/optimo/workspaces/moveit_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'optimo'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/openrobots/lib/pkgconfig:'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'optimo'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/openrobots/bin:/home/optimo/miniconda3/condabin:/opt/ros/humble/bin:/home/optimo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hcrl-optimo:@/tmp/.ICE-unix/2066,unix/hcrl-optimo:/tmp/.ICE-unix/2066'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/47108c09_9e88_4154_a92b_eca88a6b27d1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.119'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/optimo/roboligent_sdk/optimo_controller/ros_wrapper/install/optimo_sim:/home/optimo/roboligent_sdk/optimo_controller/ros_wrapper/install/optimo_moveit_config:/home/optimo/roboligent_sdk/optimo_controller/ros_wrapper/install/optimo_description:/home/optimo/workspaces/plato_ws/install/plato_teleop:/home/optimo/workspaces/plato_ws/install/plato_pycontroller:/home/optimo/workspaces/plato_ws/install/plato_moveit_config:/home/optimo/workspaces/plato_ws/install/plato_hardware_interface:/home/optimo/workspaces/plato_ws/install/plato_gazebo:/home/optimo/workspaces/plato_ws/install/plato_description:/home/optimo/workspaces/plato_ws/install/plato_bringup:/home/optimo/workspaces/plato_ws/install/optiman_description:/home/optimo/workspaces/spacemouse_ws/install/spaceMouse_navigator:/home/optimo/workspaces/spacemouse_ws/install/data_collection:/home/optimo/workspaces/moveit_ws/install/plato_moveit_control:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/optimo/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/optimo/workspaces/maestro_ws/build/hand_pattern_recog'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/optimo/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/openrobots/lib/python3.10/site-packages:/home/optimo/workspaces/plato_ws/build/plato_pycontroller:/home/optimo/workspaces/plato_ws/install/plato_pycontroller/lib/python3.10/site-packages:/home/optimo/workspaces/spacemouse_ws/install/spaceMouse_navigator/lib/python3.10/site-packages:/home/optimo/workspaces/spacemouse_ws/install/data_collection/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/openrobots:/home/optimo/roboligent_sdk/optimo_controller/ros_wrapper/install/optimo_sim:/home/optimo/roboligent_sdk/optimo_controller/ros_wrapper/install/optimo_moveit_config:/home/optimo/roboligent_sdk/optimo_controller/ros_wrapper/install/optimo_description:/home/optimo/workspaces/plato_ws/install/plato_teleop:/home/optimo/workspaces/plato_ws/install/plato_moveit_config:/home/optimo/workspaces/plato_ws/install/plato_hardware_interface:/home/optimo/workspaces/plato_ws/install/plato_gazebo:/home/optimo/workspaces/plato_ws/install/plato_description:/home/optimo/workspaces/plato_ws/install/plato_bringup:/home/optimo/workspaces/plato_ws/install/optiman_description:/home/optimo/workspaces/moveit_ws/install/plato_moveit_control:/home/optimo/workspaces/plato_ws/install/plato_pycontroller:/home/optimo/workspaces/spacemouse_ws/install/spaceMouse_navigator:/home/optimo/workspaces/spacemouse_ws/install/data_collection:/opt/ros/humble')]), 'shell': False}
+[1.940075] (hand_pattern_recog) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.940355] (hand_pattern_recog) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[1.940493] (hand_pattern_recog) StdoutLine: {'line': b'-- Symlinking: /home/optimo/workspaces/maestro_ws/install/hand_pattern_recog/lib/hand_pattern_recog/hand_pattern_recog\n'}
+[1.945159] (hand_pattern_recog) StdoutLine: {'line': b'-- Symlinking: /home/optimo/workspaces/maestro_ws/install/hand_pattern_recog/share/ament_index/resource_index/package_run_dependencies/hand_pattern_recog\n'}
+[1.949594] (hand_pattern_recog) StdoutLine: {'line': b'-- Symlinking: /home/optimo/workspaces/maestro_ws/install/hand_pattern_recog/share/ament_index/resource_index/parent_prefix_path/hand_pattern_recog\n'}
+[1.953780] (hand_pattern_recog) StdoutLine: {'line': b'-- Symlinking: /home/optimo/workspaces/maestro_ws/install/hand_pattern_recog/share/hand_pattern_recog/environment/ament_prefix_path.sh\n'}
+[1.963484] (hand_pattern_recog) StdoutLine: {'line': b'-- Symlinking: /home/optimo/workspaces/maestro_ws/install/hand_pattern_recog/share/hand_pattern_recog/environment/ament_prefix_path.dsv\n'}
+[1.967781] (hand_pattern_recog) StdoutLine: {'line': b'-- Symlinking: /home/optimo/workspaces/maestro_ws/install/hand_pattern_recog/share/hand_pattern_recog/environment/path.sh\n'}
+[1.972075] (hand_pattern_recog) StdoutLine: {'line': b'-- Symlinking: /home/optimo/workspaces/maestro_ws/install/hand_pattern_recog/share/hand_pattern_recog/environment/path.dsv\n'}
+[1.976331] (hand_pattern_recog) StdoutLine: {'line': b'-- Symlinking: /home/optimo/workspaces/maestro_ws/install/hand_pattern_recog/share/hand_pattern_recog/local_setup.bash\n'}
+[1.980533] (hand_pattern_recog) StdoutLine: {'line': b'-- Symlinking: /home/optimo/workspaces/maestro_ws/install/hand_pattern_recog/share/hand_pattern_recog/local_setup.sh\n'}
+[1.984845] (hand_pattern_recog) StdoutLine: {'line': b'-- Symlinking: /home/optimo/workspaces/maestro_ws/install/hand_pattern_recog/share/hand_pattern_recog/local_setup.zsh\n'}
+[1.989117] (hand_pattern_recog) StdoutLine: {'line': b'-- Symlinking: /home/optimo/workspaces/maestro_ws/install/hand_pattern_recog/share/hand_pattern_recog/local_setup.dsv\n'}
+[1.993812] (hand_pattern_recog) StdoutLine: {'line': b'-- Symlinking: /home/optimo/workspaces/maestro_ws/install/hand_pattern_recog/share/hand_pattern_recog/package.dsv\n'}
+[1.998588] (hand_pattern_recog) StdoutLine: {'line': b'-- Symlinking: /home/optimo/workspaces/maestro_ws/install/hand_pattern_recog/share/ament_index/resource_index/packages/hand_pattern_recog\n'}
+[2.002215] (-) TimerEvent: {}
+[2.003004] (hand_pattern_recog) StdoutLine: {'line': b'-- Symlinking: /home/optimo/workspaces/maestro_ws/install/hand_pattern_recog/share/hand_pattern_recog/cmake/hand_pattern_recogConfig.cmake\n'}
+[2.007140] (hand_pattern_recog) StdoutLine: {'line': b'-- Symlinking: /home/optimo/workspaces/maestro_ws/install/hand_pattern_recog/share/hand_pattern_recog/cmake/hand_pattern_recogConfig-version.cmake\n'}
+[2.011283] (hand_pattern_recog) StdoutLine: {'line': b'-- Symlinking: /home/optimo/workspaces/maestro_ws/install/hand_pattern_recog/share/hand_pattern_recog/package.xml\n'}
+[2.016472] (hand_pattern_recog) CommandEnded: {'returncode': 0}
+[2.091935] (hand_pattern_recog) JobEnded: {'identifier': 'hand_pattern_recog', 'rc': 0}
+[2.102324] (-) TimerEvent: {}
+[2.171926] (plato_teleop) StdoutLine: {'line': b'-- Found moveit_ros_planning: 2.5.5 (/opt/ros/humble/share/moveit_ros_planning/cmake)\n'}
+[2.175090] (plato_teleop) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono \n'}
+[2.202406] (-) TimerEvent: {}
+[2.302625] (-) TimerEvent: {}
+[2.402850] (-) TimerEvent: {}
+[2.432321] (plato_teleop) StdoutLine: {'line': b'-- Found moveit_ros_planning_interface: 2.5.5 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)\n'}
+[2.435469] (plato_teleop) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread \n'}
+[2.502930] (-) TimerEvent: {}
+[2.549102] (plato_teleop) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options \n'}
+[2.603013] (-) TimerEvent: {}
+[2.694425] (plato_teleop) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread \n'}
+[2.703080] (-) TimerEvent: {}
+[2.803262] (-) TimerEvent: {}
+[2.903489] (-) TimerEvent: {}
+[2.945960] (plato_teleop) StdoutLine: {'line': b'-- Found moveit_servo: 2.5.5 (/opt/ros/humble/share/moveit_servo/cmake)\n'}
+[3.003570] (-) TimerEvent: {}
+[3.103781] (-) TimerEvent: {}
+[3.203999] (-) TimerEvent: {}
+[3.304213] (-) TimerEvent: {}
+[3.319763] (plato_teleop) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.324692] (plato_teleop) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.324902] (plato_teleop) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/optimo/workspaces/maestro_ws/src/plato_teleop/include\n'}
+[3.324944] (plato_teleop) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.325128] (plato_teleop) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[3.325355] (plato_teleop) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.325534] (plato_teleop) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[3.325980] (plato_teleop) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.326009] (plato_teleop) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.326154] (plato_teleop) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.327087] (plato_teleop) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.354058] (plato_teleop) StdoutLine: {'line': b'-- Generating done\n'}
+[3.355814] (plato_teleop) StdoutLine: {'line': b'-- Build files have been written to: /home/optimo/workspaces/maestro_ws/build/plato_teleop\n'}
+[3.365243] (plato_teleop) CommandEnded: {'returncode': 0}
+[3.365593] (plato_teleop) JobProgress: {'identifier': 'plato_teleop', 'progress': 'build'}
+[3.365777] (plato_teleop) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/optimo/workspaces/maestro_ws/build/plato_teleop', '--', '-j20', '-l20'], 'cwd': '/home/optimo/workspaces/maestro_ws/build/plato_teleop', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'optimo'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/openrobots/lib:/home/optimo/workspaces/plato_ws/install/plato_hardware_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/optimo'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/optimo/workspaces'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2088'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('COLCON_PREFIX_PATH', '/home/optimo/workspaces/plato_ws/install:/home/optimo/workspaces/spacemouse_ws/install:/home/optimo/roboligent_sdk/optimo_controller/ros_wrapper/install:/home/optimo/workspaces/moveit_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'optimo'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/openrobots/lib/pkgconfig:'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'optimo'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/openrobots/bin:/home/optimo/miniconda3/condabin:/opt/ros/humble/bin:/home/optimo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hcrl-optimo:@/tmp/.ICE-unix/2066,unix/hcrl-optimo:/tmp/.ICE-unix/2066'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/47108c09_9e88_4154_a92b_eca88a6b27d1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.119'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/optimo/roboligent_sdk/optimo_controller/ros_wrapper/install/optimo_sim:/home/optimo/roboligent_sdk/optimo_controller/ros_wrapper/install/optimo_moveit_config:/home/optimo/roboligent_sdk/optimo_controller/ros_wrapper/install/optimo_description:/home/optimo/workspaces/plato_ws/install/plato_teleop:/home/optimo/workspaces/plato_ws/install/plato_pycontroller:/home/optimo/workspaces/plato_ws/install/plato_moveit_config:/home/optimo/workspaces/plato_ws/install/plato_hardware_interface:/home/optimo/workspaces/plato_ws/install/plato_gazebo:/home/optimo/workspaces/plato_ws/install/plato_description:/home/optimo/workspaces/plato_ws/install/plato_bringup:/home/optimo/workspaces/plato_ws/install/optiman_description:/home/optimo/workspaces/spacemouse_ws/install/spaceMouse_navigator:/home/optimo/workspaces/spacemouse_ws/install/data_collection:/home/optimo/workspaces/moveit_ws/install/plato_moveit_control:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/optimo/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/optimo/workspaces/maestro_ws/build/plato_teleop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/optimo/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/openrobots/lib/python3.10/site-packages:/home/optimo/workspaces/plato_ws/build/plato_pycontroller:/home/optimo/workspaces/plato_ws/install/plato_pycontroller/lib/python3.10/site-packages:/home/optimo/workspaces/spacemouse_ws/install/spaceMouse_navigator/lib/python3.10/site-packages:/home/optimo/workspaces/spacemouse_ws/install/data_collection/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/openrobots:/home/optimo/roboligent_sdk/optimo_controller/ros_wrapper/install/optimo_sim:/home/optimo/roboligent_sdk/optimo_controller/ros_wrapper/install/optimo_moveit_config:/home/optimo/roboligent_sdk/optimo_controller/ros_wrapper/install/optimo_description:/home/optimo/workspaces/plato_ws/install/plato_teleop:/home/optimo/workspaces/plato_ws/install/plato_moveit_config:/home/optimo/workspaces/plato_ws/install/plato_hardware_interface:/home/optimo/workspaces/plato_ws/install/plato_gazebo:/home/optimo/workspaces/plato_ws/install/plato_description:/home/optimo/workspaces/plato_ws/install/plato_bringup:/home/optimo/workspaces/plato_ws/install/optiman_description:/home/optimo/workspaces/moveit_ws/install/plato_moveit_control:/home/optimo/workspaces/plato_ws/install/plato_pycontroller:/home/optimo/workspaces/spacemouse_ws/install/spaceMouse_navigator:/home/optimo/workspaces/spacemouse_ws/install/data_collection:/opt/ros/humble')]), 'shell': False}
+[3.390042] (plato_teleop) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target controller_spaceMouse\x1b[0m\n'}
+[3.395700] (plato_teleop) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/controller_PlatoHand.dir/src/controller_PlatoHand.cpp.o\x1b[0m\n'}
+[3.403780] (plato_teleop) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX executable controller_spaceMouse\x1b[0m\n'}
+[3.404279] (-) TimerEvent: {}
+[3.504474] (-) TimerEvent: {}
+[3.604703] (-) TimerEvent: {}
+[3.667307] (plato_teleop) StdoutLine: {'line': b'[ 75%] Built target controller_spaceMouse\n'}
+[3.704789] (-) TimerEvent: {}
+[3.805005] (-) TimerEvent: {}
+[3.875203] (plato_teleop) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/optimo/workspaces/maestro_ws/src/plato_teleop/src/controller_PlatoHand.cpp:27\x1b[m\x1b[K:\n'}
+[3.875325] (plato_teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp\x07-Wcpp\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.875362] (plato_teleop) StderrLine: {'line': b'   35 | #\x1b[01;35m\x1b[Kwarning\x1b[m\x1b[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead\n'}
+[3.875389] (plato_teleop) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[3.905091] (-) TimerEvent: {}
+[4.005314] (-) TimerEvent: {}
+[4.105535] (-) TimerEvent: {}
+[4.205768] (-) TimerEvent: {}
+[4.305987] (-) TimerEvent: {}
+[4.406208] (-) TimerEvent: {}
+[4.506438] (-) TimerEvent: {}
+[4.606677] (-) TimerEvent: {}
+[4.706901] (-) TimerEvent: {}
+[4.807138] (-) TimerEvent: {}
+[4.907361] (-) TimerEvent: {}
+[5.007583] (-) TimerEvent: {}
+[5.107819] (-) TimerEvent: {}
+[5.208040] (-) TimerEvent: {}
+[5.308261] (-) TimerEvent: {}
+[5.408497] (-) TimerEvent: {}
+[5.508726] (-) TimerEvent: {}
+[5.608962] (-) TimerEvent: {}
+[5.709181] (-) TimerEvent: {}
+[5.809403] (-) TimerEvent: {}
+[5.909642] (-) TimerEvent: {}
+[6.009869] (-) TimerEvent: {}
+[6.110096] (-) TimerEvent: {}
+[6.210324] (-) TimerEvent: {}
+[6.310557] (-) TimerEvent: {}
+[6.337453] (plato_teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/optimo/workspaces/maestro_ws/src/plato_teleop/src/controller_PlatoHand.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid publishJointTrajectory(std::vector<double>, rclcpp::Node::SharedPtr, const rclcpp::Logger&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.337715] (plato_teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/optimo/workspaces/maestro_ws/src/plato_teleop/src/controller_PlatoHand.cpp:148:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kduration_time\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.337814] (plato_teleop) StderrLine: {'line': b'  148 |     int \x1b[01;35m\x1b[Kduration_time\x1b[m\x1b[K = 1;\n'}
+[6.337884] (plato_teleop) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.410650] (-) TimerEvent: {}
+[6.510889] (-) TimerEvent: {}
+[6.611176] (-) TimerEvent: {}
+[6.711414] (-) TimerEvent: {}
+[6.811707] (-) TimerEvent: {}
+[6.911936] (-) TimerEvent: {}
+[7.012162] (-) TimerEvent: {}
+[7.112389] (-) TimerEvent: {}
+[7.212611] (-) TimerEvent: {}
+[7.312835] (-) TimerEvent: {}
+[7.413070] (-) TimerEvent: {}
+[7.513294] (-) TimerEvent: {}
+[7.613520] (-) TimerEvent: {}
+[7.713754] (-) TimerEvent: {}
+[7.813976] (-) TimerEvent: {}
+[7.914196] (-) TimerEvent: {}
+[8.014425] (-) TimerEvent: {}
+[8.114659] (-) TimerEvent: {}
+[8.214899] (-) TimerEvent: {}
+[8.315134] (-) TimerEvent: {}
+[8.415356] (-) TimerEvent: {}
+[8.515590] (-) TimerEvent: {}
+[8.615822] (-) TimerEvent: {}
+[8.716046] (-) TimerEvent: {}
+[8.816271] (-) TimerEvent: {}
+[8.916499] (-) TimerEvent: {}
+[9.016728] (-) TimerEvent: {}
+[9.116957] (-) TimerEvent: {}
+[9.217215] (-) TimerEvent: {}
+[9.317440] (-) TimerEvent: {}
+[9.417636] (-) TimerEvent: {}
+[9.517872] (-) TimerEvent: {}
+[9.618100] (-) TimerEvent: {}
+[9.718338] (-) TimerEvent: {}
+[9.818565] (-) TimerEvent: {}
+[9.918797] (-) TimerEvent: {}
+[10.019036] (-) TimerEvent: {}
+[10.119264] (-) TimerEvent: {}
+[10.219514] (-) TimerEvent: {}
+[10.319810] (-) TimerEvent: {}
+[10.420035] (-) TimerEvent: {}
+[10.520266] (-) TimerEvent: {}
+[10.620489] (-) TimerEvent: {}
+[10.720727] (-) TimerEvent: {}
+[10.820953] (-) TimerEvent: {}
+[10.921178] (-) TimerEvent: {}
+[11.021429] (-) TimerEvent: {}
+[11.121711] (-) TimerEvent: {}
+[11.221948] (-) TimerEvent: {}
+[11.322213] (-) TimerEvent: {}
+[11.422451] (-) TimerEvent: {}
+[11.522764] (-) TimerEvent: {}
+[11.623041] (-) TimerEvent: {}
+[11.723337] (-) TimerEvent: {}
+[11.823621] (-) TimerEvent: {}
+[11.923913] (-) TimerEvent: {}
+[12.024200] (-) TimerEvent: {}
+[12.124494] (-) TimerEvent: {}
+[12.224791] (-) TimerEvent: {}
+[12.325081] (-) TimerEvent: {}
+[12.425381] (-) TimerEvent: {}
+[12.525667] (-) TimerEvent: {}
+[12.625976] (-) TimerEvent: {}
+[12.726279] (-) TimerEvent: {}
+[12.826596] (-) TimerEvent: {}
+[12.926895] (-) TimerEvent: {}
+[13.027193] (-) TimerEvent: {}
+[13.127494] (-) TimerEvent: {}
+[13.227797] (-) TimerEvent: {}
+[13.328112] (-) TimerEvent: {}
+[13.428383] (-) TimerEvent: {}
+[13.528715] (-) TimerEvent: {}
+[13.628997] (-) TimerEvent: {}
+[13.729290] (-) TimerEvent: {}
+[13.829575] (-) TimerEvent: {}
+[13.929874] (-) TimerEvent: {}
+[14.030169] (-) TimerEvent: {}
+[14.130479] (-) TimerEvent: {}
+[14.230814] (-) TimerEvent: {}
+[14.331100] (-) TimerEvent: {}
+[14.431342] (-) TimerEvent: {}
+[14.531616] (-) TimerEvent: {}
+[14.631866] (-) TimerEvent: {}
+[14.732134] (-) TimerEvent: {}
+[14.832377] (-) TimerEvent: {}
+[14.932674] (-) TimerEvent: {}
+[15.032961] (-) TimerEvent: {}
+[15.133267] (-) TimerEvent: {}
+[15.233557] (-) TimerEvent: {}
+[15.333844] (-) TimerEvent: {}
+[15.434107] (-) TimerEvent: {}
+[15.534348] (-) TimerEvent: {}
+[15.634643] (-) TimerEvent: {}
+[15.734884] (-) TimerEvent: {}
+[15.835179] (-) TimerEvent: {}
+[15.935398] (-) TimerEvent: {}
+[16.035615] (-) TimerEvent: {}
+[16.135849] (-) TimerEvent: {}
+[16.236069] (-) TimerEvent: {}
+[16.336284] (-) TimerEvent: {}
+[16.436519] (-) TimerEvent: {}
+[16.536740] (-) TimerEvent: {}
+[16.636958] (-) TimerEvent: {}
+[16.737177] (-) TimerEvent: {}
+[16.837399] (-) TimerEvent: {}
+[16.847891] (plato_teleop) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable controller_PlatoHand\x1b[0m\n'}
+[16.937491] (-) TimerEvent: {}
+[17.037723] (-) TimerEvent: {}
+[17.086367] (plato_teleop) StdoutLine: {'line': b'[100%] Built target controller_PlatoHand\n'}
+[17.092177] (plato_teleop) CommandEnded: {'returncode': 0}
+[17.106836] (plato_teleop) JobProgress: {'identifier': 'plato_teleop', 'progress': 'install'}
+[17.107046] (plato_teleop) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/optimo/workspaces/maestro_ws/build/plato_teleop'], 'cwd': '/home/optimo/workspaces/maestro_ws/build/plato_teleop', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'optimo'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/openrobots/lib:/home/optimo/workspaces/plato_ws/install/plato_hardware_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/optimo'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/optimo/workspaces'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2088'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('COLCON_PREFIX_PATH', '/home/optimo/workspaces/plato_ws/install:/home/optimo/workspaces/spacemouse_ws/install:/home/optimo/roboligent_sdk/optimo_controller/ros_wrapper/install:/home/optimo/workspaces/moveit_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'optimo'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/openrobots/lib/pkgconfig:'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'optimo'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/openrobots/bin:/home/optimo/miniconda3/condabin:/opt/ros/humble/bin:/home/optimo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hcrl-optimo:@/tmp/.ICE-unix/2066,unix/hcrl-optimo:/tmp/.ICE-unix/2066'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/47108c09_9e88_4154_a92b_eca88a6b27d1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.119'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/optimo/roboligent_sdk/optimo_controller/ros_wrapper/install/optimo_sim:/home/optimo/roboligent_sdk/optimo_controller/ros_wrapper/install/optimo_moveit_config:/home/optimo/roboligent_sdk/optimo_controller/ros_wrapper/install/optimo_description:/home/optimo/workspaces/plato_ws/install/plato_teleop:/home/optimo/workspaces/plato_ws/install/plato_pycontroller:/home/optimo/workspaces/plato_ws/install/plato_moveit_config:/home/optimo/workspaces/plato_ws/install/plato_hardware_interface:/home/optimo/workspaces/plato_ws/install/plato_gazebo:/home/optimo/workspaces/plato_ws/install/plato_description:/home/optimo/workspaces/plato_ws/install/plato_bringup:/home/optimo/workspaces/plato_ws/install/optiman_description:/home/optimo/workspaces/spacemouse_ws/install/spaceMouse_navigator:/home/optimo/workspaces/spacemouse_ws/install/data_collection:/home/optimo/workspaces/moveit_ws/install/plato_moveit_control:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/optimo/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/optimo/workspaces/maestro_ws/build/plato_teleop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/optimo/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/openrobots/lib/python3.10/site-packages:/home/optimo/workspaces/plato_ws/build/plato_pycontroller:/home/optimo/workspaces/plato_ws/install/plato_pycontroller/lib/python3.10/site-packages:/home/optimo/workspaces/spacemouse_ws/install/spaceMouse_navigator/lib/python3.10/site-packages:/home/optimo/workspaces/spacemouse_ws/install/data_collection/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/openrobots:/home/optimo/roboligent_sdk/optimo_controller/ros_wrapper/install/optimo_sim:/home/optimo/roboligent_sdk/optimo_controller/ros_wrapper/install/optimo_moveit_config:/home/optimo/roboligent_sdk/optimo_controller/ros_wrapper/install/optimo_description:/home/optimo/workspaces/plato_ws/install/plato_teleop:/home/optimo/workspaces/plato_ws/install/plato_moveit_config:/home/optimo/workspaces/plato_ws/install/plato_hardware_interface:/home/optimo/workspaces/plato_ws/install/plato_gazebo:/home/optimo/workspaces/plato_ws/install/plato_description:/home/optimo/workspaces/plato_ws/install/plato_bringup:/home/optimo/workspaces/plato_ws/install/optiman_description:/home/optimo/workspaces/moveit_ws/install/plato_moveit_control:/home/optimo/workspaces/plato_ws/install/plato_pycontroller:/home/optimo/workspaces/spacemouse_ws/install/spaceMouse_navigator:/home/optimo/workspaces/spacemouse_ws/install/data_collection:/opt/ros/humble')]), 'shell': False}
+[17.111419] (plato_teleop) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[17.111685] (plato_teleop) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[17.111976] (plato_teleop) StdoutLine: {'line': b'-- Symlinking: /home/optimo/workspaces/maestro_ws/install/plato_teleop/lib/plato_teleop/controller_PlatoHand\n'}
+[17.116929] (plato_teleop) StdoutLine: {'line': b'-- Symlinking: /home/optimo/workspaces/maestro_ws/install/plato_teleop/lib/plato_teleop/controller_spaceMouse\n'}
+[17.121395] (plato_teleop) StdoutLine: {'line': b'-- Symlinking: /home/optimo/workspaces/maestro_ws/install/plato_teleop/share/plato_teleop//launch/controller_PlatoHand.py\n'}
+[17.125492] (plato_teleop) StdoutLine: {'line': b'-- Symlinking: /home/optimo/workspaces/maestro_ws/install/plato_teleop/share/ament_index/resource_index/package_run_dependencies/plato_teleop\n'}
+[17.129821] (plato_teleop) StdoutLine: {'line': b'-- Symlinking: /home/optimo/workspaces/maestro_ws/install/plato_teleop/share/ament_index/resource_index/parent_prefix_path/plato_teleop\n'}
+[17.134321] (plato_teleop) StdoutLine: {'line': b'-- Symlinking: /home/optimo/workspaces/maestro_ws/install/plato_teleop/share/plato_teleop/environment/ament_prefix_path.sh\n'}
+[17.137907] (-) TimerEvent: {}
+[17.138458] (plato_teleop) StdoutLine: {'line': b'-- Symlinking: /home/optimo/workspaces/maestro_ws/install/plato_teleop/share/plato_teleop/environment/ament_prefix_path.dsv\n'}
+[17.142713] (plato_teleop) StdoutLine: {'line': b'-- Symlinking: /home/optimo/workspaces/maestro_ws/install/plato_teleop/share/plato_teleop/environment/path.sh\n'}
+[17.147505] (plato_teleop) StdoutLine: {'line': b'-- Symlinking: /home/optimo/workspaces/maestro_ws/install/plato_teleop/share/plato_teleop/environment/path.dsv\n'}
+[17.151946] (plato_teleop) StdoutLine: {'line': b'-- Symlinking: /home/optimo/workspaces/maestro_ws/install/plato_teleop/share/plato_teleop/local_setup.bash\n'}
+[17.156202] (plato_teleop) StdoutLine: {'line': b'-- Symlinking: /home/optimo/workspaces/maestro_ws/install/plato_teleop/share/plato_teleop/local_setup.sh\n'}
+[17.160840] (plato_teleop) StdoutLine: {'line': b'-- Symlinking: /home/optimo/workspaces/maestro_ws/install/plato_teleop/share/plato_teleop/local_setup.zsh\n'}
+[17.165212] (plato_teleop) StdoutLine: {'line': b'-- Symlinking: /home/optimo/workspaces/maestro_ws/install/plato_teleop/share/plato_teleop/local_setup.dsv\n'}
+[17.169769] (plato_teleop) StdoutLine: {'line': b'-- Symlinking: /home/optimo/workspaces/maestro_ws/install/plato_teleop/share/plato_teleop/package.dsv\n'}
+[17.174152] (plato_teleop) StdoutLine: {'line': b'-- Symlinking: /home/optimo/workspaces/maestro_ws/install/plato_teleop/share/ament_index/resource_index/packages/plato_teleop\n'}
+[17.178241] (plato_teleop) StdoutLine: {'line': b'-- Symlinking: /home/optimo/workspaces/maestro_ws/install/plato_teleop/share/plato_teleop/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[17.182299] (plato_teleop) StdoutLine: {'line': b'-- Symlinking: /home/optimo/workspaces/maestro_ws/install/plato_teleop/share/plato_teleop/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[17.186512] (plato_teleop) StdoutLine: {'line': b'-- Symlinking: /home/optimo/workspaces/maestro_ws/install/plato_teleop/share/plato_teleop/cmake/plato_teleopConfig.cmake\n'}
+[17.190514] (plato_teleop) StdoutLine: {'line': b'-- Symlinking: /home/optimo/workspaces/maestro_ws/install/plato_teleop/share/plato_teleop/cmake/plato_teleopConfig-version.cmake\n'}
+[17.194555] (plato_teleop) StdoutLine: {'line': b'-- Symlinking: /home/optimo/workspaces/maestro_ws/install/plato_teleop/share/plato_teleop/package.xml\n'}
+[17.199475] (plato_teleop) CommandEnded: {'returncode': 0}
+[17.237987] (-) TimerEvent: {}
+[17.274335] (plato_teleop) JobEnded: {'identifier': 'plato_teleop', 'rc': 0}
+[17.338087] (-) TimerEvent: {}
+[17.438294] (-) TimerEvent: {}
+[17.538504] (-) TimerEvent: {}
+[17.638722] (-) TimerEvent: {}
+[17.738929] (-) TimerEvent: {}
+[17.839145] (-) TimerEvent: {}
+[17.939373] (-) TimerEvent: {}
+[18.039589] (-) TimerEvent: {}
+[18.139805] (-) TimerEvent: {}
+[18.240024] (-) TimerEvent: {}
+[18.340236] (-) TimerEvent: {}
+[18.440452] (-) TimerEvent: {}
+[18.540677] (-) TimerEvent: {}
+[18.640892] (-) TimerEvent: {}
+[18.741101] (-) TimerEvent: {}
+[18.841312] (-) TimerEvent: {}
+[18.941538] (-) TimerEvent: {}
+[19.041748] (-) TimerEvent: {}
+[19.141963] (-) TimerEvent: {}
+[19.242188] (-) TimerEvent: {}
+[19.342404] (-) TimerEvent: {}
+[19.442623] (-) TimerEvent: {}
+[19.542863] (-) TimerEvent: {}
+[19.643077] (-) TimerEvent: {}
+[19.743291] (-) TimerEvent: {}
+[19.843514] (-) TimerEvent: {}
+[19.943731] (-) TimerEvent: {}
+[20.043940] (-) TimerEvent: {}
+[20.144168] (-) TimerEvent: {}
+[20.244379] (-) TimerEvent: {}
+[20.344591] (-) TimerEvent: {}
+[20.444815] (-) TimerEvent: {}
+[20.545028] (-) TimerEvent: {}
+[20.645242] (-) TimerEvent: {}
+[20.745461] (-) TimerEvent: {}
+[20.845676] (-) TimerEvent: {}
+[20.945886] (-) TimerEvent: {}
+[21.046104] (-) TimerEvent: {}
+[21.146325] (-) TimerEvent: {}
+[21.246580] (-) TimerEvent: {}
+[21.346811] (-) TimerEvent: {}
+[21.447018] (-) TimerEvent: {}
+[21.547232] (-) TimerEvent: {}
+[21.647448] (-) TimerEvent: {}
+[21.747669] (-) TimerEvent: {}
+[21.847912] (-) TimerEvent: {}
+[21.948138] (-) TimerEvent: {}
+[22.048345] (-) TimerEvent: {}
+[22.148557] (-) TimerEvent: {}
+[22.248780] (-) TimerEvent: {}
+[22.348997] (-) TimerEvent: {}
+[22.449207] (-) TimerEvent: {}
+[22.549431] (-) TimerEvent: {}
+[22.649653] (-) TimerEvent: {}
+[22.749863] (-) TimerEvent: {}
+[22.850085] (-) TimerEvent: {}
+[22.950303] (-) TimerEvent: {}
+[23.050512] (-) TimerEvent: {}
+[23.150747] (-) TimerEvent: {}
+[23.250964] (-) TimerEvent: {}
+[23.351179] (-) TimerEvent: {}
+[23.451404] (-) TimerEvent: {}
+[23.551618] (-) TimerEvent: {}
+[23.651830] (-) TimerEvent: {}
+[23.752045] (-) TimerEvent: {}
+[23.852259] (-) TimerEvent: {}
+[23.952477] (-) TimerEvent: {}
+[24.052697] (-) TimerEvent: {}
+[24.152909] (-) TimerEvent: {}
+[24.253118] (-) TimerEvent: {}
+[24.353339] (-) TimerEvent: {}
+[24.453548] (-) TimerEvent: {}
+[24.553764] (-) TimerEvent: {}
+[24.653985] (-) TimerEvent: {}
+[24.754187] (-) TimerEvent: {}
+[24.854399] (-) TimerEvent: {}
+[24.954608] (-) TimerEvent: {}
+[25.054782] (-) TimerEvent: {}
+[25.154995] (-) TimerEvent: {}
+[25.255210] (-) TimerEvent: {}
+[25.355426] (-) TimerEvent: {}
+[25.455643] (-) TimerEvent: {}
+[25.555900] (-) TimerEvent: {}
+[25.656124] (-) TimerEvent: {}
+[25.756338] (-) TimerEvent: {}
+[25.856547] (-) TimerEvent: {}
+[25.956764] (-) TimerEvent: {}
+[26.056975] (-) TimerEvent: {}
+[26.157187] (-) TimerEvent: {}
+[26.257400] (-) TimerEvent: {}
+[26.357610] (-) TimerEvent: {}
+[26.457822] (-) TimerEvent: {}
+[26.558034] (-) TimerEvent: {}
+[26.658255] (-) TimerEvent: {}
+[26.758461] (-) TimerEvent: {}
+[26.858682] (-) TimerEvent: {}
+[26.958907] (-) TimerEvent: {}
+[27.059116] (-) TimerEvent: {}
+[27.159325] (-) TimerEvent: {}
+[27.259532] (-) TimerEvent: {}
+[27.359752] (-) TimerEvent: {}
+[27.459961] (-) TimerEvent: {}
+[27.560175] (-) TimerEvent: {}
+[27.660400] (-) TimerEvent: {}
+[27.760605] (-) TimerEvent: {}
+[27.860810] (-) TimerEvent: {}
+[27.961032] (-) TimerEvent: {}
+[28.061242] (-) TimerEvent: {}
+[28.161470] (-) TimerEvent: {}
+[28.261693] (-) TimerEvent: {}
+[28.361909] (-) TimerEvent: {}
+[28.462117] (-) TimerEvent: {}
+[28.562342] (-) TimerEvent: {}
+[28.662561] (-) TimerEvent: {}
+[28.762779] (-) TimerEvent: {}
+[28.863003] (-) TimerEvent: {}
+[28.963214] (-) TimerEvent: {}
+[29.063422] (-) TimerEvent: {}
+[29.163663] (-) TimerEvent: {}
+[29.263958] (-) TimerEvent: {}
+[29.364221] (-) TimerEvent: {}
+[29.464472] (-) TimerEvent: {}
+[29.564707] (-) TimerEvent: {}
+[29.664979] (-) TimerEvent: {}
+[29.765232] (-) TimerEvent: {}
+[29.865548] (-) TimerEvent: {}
+[29.965810] (-) TimerEvent: {}
+[30.066023] (-) TimerEvent: {}
+[30.166240] (-) TimerEvent: {}
+[30.266478] (-) TimerEvent: {}
+[30.366778] (-) TimerEvent: {}
+[30.467049] (-) TimerEvent: {}
+[30.567281] (-) TimerEvent: {}
+[30.667543] (-) TimerEvent: {}
+[30.767765] (-) TimerEvent: {}
+[30.868021] (-) TimerEvent: {}
+[30.968268] (-) TimerEvent: {}
+[31.068531] (-) TimerEvent: {}
+[31.168817] (-) TimerEvent: {}
+[31.269080] (-) TimerEvent: {}
+[31.369316] (-) TimerEvent: {}
+[31.469588] (-) TimerEvent: {}
+[31.569823] (-) TimerEvent: {}
+[31.670114] (-) TimerEvent: {}
+[31.770385] (-) TimerEvent: {}
+[31.870690] (-) TimerEvent: {}
+[31.970955] (-) TimerEvent: {}
+[32.071185] (-) TimerEvent: {}
+[32.171451] (-) TimerEvent: {}
+[32.271687] (-) TimerEvent: {}
+[32.371961] (-) TimerEvent: {}
+[32.472195] (-) TimerEvent: {}
+[32.572455] (-) TimerEvent: {}
+[32.672691] (-) TimerEvent: {}
+[32.772942] (-) TimerEvent: {}
+[32.873173] (-) TimerEvent: {}
+[32.973436] (-) TimerEvent: {}
+[33.073666] (-) TimerEvent: {}
+[33.173928] (-) TimerEvent: {}
+[33.274189] (-) TimerEvent: {}
+[33.374458] (-) TimerEvent: {}
+[33.474722] (-) TimerEvent: {}
+[33.574978] (-) TimerEvent: {}
+[33.675248] (-) TimerEvent: {}
+[33.775526] (-) TimerEvent: {}
+[33.875776] (-) TimerEvent: {}
+[33.976031] (-) TimerEvent: {}
+[34.076263] (-) TimerEvent: {}
+[34.176527] (-) TimerEvent: {}
+[34.276759] (-) TimerEvent: {}
+[34.377020] (-) TimerEvent: {}
+[34.477265] (-) TimerEvent: {}
+[34.577525] (-) TimerEvent: {}
+[34.677772] (-) TimerEvent: {}
+[34.778030] (-) TimerEvent: {}
+[34.878265] (-) TimerEvent: {}
+[34.978548] (-) TimerEvent: {}
+[35.078803] (-) TimerEvent: {}
+[35.179077] (-) TimerEvent: {}
+[35.279310] (-) TimerEvent: {}
+[35.379610] (-) TimerEvent: {}
+[35.479853] (-) TimerEvent: {}
+[35.580113] (-) TimerEvent: {}
+[35.680348] (-) TimerEvent: {}
+[35.780613] (-) TimerEvent: {}
+[35.880876] (-) TimerEvent: {}
+[35.981137] (-) TimerEvent: {}
+[36.081371] (-) TimerEvent: {}
+[36.181661] (-) TimerEvent: {}
+[36.281904] (-) TimerEvent: {}
+[36.382165] (-) TimerEvent: {}
+[36.482400] (-) TimerEvent: {}
+[36.582678] (-) TimerEvent: {}
+[36.682897] (-) TimerEvent: {}
+[36.783124] (-) TimerEvent: {}
+[36.883336] (-) TimerEvent: {}
+[36.983549] (-) TimerEvent: {}
+[37.083772] (-) TimerEvent: {}
+[37.183984] (-) TimerEvent: {}
+[37.284195] (-) TimerEvent: {}
+[37.384410] (-) TimerEvent: {}
+[37.484624] (-) TimerEvent: {}
+[37.584832] (-) TimerEvent: {}
+[37.685045] (-) TimerEvent: {}
+[37.785253] (-) TimerEvent: {}
+[37.885467] (-) TimerEvent: {}
+[37.985682] (-) TimerEvent: {}
+[38.085892] (-) TimerEvent: {}
+[38.186109] (-) TimerEvent: {}
+[38.286329] (-) TimerEvent: {}
+[38.386545] (-) TimerEvent: {}
+[38.486755] (-) TimerEvent: {}
+[38.586976] (-) TimerEvent: {}
+[38.687190] (-) TimerEvent: {}
+[38.787399] (-) TimerEvent: {}
+[38.887624] (-) TimerEvent: {}
+[38.987839] (-) TimerEvent: {}
+[39.088051] (-) TimerEvent: {}
+[39.188261] (-) TimerEvent: {}
+[39.288480] (-) TimerEvent: {}
+[39.388706] (-) TimerEvent: {}
+[39.488921] (-) TimerEvent: {}
+[39.589131] (-) TimerEvent: {}
+[39.689339] (-) TimerEvent: {}
+[39.789542] (-) TimerEvent: {}
+[39.889757] (-) TimerEvent: {}
+[39.989979] (-) TimerEvent: {}
+[40.090191] (-) TimerEvent: {}
+[40.190403] (-) TimerEvent: {}
+[40.290616] (-) TimerEvent: {}
+[40.390841] (-) TimerEvent: {}
+[40.491055] (-) TimerEvent: {}
+[40.591267] (-) TimerEvent: {}
+[40.691495] (-) TimerEvent: {}
+[40.791729] (-) TimerEvent: {}
+[40.891997] (-) TimerEvent: {}
+[40.992225] (-) TimerEvent: {}
+[41.092488] (-) TimerEvent: {}
+[41.192712] (-) TimerEvent: {}
+[41.292975] (-) TimerEvent: {}
+[41.393215] (-) TimerEvent: {}
+[41.493486] (-) TimerEvent: {}
+[41.593718] (-) TimerEvent: {}
+[41.693975] (-) TimerEvent: {}
+[41.794203] (-) TimerEvent: {}
+[41.894461] (-) TimerEvent: {}
+[41.994704] (-) TimerEvent: {}
+[42.094959] (-) TimerEvent: {}
+[42.195194] (-) TimerEvent: {}
+[42.295463] (-) TimerEvent: {}
+[42.395692] (-) TimerEvent: {}
+[42.495954] (-) TimerEvent: {}
+[42.596184] (-) TimerEvent: {}
+[42.696443] (-) TimerEvent: {}
+[42.796674] (-) TimerEvent: {}
+[42.896888] (-) TimerEvent: {}
+[42.997085] (-) TimerEvent: {}
+[43.097294] (-) TimerEvent: {}
+[43.197508] (-) TimerEvent: {}
+[43.297720] (-) TimerEvent: {}
+[43.397937] (-) TimerEvent: {}
+[43.498149] (-) TimerEvent: {}
+[43.598363] (-) TimerEvent: {}
+[43.698588] (-) TimerEvent: {}
+[43.798795] (-) TimerEvent: {}
+[43.899004] (-) TimerEvent: {}
+[43.999228] (-) TimerEvent: {}
+[44.099438] (-) TimerEvent: {}
+[44.199654] (-) TimerEvent: {}
+[44.299863] (-) TimerEvent: {}
+[44.400084] (-) TimerEvent: {}
+[44.500295] (-) TimerEvent: {}
+[44.600504] (-) TimerEvent: {}
+[44.700727] (-) TimerEvent: {}
+[44.800935] (-) TimerEvent: {}
+[44.901149] (-) TimerEvent: {}
+[45.001371] (-) TimerEvent: {}
+[45.101583] (-) TimerEvent: {}
+[45.201798] (-) TimerEvent: {}
+[45.302019] (-) TimerEvent: {}
+[45.402231] (-) TimerEvent: {}
+[45.502446] (-) TimerEvent: {}
+[45.602673] (-) TimerEvent: {}
+[45.702887] (-) TimerEvent: {}
+[45.803096] (-) TimerEvent: {}
+[45.903317] (-) TimerEvent: {}
+[46.003532] (-) TimerEvent: {}
+[46.103747] (-) TimerEvent: {}
+[46.203968] (-) TimerEvent: {}
+[46.304174] (-) TimerEvent: {}
+[46.404392] (-) TimerEvent: {}
+[46.504660] (-) TimerEvent: {}
+[46.604876] (-) TimerEvent: {}
+[46.705085] (-) TimerEvent: {}
+[46.805299] (-) TimerEvent: {}
+[46.905509] (-) TimerEvent: {}
+[47.005732] (-) TimerEvent: {}
+[47.105941] (-) TimerEvent: {}
+[47.206153] (-) TimerEvent: {}
+[47.307780] (-) TimerEvent: {}
+[47.408011] (-) TimerEvent: {}
+[47.508221] (-) TimerEvent: {}
+[47.608431] (-) TimerEvent: {}
+[47.708643] (-) TimerEvent: {}
+[47.808856] (-) TimerEvent: {}
+[47.909067] (-) TimerEvent: {}
+[48.009279] (-) TimerEvent: {}
+[48.109500] (-) TimerEvent: {}
+[48.209712] (-) TimerEvent: {}
+[48.309916] (-) TimerEvent: {}
+[48.410138] (-) TimerEvent: {}
+[48.510347] (-) TimerEvent: {}
+[48.610585] (-) TimerEvent: {}
+[48.710812] (-) TimerEvent: {}
+[48.811021] (-) TimerEvent: {}
+[48.911233] (-) TimerEvent: {}
+[49.011431] (-) TimerEvent: {}
+[49.111705] (-) TimerEvent: {}
+[49.211938] (-) TimerEvent: {}
+[49.312192] (-) TimerEvent: {}
+[49.412424] (-) TimerEvent: {}
+[49.512681] (-) TimerEvent: {}
+[49.612923] (-) TimerEvent: {}
+[49.713179] (-) TimerEvent: {}
+[49.813404] (-) TimerEvent: {}
+[49.913669] (-) TimerEvent: {}
+[50.013903] (-) TimerEvent: {}
+[50.114164] (-) TimerEvent: {}
+[50.214397] (-) TimerEvent: {}
+[50.314691] (-) TimerEvent: {}
+[50.414915] (-) TimerEvent: {}
+[50.515130] (-) TimerEvent: {}
+[50.615343] (-) TimerEvent: {}
+[50.715567] (-) TimerEvent: {}
+[50.815777] (-) TimerEvent: {}
+[50.915986] (-) TimerEvent: {}
+[51.016208] (-) TimerEvent: {}
+[51.116423] (-) TimerEvent: {}
+[51.216670] (-) TimerEvent: {}
+[51.316894] (-) TimerEvent: {}
+[51.417109] (-) TimerEvent: {}
+[51.517322] (-) TimerEvent: {}
+[51.617544] (-) TimerEvent: {}
+[51.717761] (-) TimerEvent: {}
+[51.817971] (-) TimerEvent: {}
+[51.918195] (-) TimerEvent: {}
+[52.018411] (-) TimerEvent: {}
+[52.118641] (-) TimerEvent: {}
+[52.218870] (-) TimerEvent: {}
+[52.319085] (-) TimerEvent: {}
+[52.419300] (-) TimerEvent: {}
+[52.519525] (-) TimerEvent: {}
+[52.619738] (-) TimerEvent: {}
+[52.719947] (-) TimerEvent: {}
+[52.820169] (-) TimerEvent: {}
+[52.920381] (-) TimerEvent: {}
+[53.020596] (-) TimerEvent: {}
+[53.120832] (-) TimerEvent: {}
+[53.221045] (-) TimerEvent: {}
+[53.321259] (-) TimerEvent: {}
+[53.421482] (-) TimerEvent: {}
+[53.521698] (-) TimerEvent: {}
+[53.621910] (-) TimerEvent: {}
+[53.722129] (-) TimerEvent: {}
+[53.822335] (-) TimerEvent: {}
+[53.922568] (-) TimerEvent: {}
+[54.022779] (-) TimerEvent: {}
+[54.122995] (-) TimerEvent: {}
+[54.223199] (-) TimerEvent: {}
+[54.323409] (-) TimerEvent: {}
+[54.423626] (-) TimerEvent: {}
+[54.523861] (-) TimerEvent: {}
+[54.624118] (-) TimerEvent: {}
+[54.724341] (-) TimerEvent: {}
+[54.824558] (-) TimerEvent: {}
+[54.924766] (-) TimerEvent: {}
+[55.024977] (-) TimerEvent: {}
+[55.125204] (-) TimerEvent: {}
+[55.225415] (-) TimerEvent: {}
+[55.325628] (-) TimerEvent: {}
+[55.425858] (-) TimerEvent: {}
+[55.526077] (-) TimerEvent: {}
+[55.626292] (-) TimerEvent: {}
+[55.726511] (-) TimerEvent: {}
+[55.826729] (-) TimerEvent: {}
+[55.926938] (-) TimerEvent: {}
+[56.027160] (-) TimerEvent: {}
+[56.127375] (-) TimerEvent: {}
+[56.227588] (-) TimerEvent: {}
+[56.327805] (-) TimerEvent: {}
+[56.428018] (-) TimerEvent: {}
+[56.528228] (-) TimerEvent: {}
+[56.628451] (-) TimerEvent: {}
+[56.728712] (-) TimerEvent: {}
+[56.828930] (-) TimerEvent: {}
+[56.929153] (-) TimerEvent: {}
+[57.029368] (-) TimerEvent: {}
+[57.129584] (-) TimerEvent: {}
+[57.229808] (-) TimerEvent: {}
+[57.330016] (-) TimerEvent: {}
+[57.430229] (-) TimerEvent: {}
+[57.530451] (-) TimerEvent: {}
+[57.630676] (-) TimerEvent: {}
+[57.730887] (-) TimerEvent: {}
+[57.831106] (-) TimerEvent: {}
+[57.931322] (-) TimerEvent: {}
+[58.031537] (-) TimerEvent: {}
+[58.131758] (-) TimerEvent: {}
+[58.231970] (-) TimerEvent: {}
+[58.332177] (-) TimerEvent: {}
+[58.432422] (-) TimerEvent: {}
+[58.532693] (-) TimerEvent: {}
+[58.632927] (-) TimerEvent: {}
+[58.733189] (-) TimerEvent: {}
+[58.833417] (-) TimerEvent: {}
+[58.933688] (-) TimerEvent: {}
+[59.033928] (-) TimerEvent: {}
+[59.134185] (-) TimerEvent: {}
+[59.234454] (-) TimerEvent: {}
+[59.334726] (-) TimerEvent: {}
+[59.434978] (-) TimerEvent: {}
+[59.535244] (-) TimerEvent: {}
+[59.635487] (-) TimerEvent: {}
+[59.735759] (-) TimerEvent: {}
+[59.835988] (-) TimerEvent: {}
+[59.936263] (-) TimerEvent: {}
+[60.036497] (-) TimerEvent: {}
+[60.136764] (-) TimerEvent: {}
+[60.236996] (-) TimerEvent: {}
+[60.337259] (-) TimerEvent: {}
+[60.437492] (-) TimerEvent: {}
+[60.537767] (-) TimerEvent: {}
+[60.638001] (-) TimerEvent: {}
+[60.738277] (-) TimerEvent: {}
+[60.838508] (-) TimerEvent: {}
+[60.938791] (-) TimerEvent: {}
+[61.039034] (-) TimerEvent: {}
+[61.139309] (-) TimerEvent: {}
+[61.239542] (-) TimerEvent: {}
+[61.339807] (-) TimerEvent: {}
+[61.440024] (-) TimerEvent: {}
+[61.540238] (-) TimerEvent: {}
+[61.640543] (-) TimerEvent: {}
+[61.740774] (-) TimerEvent: {}
+[61.840985] (-) TimerEvent: {}
+[61.941202] (-) TimerEvent: {}
+[62.041432] (-) TimerEvent: {}
+[62.141650] (-) TimerEvent: {}
+[62.241864] (-) TimerEvent: {}
+[62.342092] (-) TimerEvent: {}
+[62.442302] (-) TimerEvent: {}
+[62.542521] (-) TimerEvent: {}
+[62.642756] (-) TimerEvent: {}
+[62.742966] (-) TimerEvent: {}
+[62.843173] (-) TimerEvent: {}
+[62.943403] (-) TimerEvent: {}
+[63.043619] (-) TimerEvent: {}
+[63.143834] (-) TimerEvent: {}
+[63.244060] (-) TimerEvent: {}
+[63.344277] (-) TimerEvent: {}
+[63.444491] (-) TimerEvent: {}
+[63.544716] (-) TimerEvent: {}
+[63.644926] (-) TimerEvent: {}
+[63.745139] (-) TimerEvent: {}
+[63.845357] (-) TimerEvent: {}
+[63.945571] (-) TimerEvent: {}
+[64.045794] (-) TimerEvent: {}
+[64.146022] (-) TimerEvent: {}
+[64.246232] (-) TimerEvent: {}
+[64.346450] (-) TimerEvent: {}
+[64.446717] (-) TimerEvent: {}
+[64.546978] (-) TimerEvent: {}
+[64.647219] (-) TimerEvent: {}
+[64.747473] (-) TimerEvent: {}
+[64.847695] (-) TimerEvent: {}
+[64.947930] (-) TimerEvent: {}
+[65.048199] (-) TimerEvent: {}
+[65.148436] (-) TimerEvent: {}
+[65.248703] (-) TimerEvent: {}
+[65.348937] (-) TimerEvent: {}
+[65.449200] (-) TimerEvent: {}
+[65.549439] (-) TimerEvent: {}
+[65.649719] (-) TimerEvent: {}
+[65.749940] (-) TimerEvent: {}
+[65.850151] (-) TimerEvent: {}
+[65.950366] (-) TimerEvent: {}
+[66.050589] (-) TimerEvent: {}
+[66.150804] (-) TimerEvent: {}
+[66.251016] (-) TimerEvent: {}
+[66.351239] (-) TimerEvent: {}
+[66.451454] (-) TimerEvent: {}
+[66.551675] (-) TimerEvent: {}
+[66.651900] (-) TimerEvent: {}
+[66.752113] (-) TimerEvent: {}
+[66.852320] (-) TimerEvent: {}
+[66.952531] (-) TimerEvent: {}
+[67.052746] (-) TimerEvent: {}
+[67.152957] (-) TimerEvent: {}
+[67.253168] (-) TimerEvent: {}
+[67.353379] (-) TimerEvent: {}
+[67.453591] (-) TimerEvent: {}
+[67.553817] (-) TimerEvent: {}
+[67.654029] (-) TimerEvent: {}
+[67.754244] (-) TimerEvent: {}
+[67.854471] (-) TimerEvent: {}
+[67.954689] (-) TimerEvent: {}
+[68.054901] (-) TimerEvent: {}
+[68.155124] (-) TimerEvent: {}
+[68.255334] (-) TimerEvent: {}
+[68.355575] (-) TimerEvent: {}
+[68.455903] (-) TimerEvent: {}
+[68.556180] (-) TimerEvent: {}
+[68.656436] (-) TimerEvent: {}
+[68.756701] (-) TimerEvent: {}
+[68.856989] (-) TimerEvent: {}
+[68.957249] (-) TimerEvent: {}
+[69.057503] (-) TimerEvent: {}
+[69.157842] (-) TimerEvent: {}
+[69.258137] (-) TimerEvent: {}
+[69.358397] (-) TimerEvent: {}
+[69.458683] (-) TimerEvent: {}
+[69.558909] (-) TimerEvent: {}
+[69.659119] (-) TimerEvent: {}
+[69.759332] (-) TimerEvent: {}
+[69.859625] (-) TimerEvent: {}
+[69.959843] (-) TimerEvent: {}
+[70.060056] (-) TimerEvent: {}
+[70.160278] (-) TimerEvent: {}
+[70.260488] (-) TimerEvent: {}
+[70.360794] (-) TimerEvent: {}
+[70.461006] (-) TimerEvent: {}
+[70.561218] (-) TimerEvent: {}
+[70.661442] (-) TimerEvent: {}
+[70.761757] (-) TimerEvent: {}
+[70.861964] (-) TimerEvent: {}
+[70.962188] (-) TimerEvent: {}
+[71.062402] (-) TimerEvent: {}
+[71.162760] (-) TimerEvent: {}
+[71.262972] (-) TimerEvent: {}
+[71.363238] (-) TimerEvent: {}
+[71.463462] (-) TimerEvent: {}
+[71.563777] (-) TimerEvent: {}
+[71.663998] (-) TimerEvent: {}
+[71.764219] (-) TimerEvent: {}
+[71.864435] (-) TimerEvent: {}
+[71.964754] (-) TimerEvent: {}
+[72.064970] (-) TimerEvent: {}
+[72.165183] (-) TimerEvent: {}
+[72.265406] (-) TimerEvent: {}
+[72.365719] (-) TimerEvent: {}
+[72.465972] (-) TimerEvent: {}
+[72.566196] (-) TimerEvent: {}
+[72.666407] (-) TimerEvent: {}
+[72.766635] (-) TimerEvent: {}
+[72.866855] (-) TimerEvent: {}
+[72.967072] (-) TimerEvent: {}
+[73.067244] (-) TimerEvent: {}
+[73.167470] (-) TimerEvent: {}
+[73.267682] (-) TimerEvent: {}
+[73.367896] (-) TimerEvent: {}
+[73.468119] (-) TimerEvent: {}
+[73.568332] (-) TimerEvent: {}
+[73.668552] (-) TimerEvent: {}
+[73.768790] (-) TimerEvent: {}
+[73.869002] (-) TimerEvent: {}
+[73.969218] (-) TimerEvent: {}
+[74.069439] (-) TimerEvent: {}
+[74.169661] (-) TimerEvent: {}
+[74.269871] (-) TimerEvent: {}
+[74.370095] (-) TimerEvent: {}
+[74.470304] (-) TimerEvent: {}
+[74.570516] (-) TimerEvent: {}
+[74.670757] (-) TimerEvent: {}
+[74.770973] (-) TimerEvent: {}
+[74.871188] (-) TimerEvent: {}
+[74.971415] (-) TimerEvent: {}
+[75.071633] (-) TimerEvent: {}
+[75.171849] (-) TimerEvent: {}
+[75.272074] (-) TimerEvent: {}
+[75.372290] (-) TimerEvent: {}
+[75.472504] (-) TimerEvent: {}
+[75.572748] (-) TimerEvent: {}
+[75.672962] (-) TimerEvent: {}
+[75.773184] (-) TimerEvent: {}
+[75.873389] (-) TimerEvent: {}
+[75.973645] (-) TimerEvent: {}
+[76.073860] (-) TimerEvent: {}
+[76.174075] (-) TimerEvent: {}
+[76.274293] (-) TimerEvent: {}
+[76.374515] (-) TimerEvent: {}
+[76.474738] (-) TimerEvent: {}
+[76.574950] (-) TimerEvent: {}
+[76.675180] (-) TimerEvent: {}
+[76.775394] (-) TimerEvent: {}
+[76.875604] (-) TimerEvent: {}
+[76.975823] (-) TimerEvent: {}
+[77.076037] (-) TimerEvent: {}
+[77.176247] (-) TimerEvent: {}
+[77.276470] (-) TimerEvent: {}
+[77.376679] (-) TimerEvent: {}
+[77.476887] (-) TimerEvent: {}
+[77.577106] (-) TimerEvent: {}
+[77.677318] (-) TimerEvent: {}
+[77.777529] (-) TimerEvent: {}
+[77.877754] (-) TimerEvent: {}
+[77.977967] (-) TimerEvent: {}
+[78.078178] (-) TimerEvent: {}
+[78.178408] (-) TimerEvent: {}
+[78.278620] (-) TimerEvent: {}
+[78.378838] (-) TimerEvent: {}
+[78.479062] (-) TimerEvent: {}
+[78.579274] (-) TimerEvent: {}
+[78.679486] (-) TimerEvent: {}
+[78.779712] (-) TimerEvent: {}
+[78.879921] (-) TimerEvent: {}
+[78.980132] (-) TimerEvent: {}
+[79.080347] (-) TimerEvent: {}
+[79.180561] (-) TimerEvent: {}
+[79.280801] (-) TimerEvent: {}
+[79.381074] (-) TimerEvent: {}
+[79.481308] (-) TimerEvent: {}
+[79.581569] (-) TimerEvent: {}
+[79.681815] (-) TimerEvent: {}
+[79.782077] (-) TimerEvent: {}
+[79.882306] (-) TimerEvent: {}
+[79.982567] (-) TimerEvent: {}
+[80.082809] (-) TimerEvent: {}
+[80.183073] (-) TimerEvent: {}
+[80.283298] (-) TimerEvent: {}
+[80.383553] (-) TimerEvent: {}
+[80.483796] (-) TimerEvent: {}
+[80.584048] (-) TimerEvent: {}
+[80.684285] (-) TimerEvent: {}
+[80.784540] (-) TimerEvent: {}
+[80.884766] (-) TimerEvent: {}
+[80.985029] (-) TimerEvent: {}
+[81.085267] (-) TimerEvent: {}
+[81.185517] (-) TimerEvent: {}
+[81.285757] (-) TimerEvent: {}
+[81.386014] (-) TimerEvent: {}
+[81.486253] (-) TimerEvent: {}
+[81.586506] (-) TimerEvent: {}
+[81.686749] (-) TimerEvent: {}
+[81.787015] (-) TimerEvent: {}
+[81.887239] (-) TimerEvent: {}
+[81.987529] (-) TimerEvent: {}
+[82.087814] (-) TimerEvent: {}
+[82.188080] (-) TimerEvent: {}
+[82.288357] (-) TimerEvent: {}
+[82.388625] (-) TimerEvent: {}
+[82.488896] (-) TimerEvent: {}
+[82.589146] (-) TimerEvent: {}
+[82.689381] (-) TimerEvent: {}
+[82.789645] (-) TimerEvent: {}
+[82.889871] (-) TimerEvent: {}
+[82.990141] (-) TimerEvent: {}
+[83.090368] (-) TimerEvent: {}
+[83.190627] (-) TimerEvent: {}
+[83.290856] (-) TimerEvent: {}
+[83.391114] (-) TimerEvent: {}
+[83.491352] (-) TimerEvent: {}
+[83.591609] (-) TimerEvent: {}
+[83.691836] (-) TimerEvent: {}
+[83.792102] (-) TimerEvent: {}
+[83.892329] (-) TimerEvent: {}
+[83.992582] (-) TimerEvent: {}
+[84.092812] (-) TimerEvent: {}
+[84.193068] (-) TimerEvent: {}
+[84.293301] (-) TimerEvent: {}
+[84.393557] (-) TimerEvent: {}
+[84.493785] (-) TimerEvent: {}
+[84.594042] (-) TimerEvent: {}
+[84.694273] (-) TimerEvent: {}
+[84.794541] (-) TimerEvent: {}
+[84.894768] (-) TimerEvent: {}
+[84.995026] (-) TimerEvent: {}
+[85.095266] (-) TimerEvent: {}
+[85.195522] (-) TimerEvent: {}
+[85.295753] (-) TimerEvent: {}
+[85.396020] (-) TimerEvent: {}
+[85.496249] (-) TimerEvent: {}
+[85.596509] (-) TimerEvent: {}
+[85.696738] (-) TimerEvent: {}
+[85.796990] (-) TimerEvent: {}
+[85.897212] (-) TimerEvent: {}
+[85.997460] (-) TimerEvent: {}
+[86.097673] (-) TimerEvent: {}
+[86.197894] (-) TimerEvent: {}
+[86.298100] (-) TimerEvent: {}
+[86.398312] (-) TimerEvent: {}
+[86.498520] (-) TimerEvent: {}
+[86.598740] (-) TimerEvent: {}
+[86.698948] (-) TimerEvent: {}
+[86.799159] (-) TimerEvent: {}
+[86.899368] (-) TimerEvent: {}
+[86.999578] (-) TimerEvent: {}
+[87.099803] (-) TimerEvent: {}
+[87.200011] (-) TimerEvent: {}
+[87.300215] (-) TimerEvent: {}
+[87.400430] (-) TimerEvent: {}
+[87.500640] (-) TimerEvent: {}
+[87.600869] (-) TimerEvent: {}
+[87.701131] (-) TimerEvent: {}
+[87.801362] (-) TimerEvent: {}
+[87.901619] (-) TimerEvent: {}
+[88.001859] (-) TimerEvent: {}
+[88.102113] (-) TimerEvent: {}
+[88.202341] (-) TimerEvent: {}
+[88.302606] (-) TimerEvent: {}
+[88.402839] (-) TimerEvent: {}
+[88.503107] (-) TimerEvent: {}
+[88.603338] (-) TimerEvent: {}
+[88.703594] (-) TimerEvent: {}
+[88.803837] (-) TimerEvent: {}
+[88.904083] (-) TimerEvent: {}
+[89.004311] (-) TimerEvent: {}
+[89.104600] (-) TimerEvent: {}
+[89.204827] (-) TimerEvent: {}
+[89.305088] (-) TimerEvent: {}
+[89.405319] (-) TimerEvent: {}
+[89.505572] (-) TimerEvent: {}
+[89.605814] (-) TimerEvent: {}
+[89.706061] (-) TimerEvent: {}
+[89.806293] (-) TimerEvent: {}
+[89.906551] (-) TimerEvent: {}
+[90.006798] (-) TimerEvent: {}
+[90.107047] (-) TimerEvent: {}
+[90.207262] (-) TimerEvent: {}
+[90.307578] (-) TimerEvent: {}
+[90.407835] (-) TimerEvent: {}
+[90.508095] (-) TimerEvent: {}
+[90.608323] (-) TimerEvent: {}
+[90.708574] (-) TimerEvent: {}
+[90.808801] (-) TimerEvent: {}
+[90.909054] (-) TimerEvent: {}
+[91.009282] (-) TimerEvent: {}
+[91.109550] (-) TimerEvent: {}
+[91.209777] (-) TimerEvent: {}
+[91.310039] (-) TimerEvent: {}
+[91.410268] (-) TimerEvent: {}
+[91.510523] (-) TimerEvent: {}
+[91.610761] (-) TimerEvent: {}
+[91.711011] (-) TimerEvent: {}
+[91.811244] (-) TimerEvent: {}
+[91.911516] (-) TimerEvent: {}
+[92.011750] (-) TimerEvent: {}
+[92.112025] (-) TimerEvent: {}
+[92.212281] (-) TimerEvent: {}
+[92.312528] (-) TimerEvent: {}
+[92.412795] (-) TimerEvent: {}
+[92.513046] (-) TimerEvent: {}
+[92.613283] (-) TimerEvent: {}
+[92.713517] (-) TimerEvent: {}
+[92.813772] (-) TimerEvent: {}
+[92.914013] (-) TimerEvent: {}
+[93.014268] (-) TimerEvent: {}
+[93.114495] (-) TimerEvent: {}
+[93.214773] (-) TimerEvent: {}
+[93.315000] (-) TimerEvent: {}
+[93.415259] (-) TimerEvent: {}
+[93.515505] (-) TimerEvent: {}
+[93.615761] (-) TimerEvent: {}
+[93.715997] (-) TimerEvent: {}
+[93.816253] (-) TimerEvent: {}
+[93.916479] (-) TimerEvent: {}
+[94.016751] (-) TimerEvent: {}
+[94.116975] (-) TimerEvent: {}
+[94.217230] (-) TimerEvent: {}
+[94.317470] (-) TimerEvent: {}
+[94.417697] (-) TimerEvent: {}
+[94.517961] (-) TimerEvent: {}
+[94.618191] (-) TimerEvent: {}
+[94.718443] (-) TimerEvent: {}
+[94.818674] (-) TimerEvent: {}
+[94.918883] (-) TimerEvent: {}
+[95.019095] (-) TimerEvent: {}
+[95.119308] (-) TimerEvent: {}
+[95.219520] (-) TimerEvent: {}
+[95.319728] (-) TimerEvent: {}
+[95.419950] (-) TimerEvent: {}
+[95.520161] (-) TimerEvent: {}
+[95.620378] (-) TimerEvent: {}
+[95.720601] (-) TimerEvent: {}
+[95.820813] (-) TimerEvent: {}
+[95.921019] (-) TimerEvent: {}
+[96.021231] (-) TimerEvent: {}
+[96.121451] (-) TimerEvent: {}
+[96.221662] (-) TimerEvent: {}
+[96.321871] (-) TimerEvent: {}
+[96.422094] (-) TimerEvent: {}
+[96.522306] (-) TimerEvent: {}
+[96.622517] (-) TimerEvent: {}
+[96.722758] (-) TimerEvent: {}
+[96.822964] (-) TimerEvent: {}
+[96.923177] (-) TimerEvent: {}
+[97.023396] (-) TimerEvent: {}
+[97.123622] (-) TimerEvent: {}
+[97.223852] (-) TimerEvent: {}
+[97.324106] (-) TimerEvent: {}
+[97.424335] (-) TimerEvent: {}
+[97.524599] (-) TimerEvent: {}
+[97.624828] (-) TimerEvent: {}
+[97.725095] (-) TimerEvent: {}
+[97.825357] (-) TimerEvent: {}
+[97.925619] (-) TimerEvent: {}
+[98.025847] (-) TimerEvent: {}
+[98.126104] (-) TimerEvent: {}
+[98.226335] (-) TimerEvent: {}
+[98.326588] (-) TimerEvent: {}
+[98.426818] (-) TimerEvent: {}
+[98.527084] (-) TimerEvent: {}
+[98.627316] (-) TimerEvent: {}
+[98.727585] (-) TimerEvent: {}
+[98.827813] (-) TimerEvent: {}
+[98.928061] (-) TimerEvent: {}
+[99.028293] (-) TimerEvent: {}
+[99.128544] (-) TimerEvent: {}
+[99.228774] (-) TimerEvent: {}
+[99.329036] (-) TimerEvent: {}
+[99.429256] (-) TimerEvent: {}
+[99.529485] (-) TimerEvent: {}
+[99.629752] (-) TimerEvent: {}
+[99.729982] (-) TimerEvent: {}
+[99.830243] (-) TimerEvent: {}
+[99.930470] (-) TimerEvent: {}
+[100.030733] (-) TimerEvent: {}
+[100.130977] (-) TimerEvent: {}
+[100.231232] (-) TimerEvent: {}
+[100.331461] (-) TimerEvent: {}
+[100.431732] (-) TimerEvent: {}
+[100.531963] (-) TimerEvent: {}
+[100.632221] (-) TimerEvent: {}
+[100.732448] (-) TimerEvent: {}
+[100.832701] (-) TimerEvent: {}
+[100.932926] (-) TimerEvent: {}
+[101.033187] (-) TimerEvent: {}
+[101.133415] (-) TimerEvent: {}
+[101.233684] (-) TimerEvent: {}
+[101.333909] (-) TimerEvent: {}
+[101.434179] (-) TimerEvent: {}
+[101.534410] (-) TimerEvent: {}
+[101.634683] (-) TimerEvent: {}
+[101.734895] (-) TimerEvent: {}
+[101.835109] (-) TimerEvent: {}
+[101.935317] (-) TimerEvent: {}
+[102.035529] (-) TimerEvent: {}
+[102.135744] (-) TimerEvent: {}
+[102.235958] (-) TimerEvent: {}
+[102.336175] (-) TimerEvent: {}
+[102.436384] (-) TimerEvent: {}
+[102.536598] (-) TimerEvent: {}
+[102.636855] (-) TimerEvent: {}
+[102.737071] (-) TimerEvent: {}
+[102.837278] (-) TimerEvent: {}
+[102.937498] (-) TimerEvent: {}
+[103.037708] (-) TimerEvent: {}
+[103.137919] (-) TimerEvent: {}
+[103.238140] (-) TimerEvent: {}
+[103.338350] (-) TimerEvent: {}
+[103.438564] (-) TimerEvent: {}
+[103.538793] (-) TimerEvent: {}
+[103.639001] (-) TimerEvent: {}
+[103.739213] (-) TimerEvent: {}
+[103.839420] (-) TimerEvent: {}
+[103.939655] (-) TimerEvent: {}
+[104.039863] (-) TimerEvent: {}
+[104.140071] (-) TimerEvent: {}
+[104.240288] (-) TimerEvent: {}
+[104.340509] (-) TimerEvent: {}
+[104.440719] (-) TimerEvent: {}
+[104.540933] (-) TimerEvent: {}
+[104.641144] (-) TimerEvent: {}
+[104.741354] (-) TimerEvent: {}
+[104.841564] (-) TimerEvent: {}
+[104.941772] (-) TimerEvent: {}
+[105.041996] (-) TimerEvent: {}
+[105.142206] (-) TimerEvent: {}
+[105.242414] (-) TimerEvent: {}
+[105.342648] (-) TimerEvent: {}
+[105.442853] (-) TimerEvent: {}
+[105.543072] (-) TimerEvent: {}
+[105.643343] (-) TimerEvent: {}
+[105.743561] (-) TimerEvent: {}
+[105.843782] (-) TimerEvent: {}
+[105.943989] (-) TimerEvent: {}
+[106.044200] (-) TimerEvent: {}
+[106.144410] (-) TimerEvent: {}
+[106.244633] (-) TimerEvent: {}
+[106.344845] (-) TimerEvent: {}
+[106.445055] (-) TimerEvent: {}
+[106.545275] (-) TimerEvent: {}
+[106.645484] (-) TimerEvent: {}
+[106.745695] (-) TimerEvent: {}
+[106.845914] (-) TimerEvent: {}
+[106.946123] (-) TimerEvent: {}
+[107.046336] (-) TimerEvent: {}
+[107.146565] (-) TimerEvent: {}
+[107.246778] (-) TimerEvent: {}
+[107.346998] (-) TimerEvent: {}
+[107.447216] (-) TimerEvent: {}
+[107.547429] (-) TimerEvent: {}
+[107.647641] (-) TimerEvent: {}
+[107.747883] (-) TimerEvent: {}
+[107.848146] (-) TimerEvent: {}
+[107.948375] (-) TimerEvent: {}
+[108.048647] (-) TimerEvent: {}
+[108.148879] (-) TimerEvent: {}
+[108.249129] (-) TimerEvent: {}
+[108.349358] (-) TimerEvent: {}
+[108.449619] (-) TimerEvent: {}
+[108.549872] (-) TimerEvent: {}
+[108.650151] (-) TimerEvent: {}
+[108.750360] (-) TimerEvent: {}
+[108.850582] (-) TimerEvent: {}
+[108.950744] (-) TimerEvent: {}
+[109.050958] (-) TimerEvent: {}
+[109.134659] (udp_receiver) StdoutLine: {'line': b'[ 72%] Built target render_test\n'}
+[109.151039] (-) TimerEvent: {}
+[109.251233] (-) TimerEvent: {}
+[109.351446] (-) TimerEvent: {}
+[109.451662] (-) TimerEvent: {}
+[109.551887] (-) TimerEvent: {}
+[109.652139] (-) TimerEvent: {}
+[109.752363] (-) TimerEvent: {}
+[109.852571] (-) TimerEvent: {}
+[109.952802] (-) TimerEvent: {}
+[110.053024] (-) TimerEvent: {}
+[110.153239] (-) TimerEvent: {}
+[110.253444] (-) TimerEvent: {}
+[110.353654] (-) TimerEvent: {}
+[110.453874] (-) TimerEvent: {}
+[110.554083] (-) TimerEvent: {}
+[110.654293] (-) TimerEvent: {}
+[110.754565] (-) TimerEvent: {}
+[110.854775] (-) TimerEvent: {}
+[110.954981] (-) TimerEvent: {}
+[111.055203] (-) TimerEvent: {}
+[111.155416] (-) TimerEvent: {}
+[111.255630] (-) TimerEvent: {}
+[111.355847] (-) TimerEvent: {}
+[111.456054] (-) TimerEvent: {}
+[111.556269] (-) TimerEvent: {}
+[111.656488] (-) TimerEvent: {}
+[111.756699] (-) TimerEvent: {}
+[111.856906] (-) TimerEvent: {}
+[111.957113] (-) TimerEvent: {}
+[112.057324] (-) TimerEvent: {}
+[112.157544] (-) TimerEvent: {}
+[112.257756] (-) TimerEvent: {}
+[112.357971] (-) TimerEvent: {}
+[112.458177] (-) TimerEvent: {}
+[112.558392] (-) TimerEvent: {}
+[112.658604] (-) TimerEvent: {}
+[112.758823] (-) TimerEvent: {}
+[112.859084] (-) TimerEvent: {}
+[112.959297] (-) TimerEvent: {}
+[113.059515] (-) TimerEvent: {}
+[113.159733] (-) TimerEvent: {}
+[113.259945] (-) TimerEvent: {}
+[113.360168] (-) TimerEvent: {}
+[113.460375] (-) TimerEvent: {}
+[113.560589] (-) TimerEvent: {}
+[113.660809] (-) TimerEvent: {}
+[113.761065] (-) TimerEvent: {}
+[113.861335] (-) TimerEvent: {}
+[113.961545] (-) TimerEvent: {}
+[114.061754] (-) TimerEvent: {}
+[114.161964] (-) TimerEvent: {}
+[114.262182] (-) TimerEvent: {}
+[114.362392] (-) TimerEvent: {}
+[114.462603] (-) TimerEvent: {}
+[114.562834] (-) TimerEvent: {}
+[114.663046] (-) TimerEvent: {}
+[114.763251] (-) TimerEvent: {}
+[114.863472] (-) TimerEvent: {}
+[114.963685] (-) TimerEvent: {}
+[115.063893] (-) TimerEvent: {}
+[115.164115] (-) TimerEvent: {}
+[115.264326] (-) TimerEvent: {}
+[115.364535] (-) TimerEvent: {}
+[115.464759] (-) TimerEvent: {}
+[115.564971] (-) TimerEvent: {}
+[115.665180] (-) TimerEvent: {}
+[115.765400] (-) TimerEvent: {}
+[115.865607] (-) TimerEvent: {}
+[115.965816] (-) TimerEvent: {}
+[116.066077] (-) TimerEvent: {}
+[116.166296] (-) TimerEvent: {}
+[116.266503] (-) TimerEvent: {}
+[116.366733] (-) TimerEvent: {}
+[116.466945] (-) TimerEvent: {}
+[116.567159] (-) TimerEvent: {}
+[116.667379] (-) TimerEvent: {}
+[116.767592] (-) TimerEvent: {}
+[116.867805] (-) TimerEvent: {}
+[116.968021] (-) TimerEvent: {}
+[117.068232] (-) TimerEvent: {}
+[117.168446] (-) TimerEvent: {}
+[117.268655] (-) TimerEvent: {}
+[117.368858] (-) TimerEvent: {}
+[117.469063] (-) TimerEvent: {}
+[117.569285] (-) TimerEvent: {}
+[117.669495] (-) TimerEvent: {}
+[117.769706] (-) TimerEvent: {}
+[117.869927] (-) TimerEvent: {}
+[117.970132] (-) TimerEvent: {}
+[118.070341] (-) TimerEvent: {}
+[118.170571] (-) TimerEvent: {}
+[118.270787] (-) TimerEvent: {}
+[118.370996] (-) TimerEvent: {}
+[118.471206] (-) TimerEvent: {}
+[118.571427] (-) TimerEvent: {}
+[118.671648] (-) TimerEvent: {}
+[118.771861] (-) TimerEvent: {}
+[118.872079] (-) TimerEvent: {}
+[118.972287] (-) TimerEvent: {}
+[119.072501] (-) TimerEvent: {}
+[119.172725] (-) TimerEvent: {}
+[119.272935] (-) TimerEvent: {}
+[119.373148] (-) TimerEvent: {}
+[119.473363] (-) TimerEvent: {}
+[119.573576] (-) TimerEvent: {}
+[119.673783] (-) TimerEvent: {}
+[119.773999] (-) TimerEvent: {}
+[119.874214] (-) TimerEvent: {}
+[119.974433] (-) TimerEvent: {}
+[120.074673] (-) TimerEvent: {}
+[120.174884] (-) TimerEvent: {}
+[120.275093] (-) TimerEvent: {}
+[120.375300] (-) TimerEvent: {}
+[120.475507] (-) TimerEvent: {}
+[120.575730] (-) TimerEvent: {}
+[120.675936] (-) TimerEvent: {}
+[120.776147] (-) TimerEvent: {}
+[120.876364] (-) TimerEvent: {}
+[120.976568] (-) TimerEvent: {}
+[121.076818] (-) TimerEvent: {}
+[121.177037] (-) TimerEvent: {}
+[121.277247] (-) TimerEvent: {}
+[121.377457] (-) TimerEvent: {}
+[121.477676] (-) TimerEvent: {}
+[121.577887] (-) TimerEvent: {}
+[121.678107] (-) TimerEvent: {}
+[121.778327] (-) TimerEvent: {}
+[121.878539] (-) TimerEvent: {}
+[121.978752] (-) TimerEvent: {}
+[122.078971] (-) TimerEvent: {}
+[122.179182] (-) TimerEvent: {}
+[122.279392] (-) TimerEvent: {}
+[122.379643] (-) TimerEvent: {}
+[122.479858] (-) TimerEvent: {}
+[122.580068] (-) TimerEvent: {}
+[122.680286] (-) TimerEvent: {}
+[122.780495] (-) TimerEvent: {}
+[122.880704] (-) TimerEvent: {}
+[122.980910] (-) TimerEvent: {}
+[123.081121] (-) TimerEvent: {}
+[123.181328] (-) TimerEvent: {}
+[123.281546] (-) TimerEvent: {}
+[123.381758] (-) TimerEvent: {}
+[123.481964] (-) TimerEvent: {}
+[123.582184] (-) TimerEvent: {}
+[123.631119] (udp_receiver) StdoutLine: {'line': b'[100%] Built target UDPReceiver\n'}
+[123.637127] (udp_receiver) CommandEnded: {'returncode': 0}
+[123.654296] (udp_receiver) JobProgress: {'identifier': 'udp_receiver', 'progress': 'install'}
+[123.654452] (udp_receiver) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/optimo/workspaces/maestro_ws/build/udp_receiver'], 'cwd': '/home/optimo/workspaces/maestro_ws/build/udp_receiver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'optimo'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/openrobots/lib:/home/optimo/workspaces/plato_ws/install/plato_hardware_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/optimo'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/optimo/workspaces'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2088'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('COLCON_PREFIX_PATH', '/home/optimo/workspaces/plato_ws/install:/home/optimo/workspaces/spacemouse_ws/install:/home/optimo/roboligent_sdk/optimo_controller/ros_wrapper/install:/home/optimo/workspaces/moveit_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'optimo'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/openrobots/lib/pkgconfig:'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'optimo'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/openrobots/bin:/home/optimo/miniconda3/condabin:/opt/ros/humble/bin:/home/optimo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hcrl-optimo:@/tmp/.ICE-unix/2066,unix/hcrl-optimo:/tmp/.ICE-unix/2066'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/47108c09_9e88_4154_a92b_eca88a6b27d1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.119'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/optimo/roboligent_sdk/optimo_controller/ros_wrapper/install/optimo_sim:/home/optimo/roboligent_sdk/optimo_controller/ros_wrapper/install/optimo_moveit_config:/home/optimo/roboligent_sdk/optimo_controller/ros_wrapper/install/optimo_description:/home/optimo/workspaces/plato_ws/install/plato_teleop:/home/optimo/workspaces/plato_ws/install/plato_pycontroller:/home/optimo/workspaces/plato_ws/install/plato_moveit_config:/home/optimo/workspaces/plato_ws/install/plato_hardware_interface:/home/optimo/workspaces/plato_ws/install/plato_gazebo:/home/optimo/workspaces/plato_ws/install/plato_description:/home/optimo/workspaces/plato_ws/install/plato_bringup:/home/optimo/workspaces/plato_ws/install/optiman_description:/home/optimo/workspaces/spacemouse_ws/install/spaceMouse_navigator:/home/optimo/workspaces/spacemouse_ws/install/data_collection:/home/optimo/workspaces/moveit_ws/install/plato_moveit_control:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/optimo/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/optimo/workspaces/maestro_ws/build/udp_receiver'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/optimo/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/openrobots/lib/python3.10/site-packages:/home/optimo/workspaces/plato_ws/build/plato_pycontroller:/home/optimo/workspaces/plato_ws/install/plato_pycontroller/lib/python3.10/site-packages:/home/optimo/workspaces/spacemouse_ws/install/spaceMouse_navigator/lib/python3.10/site-packages:/home/optimo/workspaces/spacemouse_ws/install/data_collection/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/openrobots:/home/optimo/roboligent_sdk/optimo_controller/ros_wrapper/install/optimo_sim:/home/optimo/roboligent_sdk/optimo_controller/ros_wrapper/install/optimo_moveit_config:/home/optimo/roboligent_sdk/optimo_controller/ros_wrapper/install/optimo_description:/home/optimo/workspaces/plato_ws/install/plato_teleop:/home/optimo/workspaces/plato_ws/install/plato_moveit_config:/home/optimo/workspaces/plato_ws/install/plato_hardware_interface:/home/optimo/workspaces/plato_ws/install/plato_gazebo:/home/optimo/workspaces/plato_ws/install/plato_description:/home/optimo/workspaces/plato_ws/install/plato_bringup:/home/optimo/workspaces/plato_ws/install/optiman_description:/home/optimo/workspaces/moveit_ws/install/plato_moveit_control:/home/optimo/workspaces/plato_ws/install/plato_pycontroller:/home/optimo/workspaces/spacemouse_ws/install/spaceMouse_navigator:/home/optimo/workspaces/spacemouse_ws/install/data_collection:/opt/ros/humble')]), 'shell': False}
+[123.658737] (udp_receiver) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[123.659021] (udp_receiver) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[123.659167] (udp_receiver) StdoutLine: {'line': b'-- Symlinking: /home/optimo/workspaces/maestro_ws/install/udp_receiver/lib/udp_receiver/UDPReceiver\n'}
+[123.663696] (udp_receiver) StdoutLine: {'line': b'-- Symlinking: /home/optimo/workspaces/maestro_ws/install/udp_receiver/lib/udp_receiver/UDPReceiver_mthread\n'}
+[123.667963] (udp_receiver) StdoutLine: {'line': b'-- Symlinking: /home/optimo/workspaces/maestro_ws/install/udp_receiver/lib/udp_receiver/render_test\n'}
+[123.672137] (udp_receiver) StdoutLine: {'line': b'-- Symlinking: /home/optimo/workspaces/maestro_ws/install/udp_receiver/share/ament_index/resource_index/package_run_dependencies/udp_receiver\n'}
+[123.676611] (udp_receiver) StdoutLine: {'line': b'-- Symlinking: /home/optimo/workspaces/maestro_ws/install/udp_receiver/share/ament_index/resource_index/parent_prefix_path/udp_receiver\n'}
+[123.680819] (udp_receiver) StdoutLine: {'line': b'-- Symlinking: /home/optimo/workspaces/maestro_ws/install/udp_receiver/share/udp_receiver/environment/ament_prefix_path.sh\n'}
+[123.682254] (-) TimerEvent: {}
+[123.685151] (udp_receiver) StdoutLine: {'line': b'-- Symlinking: /home/optimo/workspaces/maestro_ws/install/udp_receiver/share/udp_receiver/environment/ament_prefix_path.dsv\n'}
+[123.689335] (udp_receiver) StdoutLine: {'line': b'-- Symlinking: /home/optimo/workspaces/maestro_ws/install/udp_receiver/share/udp_receiver/environment/path.sh\n'}
+[123.693671] (udp_receiver) StdoutLine: {'line': b'-- Symlinking: /home/optimo/workspaces/maestro_ws/install/udp_receiver/share/udp_receiver/environment/path.dsv\n'}
+[123.697951] (udp_receiver) StdoutLine: {'line': b'-- Symlinking: /home/optimo/workspaces/maestro_ws/install/udp_receiver/share/udp_receiver/local_setup.bash\n'}
+[123.702048] (udp_receiver) StdoutLine: {'line': b'-- Symlinking: /home/optimo/workspaces/maestro_ws/install/udp_receiver/share/udp_receiver/local_setup.sh\n'}
+[123.706671] (udp_receiver) StdoutLine: {'line': b'-- Symlinking: /home/optimo/workspaces/maestro_ws/install/udp_receiver/share/udp_receiver/local_setup.zsh\n'}
+[123.711373] (udp_receiver) StdoutLine: {'line': b'-- Symlinking: /home/optimo/workspaces/maestro_ws/install/udp_receiver/share/udp_receiver/local_setup.dsv\n'}
+[123.718011] (udp_receiver) StdoutLine: {'line': b'-- Symlinking: /home/optimo/workspaces/maestro_ws/install/udp_receiver/share/udp_receiver/package.dsv\n'}
+[123.722818] (udp_receiver) StdoutLine: {'line': b'-- Symlinking: /home/optimo/workspaces/maestro_ws/install/udp_receiver/share/ament_index/resource_index/packages/udp_receiver\n'}
+[123.727251] (udp_receiver) StdoutLine: {'line': b'-- Symlinking: /home/optimo/workspaces/maestro_ws/install/udp_receiver/share/udp_receiver/cmake/udp_receiverConfig.cmake\n'}
+[123.731448] (udp_receiver) StdoutLine: {'line': b'-- Symlinking: /home/optimo/workspaces/maestro_ws/install/udp_receiver/share/udp_receiver/cmake/udp_receiverConfig-version.cmake\n'}
+[123.735704] (udp_receiver) StdoutLine: {'line': b'-- Symlinking: /home/optimo/workspaces/maestro_ws/install/udp_receiver/share/udp_receiver/package.xml\n'}
+[123.740933] (udp_receiver) CommandEnded: {'returncode': 0}
+[123.782336] (-) TimerEvent: {}
+[123.818172] (udp_receiver) JobEnded: {'identifier': 'udp_receiver', 'rc': 0}
+[123.818803] (-) EventReactorShutdown: {}

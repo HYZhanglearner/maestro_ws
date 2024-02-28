@@ -1,0 +1,16 @@
+/home/optimo/workspaces/maestro_ws/install/hand_pattern_recog/lib/hand_pattern_recog/hand_pattern_recog
+/home/optimo/workspaces/maestro_ws/install/hand_pattern_recog/share/ament_index/resource_index/package_run_dependencies/hand_pattern_recog
+/home/optimo/workspaces/maestro_ws/install/hand_pattern_recog/share/ament_index/resource_index/parent_prefix_path/hand_pattern_recog
+/home/optimo/workspaces/maestro_ws/install/hand_pattern_recog/share/hand_pattern_recog/environment/ament_prefix_path.sh
+/home/optimo/workspaces/maestro_ws/install/hand_pattern_recog/share/hand_pattern_recog/environment/ament_prefix_path.dsv
+/home/optimo/workspaces/maestro_ws/install/hand_pattern_recog/share/hand_pattern_recog/environment/path.sh
+/home/optimo/workspaces/maestro_ws/install/hand_pattern_recog/share/hand_pattern_recog/environment/path.dsv
+/home/optimo/workspaces/maestro_ws/install/hand_pattern_recog/share/hand_pattern_recog/local_setup.bash
+/home/optimo/workspaces/maestro_ws/install/hand_pattern_recog/share/hand_pattern_recog/local_setup.sh
+/home/optimo/workspaces/maestro_ws/install/hand_pattern_recog/share/hand_pattern_recog/local_setup.zsh
+/home/optimo/workspaces/maestro_ws/install/hand_pattern_recog/share/hand_pattern_recog/local_setup.dsv
+/home/optimo/workspaces/maestro_ws/install/hand_pattern_recog/share/hand_pattern_recog/package.dsv
+/home/optimo/workspaces/maestro_ws/install/hand_pattern_recog/share/ament_index/resource_index/packages/hand_pattern_recog
+/home/optimo/workspaces/maestro_ws/install/hand_pattern_recog/share/hand_pattern_recog/cmake/hand_pattern_recogConfig.cmake
+/home/optimo/workspaces/maestro_ws/install/hand_pattern_recog/share/hand_pattern_recog/cmake/hand_pattern_recogConfig-version.cmake
+/home/optimo/workspaces/maestro_ws/install/hand_pattern_recog/share/hand_pattern_recog/package.xml

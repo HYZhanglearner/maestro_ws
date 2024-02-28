@@ -1,0 +1,23 @@
+[0.360s] Invoking command in '/home/optimo/workspaces/maestro_ws/build/hand_pattern_recog': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/optimo/workspaces/plato_ws/install/plato_pycontroller:/home/optimo/workspaces/spacemouse_ws/install/spaceMouse_navigator:/home/optimo/workspaces/spacemouse_ws/install/data_collection:/opt/ros/humble /usr/bin/cmake --build /home/optimo/workspaces/maestro_ws/build/hand_pattern_recog -- -j20 -l20
+[0.560s] [35m[1mConsolidate compiler generated dependencies of target hand_pattern_recog[0m
+[0.560s] [100%] Built target hand_pattern_recog
+[0.563s] Invoked command in '/home/optimo/workspaces/maestro_ws/build/hand_pattern_recog' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/optimo/workspaces/plato_ws/install/plato_pycontroller:/home/optimo/workspaces/spacemouse_ws/install/spaceMouse_navigator:/home/optimo/workspaces/spacemouse_ws/install/data_collection:/opt/ros/humble /usr/bin/cmake --build /home/optimo/workspaces/maestro_ws/build/hand_pattern_recog -- -j20 -l20
+[0.581s] Invoking command in '/home/optimo/workspaces/maestro_ws/build/hand_pattern_recog': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/optimo/workspaces/plato_ws/install/plato_pycontroller:/home/optimo/workspaces/spacemouse_ws/install/spaceMouse_navigator:/home/optimo/workspaces/spacemouse_ws/install/data_collection:/opt/ros/humble /usr/bin/cmake --install /home/optimo/workspaces/maestro_ws/build/hand_pattern_recog
+[0.594s] -- Install configuration: ""
+[0.595s] -- Up-to-date: /home/optimo/workspaces/maestro_ws/install/hand_pattern_recog/lib/hand_pattern_recog/hand_pattern_recog
+[0.595s] -- Up-to-date: /home/optimo/workspaces/maestro_ws/install/hand_pattern_recog/share/ament_index/resource_index/package_run_dependencies/hand_pattern_recog
+[0.595s] -- Up-to-date: /home/optimo/workspaces/maestro_ws/install/hand_pattern_recog/share/ament_index/resource_index/parent_prefix_path/hand_pattern_recog
+[0.595s] -- Up-to-date: /home/optimo/workspaces/maestro_ws/install/hand_pattern_recog/share/hand_pattern_recog/environment/ament_prefix_path.sh
+[0.595s] -- Up-to-date: /home/optimo/workspaces/maestro_ws/install/hand_pattern_recog/share/hand_pattern_recog/environment/ament_prefix_path.dsv
+[0.595s] -- Up-to-date: /home/optimo/workspaces/maestro_ws/install/hand_pattern_recog/share/hand_pattern_recog/environment/path.sh
+[0.596s] -- Up-to-date: /home/optimo/workspaces/maestro_ws/install/hand_pattern_recog/share/hand_pattern_recog/environment/path.dsv
+[0.596s] -- Up-to-date: /home/optimo/workspaces/maestro_ws/install/hand_pattern_recog/share/hand_pattern_recog/local_setup.bash
+[0.596s] -- Up-to-date: /home/optimo/workspaces/maestro_ws/install/hand_pattern_recog/share/hand_pattern_recog/local_setup.sh
+[0.596s] -- Up-to-date: /home/optimo/workspaces/maestro_ws/install/hand_pattern_recog/share/hand_pattern_recog/local_setup.zsh
+[0.596s] -- Up-to-date: /home/optimo/workspaces/maestro_ws/install/hand_pattern_recog/share/hand_pattern_recog/local_setup.dsv
+[0.596s] -- Installing: /home/optimo/workspaces/maestro_ws/install/hand_pattern_recog/share/hand_pattern_recog/package.dsv
+[0.596s] -- Up-to-date: /home/optimo/workspaces/maestro_ws/install/hand_pattern_recog/share/ament_index/resource_index/packages/hand_pattern_recog
+[0.596s] -- Up-to-date: /home/optimo/workspaces/maestro_ws/install/hand_pattern_recog/share/hand_pattern_recog/cmake/hand_pattern_recogConfig.cmake
+[0.596s] -- Up-to-date: /home/optimo/workspaces/maestro_ws/install/hand_pattern_recog/share/hand_pattern_recog/cmake/hand_pattern_recogConfig-version.cmake
+[0.596s] -- Up-to-date: /home/optimo/workspaces/maestro_ws/install/hand_pattern_recog/share/hand_pattern_recog/package.xml
+[0.596s] Invoked command in '/home/optimo/workspaces/maestro_ws/build/hand_pattern_recog' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/optimo/workspaces/plato_ws/install/plato_pycontroller:/home/optimo/workspaces/spacemouse_ws/install/spaceMouse_navigator:/home/optimo/workspaces/spacemouse_ws/install/data_collection:/opt/ros/humble /usr/bin/cmake --install /home/optimo/workspaces/maestro_ws/build/hand_pattern_recog

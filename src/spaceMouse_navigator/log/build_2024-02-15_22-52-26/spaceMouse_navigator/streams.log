@@ -1,0 +1,42 @@
+[0.764s] Invoking command in '/home/haiyunzhang/ros2_ws/src/PLATO_ROS/spaceMouse_navigator': PYTHONPATH=/home/haiyunzhang/ros2_ws/src/PLATO_ROS/spaceMouse_navigator/build/spaceMouse_navigator/prefix_override:/home/haiyunzhang/ros2_ws/src/PLATO_ROS/spaceMouse_navigator/install/spaceMouse_navigator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/spaceMouse_navigator build --build-base /home/haiyunzhang/ros2_ws/src/PLATO_ROS/spaceMouse_navigator/build/spaceMouse_navigator/build install --record /home/haiyunzhang/ros2_ws/src/PLATO_ROS/spaceMouse_navigator/build/spaceMouse_navigator/install.log --single-version-externally-managed
+[0.964s] running egg_info
+[0.964s] creating build/spaceMouse_navigator/spaceMouse_navigator.egg-info
+[0.965s] writing build/spaceMouse_navigator/spaceMouse_navigator.egg-info/PKG-INFO
+[0.965s] writing dependency_links to build/spaceMouse_navigator/spaceMouse_navigator.egg-info/dependency_links.txt
+[0.965s] writing entry points to build/spaceMouse_navigator/spaceMouse_navigator.egg-info/entry_points.txt
+[0.965s] writing requirements to build/spaceMouse_navigator/spaceMouse_navigator.egg-info/requires.txt
+[0.965s] writing top-level names to build/spaceMouse_navigator/spaceMouse_navigator.egg-info/top_level.txt
+[0.965s] writing manifest file 'build/spaceMouse_navigator/spaceMouse_navigator.egg-info/SOURCES.txt'
+[0.966s] reading manifest file 'build/spaceMouse_navigator/spaceMouse_navigator.egg-info/SOURCES.txt'
+[0.967s] writing manifest file 'build/spaceMouse_navigator/spaceMouse_navigator.egg-info/SOURCES.txt'
+[0.967s] running build
+[0.967s] running build_py
+[0.967s] creating /home/haiyunzhang/ros2_ws/src/PLATO_ROS/spaceMouse_navigator/build/spaceMouse_navigator/build
+[0.967s] creating /home/haiyunzhang/ros2_ws/src/PLATO_ROS/spaceMouse_navigator/build/spaceMouse_navigator/build/lib
+[0.967s] creating /home/haiyunzhang/ros2_ws/src/PLATO_ROS/spaceMouse_navigator/build/spaceMouse_navigator/build/lib/spaceMouse_navigator
+[0.976s] copying spaceMouse_navigator/spaceMouse_publisher.py -> /home/haiyunzhang/ros2_ws/src/PLATO_ROS/spaceMouse_navigator/build/spaceMouse_navigator/build/lib/spaceMouse_navigator
+[0.976s] copying spaceMouse_navigator/spaceMouse_motionTest.py -> /home/haiyunzhang/ros2_ws/src/PLATO_ROS/spaceMouse_navigator/build/spaceMouse_navigator/build/lib/spaceMouse_navigator
+[0.976s] copying spaceMouse_navigator/__init__.py -> /home/haiyunzhang/ros2_ws/src/PLATO_ROS/spaceMouse_navigator/build/spaceMouse_navigator/build/lib/spaceMouse_navigator
+[0.977s] running install
+[0.977s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.977s]   warnings.warn(
+[0.977s] running install_lib
+[0.977s] creating /home/haiyunzhang/ros2_ws/src/PLATO_ROS/spaceMouse_navigator/install/spaceMouse_navigator/lib/python3.10/site-packages/spaceMouse_navigator
+[0.978s] copying /home/haiyunzhang/ros2_ws/src/PLATO_ROS/spaceMouse_navigator/build/spaceMouse_navigator/build/lib/spaceMouse_navigator/spaceMouse_publisher.py -> /home/haiyunzhang/ros2_ws/src/PLATO_ROS/spaceMouse_navigator/install/spaceMouse_navigator/lib/python3.10/site-packages/spaceMouse_navigator
+[0.978s] copying /home/haiyunzhang/ros2_ws/src/PLATO_ROS/spaceMouse_navigator/build/spaceMouse_navigator/build/lib/spaceMouse_navigator/spaceMouse_motionTest.py -> /home/haiyunzhang/ros2_ws/src/PLATO_ROS/spaceMouse_navigator/install/spaceMouse_navigator/lib/python3.10/site-packages/spaceMouse_navigator
+[0.978s] copying /home/haiyunzhang/ros2_ws/src/PLATO_ROS/spaceMouse_navigator/build/spaceMouse_navigator/build/lib/spaceMouse_navigator/__init__.py -> /home/haiyunzhang/ros2_ws/src/PLATO_ROS/spaceMouse_navigator/install/spaceMouse_navigator/lib/python3.10/site-packages/spaceMouse_navigator
+[0.978s] byte-compiling /home/haiyunzhang/ros2_ws/src/PLATO_ROS/spaceMouse_navigator/install/spaceMouse_navigator/lib/python3.10/site-packages/spaceMouse_navigator/spaceMouse_publisher.py to spaceMouse_publisher.cpython-310.pyc
+[0.979s] byte-compiling /home/haiyunzhang/ros2_ws/src/PLATO_ROS/spaceMouse_navigator/install/spaceMouse_navigator/lib/python3.10/site-packages/spaceMouse_navigator/spaceMouse_motionTest.py to spaceMouse_motionTest.cpython-310.pyc
+[0.979s] byte-compiling /home/haiyunzhang/ros2_ws/src/PLATO_ROS/spaceMouse_navigator/install/spaceMouse_navigator/lib/python3.10/site-packages/spaceMouse_navigator/__init__.py to __init__.cpython-310.pyc
+[0.979s] running install_data
+[0.979s] creating /home/haiyunzhang/ros2_ws/src/PLATO_ROS/spaceMouse_navigator/install/spaceMouse_navigator/share/ament_index
+[0.979s] creating /home/haiyunzhang/ros2_ws/src/PLATO_ROS/spaceMouse_navigator/install/spaceMouse_navigator/share/ament_index/resource_index
+[0.979s] creating /home/haiyunzhang/ros2_ws/src/PLATO_ROS/spaceMouse_navigator/install/spaceMouse_navigator/share/ament_index/resource_index/packages
+[0.980s] copying resource/spaceMouse_navigator -> /home/haiyunzhang/ros2_ws/src/PLATO_ROS/spaceMouse_navigator/install/spaceMouse_navigator/share/ament_index/resource_index/packages
+[0.980s] copying package.xml -> /home/haiyunzhang/ros2_ws/src/PLATO_ROS/spaceMouse_navigator/install/spaceMouse_navigator/share/spaceMouse_navigator
+[0.980s] running install_egg_info
+[0.981s] Copying build/spaceMouse_navigator/spaceMouse_navigator.egg-info to /home/haiyunzhang/ros2_ws/src/PLATO_ROS/spaceMouse_navigator/install/spaceMouse_navigator/lib/python3.10/site-packages/spaceMouse_navigator-0.0.0-py3.10.egg-info
+[0.982s] running install_scripts
+[0.998s] Installing spaceMouse_motionTest = spaceMouse_navigator.spaceMouse_motionTest:mainspaceMouse_publisher script to /home/haiyunzhang/ros2_ws/src/PLATO_ROS/spaceMouse_navigator/install/spaceMouse_navigator/lib/spaceMouse_navigator
+[0.998s] writing list of installed files to '/home/haiyunzhang/ros2_ws/src/PLATO_ROS/spaceMouse_navigator/build/spaceMouse_navigator/install.log'
+[1.018s] Invoked command in '/home/haiyunzhang/ros2_ws/src/PLATO_ROS/spaceMouse_navigator' returned '0': PYTHONPATH=/home/haiyunzhang/ros2_ws/src/PLATO_ROS/spaceMouse_navigator/build/spaceMouse_navigator/prefix_override:/home/haiyunzhang/ros2_ws/src/PLATO_ROS/spaceMouse_navigator/install/spaceMouse_navigator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/spaceMouse_navigator build --build-base /home/haiyunzhang/ros2_ws/src/PLATO_ROS/spaceMouse_navigator/build/spaceMouse_navigator/build install --record /home/haiyunzhang/ros2_ws/src/PLATO_ROS/spaceMouse_navigator/build/spaceMouse_navigator/install.log --single-version-externally-managed
