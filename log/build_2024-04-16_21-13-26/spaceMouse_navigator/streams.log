@@ -1,0 +1,20 @@
+[0.557s] Invoking command in '/home/optimo/workspaces/maestro_ws/build/spaceMouse_navigator': PYTHONPATH=/home/optimo/workspaces/maestro_ws/build/spaceMouse_navigator/prefix_override:/home/optimo/workspaces/maestro_ws/install/spaceMouse_navigator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/optimo/workspaces/maestro_ws/build/spaceMouse_navigator/build --no-deps symlink_data
+[0.709s] running develop
+[0.711s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.711s]   warnings.warn(
+[0.806s] running egg_info
+[0.806s] writing spaceMouse_navigator.egg-info/PKG-INFO
+[0.806s] writing dependency_links to spaceMouse_navigator.egg-info/dependency_links.txt
+[0.806s] writing entry points to spaceMouse_navigator.egg-info/entry_points.txt
+[0.806s] writing requirements to spaceMouse_navigator.egg-info/requires.txt
+[0.807s] writing top-level names to spaceMouse_navigator.egg-info/top_level.txt
+[0.808s] reading manifest file 'spaceMouse_navigator.egg-info/SOURCES.txt'
+[0.809s] writing manifest file 'spaceMouse_navigator.egg-info/SOURCES.txt'
+[0.809s] running build_ext
+[0.809s] Creating /home/optimo/workspaces/maestro_ws/install/spaceMouse_navigator/lib/python3.10/site-packages/spaceMouse-navigator.egg-link (link to .)
+[0.810s] Installing spaceMouse_motionTest script to /home/optimo/workspaces/maestro_ws/install/spaceMouse_navigator/lib/spaceMouse_navigator
+[0.810s] Installing spaceMouse_publisher script to /home/optimo/workspaces/maestro_ws/install/spaceMouse_navigator/lib/spaceMouse_navigator
+[0.810s] 
+[0.810s] Installed /home/optimo/workspaces/maestro_ws/build/spaceMouse_navigator
+[0.810s] running symlink_data
+[0.832s] Invoked command in '/home/optimo/workspaces/maestro_ws/build/spaceMouse_navigator' returned '0': PYTHONPATH=/home/optimo/workspaces/maestro_ws/build/spaceMouse_navigator/prefix_override:/home/optimo/workspaces/maestro_ws/install/spaceMouse_navigator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/optimo/workspaces/maestro_ws/build/spaceMouse_navigator/build --no-deps symlink_data

@@ -1,6 +1,7 @@
 /home/optimo/workspaces/maestro_ws/install/plato_teleop/lib/plato_teleop/controller_PlatoHand
 /home/optimo/workspaces/maestro_ws/install/plato_teleop/lib/plato_teleop/controller_spaceMouse
 /home/optimo/workspaces/maestro_ws/install/plato_teleop/share/plato_teleop//launch/controller_PlatoHand.py
+/home/optimo/workspaces/maestro_ws/install/plato_teleop/share/plato_teleop//launch/controller_spaceMouse.py
 /home/optimo/workspaces/maestro_ws/install/plato_teleop/share/ament_index/resource_index/package_run_dependencies/plato_teleop
 /home/optimo/workspaces/maestro_ws/install/plato_teleop/share/ament_index/resource_index/parent_prefix_path/plato_teleop
 /home/optimo/workspaces/maestro_ws/install/plato_teleop/share/plato_teleop/environment/ament_prefix_path.sh

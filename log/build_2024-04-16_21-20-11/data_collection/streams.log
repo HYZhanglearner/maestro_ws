@@ -1,0 +1,19 @@
+[0.548s] Invoking command in '/home/optimo/workspaces/maestro_ws/build/data_collection': PYTHONPATH=/home/optimo/workspaces/maestro_ws/build/data_collection/prefix_override:/home/optimo/workspaces/maestro_ws/install/data_collection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/optimo/workspaces/maestro_ws/build/data_collection/build --no-deps symlink_data
+[0.714s] running develop
+[0.715s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.715s]   warnings.warn(
+[0.885s] running egg_info
+[0.886s] writing data_collection.egg-info/PKG-INFO
+[0.886s] writing dependency_links to data_collection.egg-info/dependency_links.txt
+[0.891s] writing entry points to data_collection.egg-info/entry_points.txt
+[0.891s] writing requirements to data_collection.egg-info/requires.txt
+[0.893s] writing top-level names to data_collection.egg-info/top_level.txt
+[0.895s] reading manifest file 'data_collection.egg-info/SOURCES.txt'
+[0.895s] writing manifest file 'data_collection.egg-info/SOURCES.txt'
+[0.896s] running build_ext
+[0.896s] Creating /home/optimo/workspaces/maestro_ws/install/data_collection/lib/python3.10/site-packages/data-collection.egg-link (link to .)
+[0.897s] Installing data_collection script to /home/optimo/workspaces/maestro_ws/install/data_collection/lib/data_collection
+[0.897s] 
+[0.897s] Installed /home/optimo/workspaces/maestro_ws/build/data_collection
+[0.898s] running symlink_data
+[0.919s] Invoked command in '/home/optimo/workspaces/maestro_ws/build/data_collection' returned '0': PYTHONPATH=/home/optimo/workspaces/maestro_ws/build/data_collection/prefix_override:/home/optimo/workspaces/maestro_ws/install/data_collection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/optimo/workspaces/maestro_ws/build/data_collection/build --no-deps symlink_data

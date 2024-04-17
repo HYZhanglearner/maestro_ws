@@ -1,0 +1,25 @@
+[100%] Built target controller_PlatoHand
+[100%] Built target controller_spaceMouse
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /home/optimo/workspaces/maestro_ws/install/plato_teleop/lib/plato_teleop/controller_PlatoHand
+-- Up-to-date symlink: /home/optimo/workspaces/maestro_ws/install/plato_teleop/lib/plato_teleop/controller_spaceMouse
+-- Up-to-date symlink: /home/optimo/workspaces/maestro_ws/install/plato_teleop/share/plato_teleop//launch/controller_PlatoHand.py
+-- Up-to-date symlink: /home/optimo/workspaces/maestro_ws/install/plato_teleop/share/plato_teleop//launch/controller_spaceMouse.py
+-- Up-to-date symlink: /home/optimo/workspaces/maestro_ws/install/plato_teleop/share/ament_index/resource_index/package_run_dependencies/plato_teleop
+-- Up-to-date symlink: /home/optimo/workspaces/maestro_ws/install/plato_teleop/share/ament_index/resource_index/parent_prefix_path/plato_teleop
+-- Up-to-date symlink: /home/optimo/workspaces/maestro_ws/install/plato_teleop/share/plato_teleop/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/optimo/workspaces/maestro_ws/install/plato_teleop/share/plato_teleop/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/optimo/workspaces/maestro_ws/install/plato_teleop/share/plato_teleop/environment/path.sh
+-- Up-to-date symlink: /home/optimo/workspaces/maestro_ws/install/plato_teleop/share/plato_teleop/environment/path.dsv
+-- Up-to-date symlink: /home/optimo/workspaces/maestro_ws/install/plato_teleop/share/plato_teleop/local_setup.bash
+-- Up-to-date symlink: /home/optimo/workspaces/maestro_ws/install/plato_teleop/share/plato_teleop/local_setup.sh
+-- Up-to-date symlink: /home/optimo/workspaces/maestro_ws/install/plato_teleop/share/plato_teleop/local_setup.zsh
+-- Up-to-date symlink: /home/optimo/workspaces/maestro_ws/install/plato_teleop/share/plato_teleop/local_setup.dsv
+-- Symlinking: /home/optimo/workspaces/maestro_ws/install/plato_teleop/share/plato_teleop/package.dsv
+-- Up-to-date symlink: /home/optimo/workspaces/maestro_ws/install/plato_teleop/share/ament_index/resource_index/packages/plato_teleop
+-- Up-to-date symlink: /home/optimo/workspaces/maestro_ws/install/plato_teleop/share/plato_teleop/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/optimo/workspaces/maestro_ws/install/plato_teleop/share/plato_teleop/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /home/optimo/workspaces/maestro_ws/install/plato_teleop/share/plato_teleop/cmake/plato_teleopConfig.cmake
+-- Up-to-date symlink: /home/optimo/workspaces/maestro_ws/install/plato_teleop/share/plato_teleop/cmake/plato_teleopConfig-version.cmake
+-- Up-to-date symlink: /home/optimo/workspaces/maestro_ws/install/plato_teleop/share/plato_teleop/package.xml

@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing data_collection.egg-info/PKG-INFO
+writing dependency_links to data_collection.egg-info/dependency_links.txt
+writing entry points to data_collection.egg-info/entry_points.txt
+writing requirements to data_collection.egg-info/requires.txt
+writing top-level names to data_collection.egg-info/top_level.txt
+reading manifest file 'data_collection.egg-info/SOURCES.txt'
+writing manifest file 'data_collection.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/optimo/workspaces/maestro_ws/install/data_collection/lib/python3.10/site-packages/data-collection.egg-link (link to .)
+Installing data_collection script to /home/optimo/workspaces/maestro_ws/install/data_collection/lib/data_collection
+
+Installed /home/optimo/workspaces/maestro_ws/build/data_collection
+running symlink_data

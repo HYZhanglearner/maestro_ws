@@ -1,0 +1,20 @@
+[35m[1mConsolidate compiler generated dependencies of target hand_pattern_recog[0m
+[100%] Built target hand_pattern_recog
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/optimo/workspaces/maestro_ws/install/hand_pattern_recog/lib/hand_pattern_recog/hand_pattern_recog
+-- Up-to-date symlink: /home/optimo/workspaces/maestro_ws/install/hand_pattern_recog/share/ament_index/resource_index/package_run_dependencies/hand_pattern_recog
+-- Up-to-date symlink: /home/optimo/workspaces/maestro_ws/install/hand_pattern_recog/share/ament_index/resource_index/parent_prefix_path/hand_pattern_recog
+-- Up-to-date symlink: /home/optimo/workspaces/maestro_ws/install/hand_pattern_recog/share/hand_pattern_recog/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/optimo/workspaces/maestro_ws/install/hand_pattern_recog/share/hand_pattern_recog/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/optimo/workspaces/maestro_ws/install/hand_pattern_recog/share/hand_pattern_recog/environment/path.sh
+-- Up-to-date symlink: /home/optimo/workspaces/maestro_ws/install/hand_pattern_recog/share/hand_pattern_recog/environment/path.dsv
+-- Up-to-date symlink: /home/optimo/workspaces/maestro_ws/install/hand_pattern_recog/share/hand_pattern_recog/local_setup.bash
+-- Up-to-date symlink: /home/optimo/workspaces/maestro_ws/install/hand_pattern_recog/share/hand_pattern_recog/local_setup.sh
+-- Up-to-date symlink: /home/optimo/workspaces/maestro_ws/install/hand_pattern_recog/share/hand_pattern_recog/local_setup.zsh
+-- Up-to-date symlink: /home/optimo/workspaces/maestro_ws/install/hand_pattern_recog/share/hand_pattern_recog/local_setup.dsv
+-- Symlinking: /home/optimo/workspaces/maestro_ws/install/hand_pattern_recog/share/hand_pattern_recog/package.dsv
+-- Up-to-date symlink: /home/optimo/workspaces/maestro_ws/install/hand_pattern_recog/share/ament_index/resource_index/packages/hand_pattern_recog
+-- Up-to-date symlink: /home/optimo/workspaces/maestro_ws/install/hand_pattern_recog/share/hand_pattern_recog/cmake/hand_pattern_recogConfig.cmake
+-- Up-to-date symlink: /home/optimo/workspaces/maestro_ws/install/hand_pattern_recog/share/hand_pattern_recog/cmake/hand_pattern_recogConfig-version.cmake
+-- Up-to-date symlink: /home/optimo/workspaces/maestro_ws/install/hand_pattern_recog/share/hand_pattern_recog/package.xml

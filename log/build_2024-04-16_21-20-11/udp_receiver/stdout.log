@@ -1,0 +1,23 @@
+[ 27%] Built target render_test
+[ 63%] Built target UDPReceiver
+[100%] Built target UDPReceiver_mthread
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/optimo/workspaces/maestro_ws/install/udp_receiver/lib/udp_receiver/UDPReceiver
+-- Up-to-date symlink: /home/optimo/workspaces/maestro_ws/install/udp_receiver/lib/udp_receiver/UDPReceiver_mthread
+-- Up-to-date symlink: /home/optimo/workspaces/maestro_ws/install/udp_receiver/lib/udp_receiver/render_test
+-- Up-to-date symlink: /home/optimo/workspaces/maestro_ws/install/udp_receiver/share/ament_index/resource_index/package_run_dependencies/udp_receiver
+-- Up-to-date symlink: /home/optimo/workspaces/maestro_ws/install/udp_receiver/share/ament_index/resource_index/parent_prefix_path/udp_receiver
+-- Up-to-date symlink: /home/optimo/workspaces/maestro_ws/install/udp_receiver/share/udp_receiver/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/optimo/workspaces/maestro_ws/install/udp_receiver/share/udp_receiver/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/optimo/workspaces/maestro_ws/install/udp_receiver/share/udp_receiver/environment/path.sh
+-- Up-to-date symlink: /home/optimo/workspaces/maestro_ws/install/udp_receiver/share/udp_receiver/environment/path.dsv
+-- Up-to-date symlink: /home/optimo/workspaces/maestro_ws/install/udp_receiver/share/udp_receiver/local_setup.bash
+-- Up-to-date symlink: /home/optimo/workspaces/maestro_ws/install/udp_receiver/share/udp_receiver/local_setup.sh
+-- Up-to-date symlink: /home/optimo/workspaces/maestro_ws/install/udp_receiver/share/udp_receiver/local_setup.zsh
+-- Up-to-date symlink: /home/optimo/workspaces/maestro_ws/install/udp_receiver/share/udp_receiver/local_setup.dsv
+-- Symlinking: /home/optimo/workspaces/maestro_ws/install/udp_receiver/share/udp_receiver/package.dsv
+-- Up-to-date symlink: /home/optimo/workspaces/maestro_ws/install/udp_receiver/share/ament_index/resource_index/packages/udp_receiver
+-- Up-to-date symlink: /home/optimo/workspaces/maestro_ws/install/udp_receiver/share/udp_receiver/cmake/udp_receiverConfig.cmake
+-- Up-to-date symlink: /home/optimo/workspaces/maestro_ws/install/udp_receiver/share/udp_receiver/cmake/udp_receiverConfig-version.cmake
+-- Up-to-date symlink: /home/optimo/workspaces/maestro_ws/install/udp_receiver/share/udp_receiver/package.xml
